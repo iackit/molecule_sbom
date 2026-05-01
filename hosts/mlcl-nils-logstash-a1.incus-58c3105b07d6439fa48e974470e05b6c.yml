@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T09:18:44Z'
+  generated_at: '2026-05-01T09:19:24Z'
   host: mlcl-nils-logstash-a1
   machine_id: 58c3105b07d6439fa48e974470e05b6c
   fqdn: mlcl-nils-logstash-a1.incus
