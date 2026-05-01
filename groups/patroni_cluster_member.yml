@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T09:18:39Z'
+  generated_at: '2026-05-01T09:19:20Z'
   group: patroni_cluster_member
   representative: mlcl-nils-almalinux-el9-a1
   members:
