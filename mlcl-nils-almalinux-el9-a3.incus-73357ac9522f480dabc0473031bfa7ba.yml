@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T08:02:20Z'
+  generated_at: '2026-05-01T08:04:02Z'
   host: mlcl-nils-almalinux-el9-a3
   machine_id: 73357ac9522f480dabc0473031bfa7ba
   fqdn: mlcl-nils-almalinux-el9-a3.incus

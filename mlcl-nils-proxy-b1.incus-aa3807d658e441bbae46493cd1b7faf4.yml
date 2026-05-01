@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T08:02:20Z'
+  generated_at: '2026-05-01T08:04:02Z'
   host: mlcl-nils-proxy-b1
   machine_id: aa3807d658e441bbae46493cd1b7faf4
   fqdn: mlcl-nils-proxy-b1.incus

@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T08:02:19Z'
+  generated_at: '2026-05-01T08:04:01Z'
   host: mlcl-nils-vault-a1
   machine_id: c653feccf29d47d7b6cb36b37b04c1ca
   fqdn: mlcl-nils-vault-a1.incus
