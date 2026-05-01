@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T09:15:04Z'
+  generated_at: '2026-05-01T09:18:39Z'
   host: mlcl-nils-almalinux-el9-b1
   machine_id: 9c26019a38ff489aa8be62ea6488abc8
   fqdn: mlcl-nils-almalinux-el9-b1.incus
@@ -468,11 +468,11 @@ sbom:
       source_rpm: file-5.39-16.el9.src.rpm
       from_repo: baseos
     - name: filebeat
-      version: 8.19.14
+      version: 8.19.15
       release: '1'
       epoch: '0'
       arch: x86_64
-      source_rpm: filebeat-8.19.14-1.src.rpm
+      source_rpm: filebeat-8.19.15-1.src.rpm
       from_repo: elasticsearch-8.x
     - name: filesystem
       version: '3.16'

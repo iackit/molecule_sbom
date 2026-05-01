@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T09:15:08Z'
+  generated_at: '2026-05-01T09:18:44Z'
   host: mlcl-nils-logstash-a1
   machine_id: 58c3105b07d6439fa48e974470e05b6c
   fqdn: mlcl-nils-logstash-a1.incus
@@ -1063,11 +1063,11 @@ sbom:
       source_rpm: logrotate-3.18.0-12.el9.src.rpm
       from_repo: baseos
     - name: logstash
-      version: 8.19.14
+      version: 8.19.15
       release: '1'
       epoch: '1'
       arch: x86_64
-      source_rpm: logstash-8.19.14-1.src.rpm
+      source_rpm: logstash-8.19.15-1.src.rpm
       from_repo: elasticsearch-8.x
     - name: lua-libs
       version: 5.4.4
