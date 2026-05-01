@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T08:22:17Z'
+  generated_at: '2026-05-01T09:15:04Z'
   host: mlcl-nils-almalinux-el9-a1
   machine_id: 2e0f37af05554de282bf62f5c5ef0404
   fqdn: mlcl-nils-almalinux-el9-a1.incus
@@ -3297,321 +3297,321 @@ sbom:
       from_repo: baseos
   repositories:
     rpm:
-    - baseurl: http://ftp.halifax.rwth-aachen.de/almalinux/$releasever/AppStream/$basearch/os/
-      enabled: true
+    - id: appstream
       file: /etc/yum.repos.d/almalinux-appstream.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: appstream
       name: AlmaLinux $releasever - AppStream
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-appstream.repo
+      baseurl: http://ftp.halifax.rwth-aachen.de/almalinux/$releasever/AppStream/$basearch/os/
+      enabled: true
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: appstream-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/appstream-debug
+    - id: appstream-debuginfo
+      file: /etc/yum.repos.d/almalinux-appstream.repo
       name: AlmaLinux $releasever - AppStream - Debug
-    - enabled: false
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/appstream-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: appstream-source
       file: /etc/yum.repos.d/almalinux-appstream.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: appstream-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/appstream-source
       name: AlmaLinux $releasever - AppStream - Source
-    - baseurl: http://ftp.halifax.rwth-aachen.de/almalinux/$releasever/BaseOS/$basearch/os/
-      enabled: true
-      file: /etc/yum.repos.d/almalinux-baseos.repo
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/appstream-source
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: baseos
+    - id: baseos
+      file: /etc/yum.repos.d/almalinux-baseos.repo
       name: AlmaLinux $releasever - BaseOS
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-baseos.repo
+      baseurl: http://ftp.halifax.rwth-aachen.de/almalinux/$releasever/BaseOS/$basearch/os/
+      enabled: true
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: baseos-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/baseos-debug
+    - id: baseos-debuginfo
+      file: /etc/yum.repos.d/almalinux-baseos.repo
       name: AlmaLinux $releasever - BaseOS - Debug
-    - enabled: false
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/baseos-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: baseos-source
       file: /etc/yum.repos.d/almalinux-baseos.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: baseos-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/baseos-source
       name: AlmaLinux $releasever - BaseOS - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-crb.repo
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/baseos-source
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: crb
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/crb
+    - id: crb
+      file: /etc/yum.repos.d/almalinux-crb.repo
       name: AlmaLinux $releasever - CRB
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-crb.repo
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/crb
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: crb-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/crb-debug
+    - id: crb-debuginfo
+      file: /etc/yum.repos.d/almalinux-crb.repo
       name: AlmaLinux $releasever - CRB - Debug
-    - enabled: false
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/crb-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: crb-source
       file: /etc/yum.repos.d/almalinux-crb.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: crb-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/crb-source
       name: AlmaLinux $releasever - CRB - Source
-    - baseurl: http://ftp.halifax.rwth-aachen.de/almalinux/$releasever/extras/$basearch/os/
-      enabled: true
-      file: /etc/yum.repos.d/almalinux-extras.repo
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/crb-source
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: extras
+    - id: extras
+      file: /etc/yum.repos.d/almalinux-extras.repo
       name: AlmaLinux $releasever - Extras
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-extras.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: extras-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/extras-debug
-      name: AlmaLinux $releasever - Extras - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-extras.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: extras-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/extras-source
-      name: AlmaLinux $releasever - Extras - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-highavailability.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: highavailability
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/highavailability
-      name: AlmaLinux $releasever - HighAvailability
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-highavailability.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: highavailability-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/highavailability-debug
-      name: AlmaLinux $releasever - HighAvailability - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-highavailability.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: highavailability-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/highavailability-source
-      name: AlmaLinux $releasever - HighAvailability - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-nfv.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: nfv
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/nfv
-      name: AlmaLinux $releasever - NFV
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-nfv.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: nfv-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/nfv-debug
-      name: AlmaLinux $releasever - NFV - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-nfv.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: nfv-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/nfv-source
-      name: AlmaLinux $releasever - NFV - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-plus.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: plus
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/plus
-      name: AlmaLinux $releasever - Plus
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-plus.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: plus-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/plus-debug
-      name: AlmaLinux $releasever - Plus - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-plus.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: plus-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/plus-source
-      name: AlmaLinux $releasever - Plus - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-resilientstorage.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: resilientstorage
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage
-      name: AlmaLinux $releasever - ResilientStorage
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-resilientstorage.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: resilientstorage-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage-debug
-      name: AlmaLinux $releasever - ResilientStorage - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-resilientstorage.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: resilientstorage-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage-source
-      name: AlmaLinux $releasever - ResilientStorage - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-rt.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: rt
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/rt
-      name: AlmaLinux $releasever - RT
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-rt.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: rt-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/rt-debug
-      name: AlmaLinux $releasever - RT - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-rt.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: rt-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/rt-source
-      name: AlmaLinux $releasever - RT - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-sap.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: sap
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/sap
-      name: AlmaLinux $releasever - SAP
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-sap.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: sap-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/sap-debug
-      name: AlmaLinux $releasever - SAP - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-sap.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: sap-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/sap-source
-      name: AlmaLinux $releasever - SAP - Source
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-saphana.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: saphana
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/saphana
-      name: AlmaLinux $releasever - SAPHANA
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-saphana.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: saphana-debuginfo
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/saphana-debug
-      name: AlmaLinux $releasever - SAPHANA - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/almalinux-saphana.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
-      id: saphana-source
-      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/saphana-source
-      name: AlmaLinux $releasever - SAPHANA - Source
-    - baseurl: https://artifacts.elastic.co/packages/8.x/yum
+      baseurl: http://ftp.halifax.rwth-aachen.de/almalinux/$releasever/extras/$basearch/os/
       enabled: true
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: extras-debuginfo
+      file: /etc/yum.repos.d/almalinux-extras.repo
+      name: AlmaLinux $releasever - Extras - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/extras-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: extras-source
+      file: /etc/yum.repos.d/almalinux-extras.repo
+      name: AlmaLinux $releasever - Extras - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/extras-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: highavailability
+      file: /etc/yum.repos.d/almalinux-highavailability.repo
+      name: AlmaLinux $releasever - HighAvailability
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/highavailability
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: highavailability-debuginfo
+      file: /etc/yum.repos.d/almalinux-highavailability.repo
+      name: AlmaLinux $releasever - HighAvailability - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/highavailability-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: highavailability-source
+      file: /etc/yum.repos.d/almalinux-highavailability.repo
+      name: AlmaLinux $releasever - HighAvailability - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/highavailability-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: nfv
+      file: /etc/yum.repos.d/almalinux-nfv.repo
+      name: AlmaLinux $releasever - NFV
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/nfv
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: nfv-debuginfo
+      file: /etc/yum.repos.d/almalinux-nfv.repo
+      name: AlmaLinux $releasever - NFV - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/nfv-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: nfv-source
+      file: /etc/yum.repos.d/almalinux-nfv.repo
+      name: AlmaLinux $releasever - NFV - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/nfv-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: plus
+      file: /etc/yum.repos.d/almalinux-plus.repo
+      name: AlmaLinux $releasever - Plus
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/plus
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: plus-debuginfo
+      file: /etc/yum.repos.d/almalinux-plus.repo
+      name: AlmaLinux $releasever - Plus - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/plus-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: plus-source
+      file: /etc/yum.repos.d/almalinux-plus.repo
+      name: AlmaLinux $releasever - Plus - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/plus-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: resilientstorage
+      file: /etc/yum.repos.d/almalinux-resilientstorage.repo
+      name: AlmaLinux $releasever - ResilientStorage
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: resilientstorage-debuginfo
+      file: /etc/yum.repos.d/almalinux-resilientstorage.repo
+      name: AlmaLinux $releasever - ResilientStorage - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: resilientstorage-source
+      file: /etc/yum.repos.d/almalinux-resilientstorage.repo
+      name: AlmaLinux $releasever - ResilientStorage - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: rt
+      file: /etc/yum.repos.d/almalinux-rt.repo
+      name: AlmaLinux $releasever - RT
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/rt
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: rt-debuginfo
+      file: /etc/yum.repos.d/almalinux-rt.repo
+      name: AlmaLinux $releasever - RT - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/rt-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: rt-source
+      file: /etc/yum.repos.d/almalinux-rt.repo
+      name: AlmaLinux $releasever - RT - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/rt-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: sap
+      file: /etc/yum.repos.d/almalinux-sap.repo
+      name: AlmaLinux $releasever - SAP
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/sap
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: sap-debuginfo
+      file: /etc/yum.repos.d/almalinux-sap.repo
+      name: AlmaLinux $releasever - SAP - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/sap-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: sap-source
+      file: /etc/yum.repos.d/almalinux-sap.repo
+      name: AlmaLinux $releasever - SAP - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/sap-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: saphana
+      file: /etc/yum.repos.d/almalinux-saphana.repo
+      name: AlmaLinux $releasever - SAPHANA
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/saphana
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: saphana-debuginfo
+      file: /etc/yum.repos.d/almalinux-saphana.repo
+      name: AlmaLinux $releasever - SAPHANA - Debug
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/saphana-debug
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: saphana-source
+      file: /etc/yum.repos.d/almalinux-saphana.repo
+      name: AlmaLinux $releasever - SAPHANA - Source
+      mirrorlist: https://mirrors.almalinux.org/mirrorlist/$releasever/saphana-source
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
+    - id: elasticsearch-8.x
       file: /etc/yum.repos.d/elasticsearch-8.x.repo
+      name: Elastic repository for 8.x packages
+      baseurl: https://artifacts.elastic.co/packages/8.x/yum
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/GPG-KEY-elasticsearch
-      id: elasticsearch-8.x
-      name: Elastic repository for 8.x packages
-    - enabled: true
+      enabled: true
+    - id: epel-cisco-openh264
       file: /etc/yum.repos.d/epel-cisco-openh264.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-cisco-openh264
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=$basearch
       name: Extra Packages for Enterprise Linux 9 openh264 (From Cisco) - $basearch
-    - enabled: false
-      file: /etc/yum.repos.d/epel-cisco-openh264.repo
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=$basearch
+      enabled: true
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-cisco-openh264-debuginfo
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-debug-9&arch=$basearch
+    - id: epel-cisco-openh264-debuginfo
+      file: /etc/yum.repos.d/epel-cisco-openh264.repo
       name: Extra Packages for Enterprise Linux 9 openh264 (From Cisco) - $basearch
         - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/epel-cisco-openh264.repo
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-debug-9&arch=$basearch
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-cisco-openh264-source
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-source-9&arch=$basearch
+    - id: epel-cisco-openh264-source
+      file: /etc/yum.repos.d/epel-cisco-openh264.repo
       name: Extra Packages for Enterprise Linux 9 openh264 (From Cisco) - $basearch
         - Source
-    - enabled: false
-      file: /etc/yum.repos.d/epel-testing.repo
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-source-9&arch=$basearch
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-testing
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=testing-epel9&arch=$basearch&infra=$infra&content=$contentdir
+    - id: epel-testing
+      file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux 9 - Testing - $basearch
-    - enabled: false
-      file: /etc/yum.repos.d/epel-testing.repo
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=testing-epel9&arch=$basearch&infra=$infra&content=$contentdir
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-testing-debuginfo
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=testing-debug-epel9&arch=$basearch&infra=$infra&content=$contentdir
+    - id: epel-testing-debuginfo
+      file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux 9 - Testing - $basearch - Debug
-    - enabled: false
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=testing-debug-epel9&arch=$basearch&infra=$infra&content=$contentdir
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
+    - id: epel-testing-source
       file: /etc/yum.repos.d/epel-testing.repo
-      gpgcheck: true
-      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-testing-source
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=testing-source-epel9&arch=$basearch&infra=$infra&content=$contentdir
       name: Extra Packages for Enterprise Linux 9 - Testing - $basearch - Source
-    - enabled: true
-      file: /etc/yum.repos.d/epel.repo
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=testing-source-epel9&arch=$basearch&infra=$infra&content=$contentdir
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=$basearch&infra=$infra&content=$contentdir
+    - id: epel
+      file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux 9 - $basearch
-    - enabled: false
-      file: /etc/yum.repos.d/epel.repo
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=$basearch&infra=$infra&content=$contentdir
+      enabled: true
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-debuginfo
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-debug-9&arch=$basearch&infra=$infra&content=$contentdir
+    - id: epel-debuginfo
+      file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux 9 - $basearch - Debug
-    - enabled: false
-      file: /etc/yum.repos.d/epel.repo
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-debug-9&arch=$basearch&infra=$infra&content=$contentdir
+      enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-      id: epel-source
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-source-9&arch=$basearch&infra=$infra&content=$contentdir
+    - id: epel-source
+      file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux 9 - $basearch - Source
-    - baseurl: http://apt-cacher.incus/pub/repos/yum/17/redhat/rhel-$releasever-$basearch
-      enabled: true
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-source-9&arch=$basearch&infra=$infra&content=$contentdir
+      enabled: false
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
+    - id: pgdg-17
       file: /etc/yum.repos.d/pgdg-17.repo
-      id: pgdg-17
       name: PostgreSQL PGDG repository - 17
-    - baseurl: http://apt-cacher.incus/pub/repos/yum/common/redhat/rhel-$releasever-$basearch
+      baseurl: http://apt-cacher.incus/pub/repos/yum/17/redhat/rhel-$releasever-$basearch
       enabled: true
+    - id: pgdg-common
       file: /etc/yum.repos.d/pgdg-common.repo
-      id: pgdg-common
       name: PostgreSQL PGDG repository - common
-    - baseurl: http://apt-cacher.incus/pub/repos/yum/extras/redhat/rhel-$releasever-$basearch
+      baseurl: http://apt-cacher.incus/pub/repos/yum/common/redhat/rhel-$releasever-$basearch
       enabled: true
+    - id: pgdg-extras
       file: /etc/yum.repos.d/pgdg-extras.repo
-      id: pgdg-extras
       name: PostgreSQL PGDG repository - extras
+      baseurl: http://apt-cacher.incus/pub/repos/yum/extras/redhat/rhel-$releasever-$basearch
+      enabled: true
