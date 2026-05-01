@@ -1,5 +1,5 @@
 sbom:
-  generated_at: '2026-05-01T09:18:39Z'
+  generated_at: '2026-05-01T09:19:20Z'
   group: vault_server
   representative: mlcl-nils-vault-a1
   members:
