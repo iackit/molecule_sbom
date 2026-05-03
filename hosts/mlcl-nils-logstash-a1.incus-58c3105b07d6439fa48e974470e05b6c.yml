@@ -657,10 +657,10 @@ sbom:
       from_repo: baseos
     - name: libcap
       version: '2.48'
-      release: 10.el9
+      release: 10.el9_7.1
       epoch: '0'
       arch: x86_64
-      source_rpm: libcap-2.48-10.el9.src.rpm
+      source_rpm: libcap-2.48-10.el9_7.1.src.rpm
       from_repo: baseos
     - name: libcap-ng
       version: 0.8.2
@@ -1728,10 +1728,10 @@ sbom:
       from_repo: baseos
     - name: sudo
       version: 1.9.5p2
-      release: 13.el9
+      release: 15.el9_7
       epoch: '0'
       arch: x86_64
-      source_rpm: sudo-1.9.5p2-13.el9.src.rpm
+      source_rpm: sudo-1.9.5p2-15.el9_7.src.rpm
       from_repo: baseos
     - name: systemd
       version: '252'
