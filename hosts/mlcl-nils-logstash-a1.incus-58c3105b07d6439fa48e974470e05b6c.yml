@@ -1302,27 +1302,27 @@ sbom:
       from_repo: baseos
     - name: openssh
       version: 8.7p1
-      release: 48.el9_7.alma.1
+      release: 49.el9_7.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-04-28 23:11
-      source_rpm: openssh-8.7p1-48.el9_7.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: openssh-8.7p1-49.el9_7.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-clients
       version: 8.7p1
-      release: 48.el9_7.alma.1
+      release: 49.el9_7.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-04-28 23:11
-      source_rpm: openssh-8.7p1-48.el9_7.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: openssh-8.7p1-49.el9_7.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-server
       version: 8.7p1
-      release: 48.el9_7.alma.1
+      release: 49.el9_7.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-04-29 17:39
-      source_rpm: openssh-8.7p1-48.el9_7.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: openssh-8.7p1-49.el9_7.alma.1.src.rpm
       from_repo: baseos
     - name: openssl
       version: 3.5.1
@@ -1982,43 +1982,43 @@ sbom:
       from_repo: baseos
     - name: systemd
       version: '252'
-      release: 55.el9_7.8.alma.1
+      release: 55.el9_7.9.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-04-28 23:11
-      source_rpm: systemd-252-55.el9_7.8.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: systemd-252-55.el9_7.9.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-libs
       version: '252'
-      release: 55.el9_7.8.alma.1
+      release: 55.el9_7.9.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-04-28 23:10
-      source_rpm: systemd-252-55.el9_7.8.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: systemd-252-55.el9_7.9.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-pam
       version: '252'
-      release: 55.el9_7.8.alma.1
+      release: 55.el9_7.9.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-04-28 23:11
-      source_rpm: systemd-252-55.el9_7.8.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: systemd-252-55.el9_7.9.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-rpm-macros
       version: '252'
-      release: 55.el9_7.8.alma.1
+      release: 55.el9_7.9.alma.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-04-28 23:11
-      source_rpm: systemd-252-55.el9_7.8.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: systemd-252-55.el9_7.9.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-udev
       version: '252'
-      release: 55.el9_7.8.alma.1
+      release: 55.el9_7.9.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-04-28 23:11
-      source_rpm: systemd-252-55.el9_7.8.alma.1.src.rpm
+      installtime: 2026-05-08 12:44
+      source_rpm: systemd-252-55.el9_7.9.alma.1.src.rpm
       from_repo: baseos
     - name: tar
       version: '1.34'
