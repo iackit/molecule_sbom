@@ -39,7 +39,7 @@ sbom:
       version: 3.18.0-2.pgdg26.04+2
       arch: all
     - name: base-files
-      version: 14ubuntu6
+      version: 14ubuntu6.1
       arch: amd64
     - name: base-passwd
       version: 3.6.8
