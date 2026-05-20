@@ -35,7 +35,7 @@ sbom:
       version: 0.8.13-7ubuntu5
       arch: all
     - name: base-files
-      version: 14ubuntu6
+      version: 14ubuntu6.1
       arch: amd64
     - name: base-passwd
       version: 3.6.8
