@@ -51,13 +51,13 @@ sbom:
       version: 1:2.16.0-8build1
       arch: all
     - name: bind9-dnsutils
-      version: 1:9.20.18-1ubuntu2
+      version: 1:9.20.18-1ubuntu2.1
       arch: amd64
     - name: bind9-host
-      version: 1:9.20.18-1ubuntu2
+      version: 1:9.20.18-1ubuntu2.1
       arch: amd64
     - name: bind9-libs
-      version: 1:9.20.18-1ubuntu2
+      version: 1:9.20.18-1ubuntu2.1
       arch: amd64
     - name: binutils
       version: 2.46-3ubuntu2
@@ -681,7 +681,7 @@ sbom:
       version: 2:6.3.0+dfsg-5ubuntu2
       arch: amd64
     - name: libgnutls30t64
-      version: 3.8.12-2ubuntu1
+      version: 3.8.12-2ubuntu1.1
       arch: amd64
     - name: libgomp1
       version: 16-20260322-1ubuntu1
@@ -1611,7 +1611,7 @@ sbom:
       version: 1.4.3-1build1
       arch: amd64
     - name: rsync
-      version: 3.4.1+ds1-7
+      version: 3.4.1+ds1-7ubuntu0.2
       arch: amd64
     - name: rsyslog
       version: 8.2512.0-1ubuntu4
@@ -1641,7 +1641,7 @@ sbom:
       version: 1.59+15.8-0ubuntu2
       arch: amd64
     - name: snapd
-      version: 2.74.1+ubuntu26.04.4
+      version: 2.75.2+ubuntu26.04.2
       arch: amd64
     - name: software-properties-common
       version: '0.120'
