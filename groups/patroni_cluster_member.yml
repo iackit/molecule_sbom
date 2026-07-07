@@ -617,9 +617,6 @@ sbom:
     - name: libexpat1
       version: 2.7.4-1
       arch: amd64
-    - name: libexpat1-dev
-      version: 2.7.4-1
-      arch: amd64
     - name: libext2fs2t64
       version: 1.47.2-3ubuntu4
       arch: amd64
@@ -956,16 +953,10 @@ sbom:
     - name: libpwquality1
       version: 1.4.5-5build1
       arch: amd64
-    - name: libpython3-dev
-      version: 3.14.3-0ubuntu2
-      arch: amd64
     - name: libpython3-stdlib
       version: 3.14.3-0ubuntu2
       arch: amd64
     - name: libpython3.14
-      version: 3.14.4-1
-      arch: amd64
-    - name: libpython3.14-dev
       version: 3.14.4-1
       arch: amd64
     - name: libpython3.14-minimal
@@ -1308,7 +1299,7 @@ sbom:
       version: 17.10-1.pgdg26.04+1
       arch: amd64
     - name: postgresql-17-cron
-      version: 1.6.7-2.pgdg26.04+1
+      version: 1.6.7-3.pgdg26.04+1
       arch: amd64
     - name: postgresql-17-pg-stat-kcache
       version: 2.3.2-1.pgdg26.04+1
@@ -1415,9 +1406,6 @@ sbom:
     - name: python3-debian
       version: 1.0.1ubuntu2
       arch: all
-    - name: python3-dev
-      version: 3.14.3-0ubuntu2
-      arch: amd64
     - name: python3-distro
       version: 1.9.0-1build1
       arch: all
@@ -1598,9 +1586,6 @@ sbom:
     - name: python3.14
       version: 3.14.4-1
       arch: amd64
-    - name: python3.14-dev
-      version: 3.14.4-1
-      arch: amd64
     - name: python3.14-minimal
       version: 3.14.4-1
       arch: amd64
@@ -1773,9 +1758,6 @@ sbom:
       version: 5.8.3-1
       arch: amd64
     - name: zlib1g
-      version: 1:1.3.dfsg+really1.3.1-1ubuntu3
-      arch: amd64
-    - name: zlib1g-dev
       version: 1:1.3.dfsg+really1.3.1-1ubuntu3
       arch: amd64
     - name: zsh
