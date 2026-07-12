@@ -1,10 +1,10 @@
 sbom:
   group: vault_server
-  representative: mlcl-nils-vault-a1
+  representative: mlcl-vault-a1
   members:
-  - mlcl-nils-vault-a1
-  - mlcl-nils-vault-a2
-  - mlcl-nils-vault-a3
+  - mlcl-vault-a1
+  - mlcl-vault-a2
+  - mlcl-vault-a3
   packages:
     deb:
     - name: 3cpio
@@ -1418,7 +1418,7 @@ sbom:
       version: 78.1.1-0.1build1
       arch: all
     - name: python3-software-properties
-      version: '0.120'
+      version: 0.120.1
       arch: all
     - name: python3-typeguard
       version: 4.4.4-2
@@ -1493,7 +1493,7 @@ sbom:
       version: 2.75.2+ubuntu26.04.2
       arch: amd64
     - name: software-properties-common
-      version: '0.120'
+      version: 0.120.1
       arch: all
     - name: squashfs-tools
       version: 1:4.7.5-1
