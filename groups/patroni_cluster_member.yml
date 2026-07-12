@@ -1,11 +1,11 @@
 sbom:
   group: patroni_cluster_member
-  representative: mlcl-nils-database-a1
+  representative: mlcl-database-a1
   members:
-  - mlcl-nils-database-a1
-  - mlcl-nils-database-a2
-  - mlcl-nils-database-b1
-  - mlcl-nils-database-b2
+  - mlcl-database-a1
+  - mlcl-database-a2
+  - mlcl-database-b1
+  - mlcl-database-b2
   packages:
     deb:
     - name: 3cpio
@@ -1557,7 +1557,7 @@ sbom:
       version: 78.1.1-0.1build1
       arch: all
     - name: python3-software-properties
-      version: '0.120'
+      version: 0.120.1
       arch: all
     - name: python3-systemd
       version: 235-1build9
@@ -1647,7 +1647,7 @@ sbom:
       version: 2.75.2+ubuntu26.04.2
       arch: amd64
     - name: software-properties-common
-      version: '0.120'
+      version: 0.120.1
       arch: all
     - name: squashfs-tools
       version: 1:4.7.5-1
