@@ -1,0 +1,1726 @@
+sbom:
+  host: mlcl-database-b2
+  machine_id: 1d5e48602bcf41b5b17f9e7020cf4322
+  fqdn: mlcl-database-b2.incus
+  packages:
+    deb:
+    - name: acl
+      version: 2.3.2-2+b1
+      arch: amd64
+    - name: adduser
+      version: '3.152'
+      arch: all
+    - name: apparmor
+      version: 4.1.0-1
+      arch: amd64
+    - name: apt
+      version: 3.0.3
+      arch: amd64
+    - name: apt-transport-https
+      version: 3.0.3
+      arch: all
+    - name: aptitude
+      version: 0.8.13-7
+      arch: amd64
+    - name: aptitude-common
+      version: 0.8.13-7
+      arch: all
+    - name: barman-cli
+      version: 3.19.1-3.pgdg13+1
+      arch: all
+    - name: base-files
+      version: 13.8+deb13u6
+      arch: amd64
+    - name: base-passwd
+      version: 3.6.7
+      arch: amd64
+    - name: bash
+      version: 5.2.37-2+b9
+      arch: amd64
+    - name: bash-completion
+      version: 1:2.16.0-7
+      arch: all
+    - name: bind9-dnsutils
+      version: 1:9.20.23-1~deb13u1
+      arch: amd64
+    - name: bind9-host
+      version: 1:9.20.23-1~deb13u1
+      arch: amd64
+    - name: bind9-libs
+      version: 1:9.20.23-1~deb13u1
+      arch: amd64
+    - name: binutils
+      version: 2.44-3
+      arch: amd64
+    - name: binutils-common
+      version: 2.44-3
+      arch: amd64
+    - name: binutils-x86-64-linux-gnu
+      version: 2.44-3
+      arch: amd64
+    - name: bsdutils
+      version: 1:2.41-5
+      arch: amd64
+    - name: build-essential
+      version: '12.12'
+      arch: amd64
+    - name: busybox
+      version: 1:1.37.0-6+b8
+      arch: amd64
+    - name: bzip2
+      version: 1.0.8-6
+      arch: amd64
+    - name: ca-certificates
+      version: '20250419'
+      arch: all
+    - name: clevis
+      version: 20-1
+      arch: amd64
+    - name: clevis-luks
+      version: 20-1
+      arch: amd64
+    - name: clevis-systemd
+      version: 20-1
+      arch: amd64
+    - name: cloud-guest-utils
+      version: 0.33-1
+      arch: all
+    - name: coreutils
+      version: 9.7-3
+      arch: amd64
+    - name: cpio
+      version: 2.15+dfsg-2
+      arch: amd64
+    - name: cpp
+      version: 4:14.2.0-1
+      arch: amd64
+    - name: cpp-14
+      version: 14.2.0-19
+      arch: amd64
+    - name: cpp-14-x86-64-linux-gnu
+      version: 14.2.0-19
+      arch: amd64
+    - name: cpp-x86-64-linux-gnu
+      version: 4:14.2.0-1
+      arch: amd64
+    - name: cracklib-runtime
+      version: 2.9.6-5.2+b1
+      arch: amd64
+    - name: cryptsetup
+      version: 2:2.7.5-2
+      arch: amd64
+    - name: cryptsetup-bin
+      version: 2:2.7.5-2
+      arch: amd64
+    - name: curl
+      version: 8.14.1-2+deb13u4
+      arch: amd64
+    - name: dash
+      version: 0.5.12-12
+      arch: amd64
+    - name: dbus
+      version: 1.16.2-2
+      arch: amd64
+    - name: dbus-bin
+      version: 1.16.2-2
+      arch: amd64
+    - name: dbus-daemon
+      version: 1.16.2-2
+      arch: amd64
+    - name: dbus-session-bus-common
+      version: 1.16.2-2
+      arch: all
+    - name: dbus-system-bus-common
+      version: 1.16.2-2
+      arch: all
+    - name: dbus-user-session
+      version: 1.16.2-2
+      arch: amd64
+    - name: debconf
+      version: 1.5.91
+      arch: all
+    - name: debian-archive-keyring
+      version: '2025.1'
+      arch: all
+    - name: debianutils
+      version: 5.23.2
+      arch: amd64
+    - name: dialog
+      version: 1.3-20250116-1
+      arch: amd64
+    - name: diffutils
+      version: 1:3.10-4
+      arch: amd64
+    - name: dirmngr
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: distro-info-data
+      version: 0.66+deb13u2
+      arch: all
+    - name: dmeventd
+      version: 2:1.02.205-2
+      arch: amd64
+    - name: dmsetup
+      version: 2:1.02.205-2
+      arch: amd64
+    - name: dpkg
+      version: 1.22.22
+      arch: amd64
+    - name: dpkg-dev
+      version: 1.22.22
+      arch: all
+    - name: dracut-install
+      version: 106-6
+      arch: amd64
+    - name: e2fsprogs
+      version: 1.47.2-3+b11
+      arch: amd64
+    - name: e2fsprogs-l10n
+      version: 1.47.2-3
+      arch: all
+    - name: eatmydata
+      version: 131-2
+      arch: all
+    - name: efibootmgr
+      version: 18-2
+      arch: amd64
+    - name: eject
+      version: 2.41-5
+      arch: amd64
+    - name: etcd-client
+      version: 3.5.16-4
+      arch: amd64
+    - name: etcd-server
+      version: 3.5.16-4
+      arch: amd64
+    - name: fakeroot
+      version: 1.37.1.1-1
+      arch: amd64
+    - name: fdisk
+      version: 2.41-5
+      arch: amd64
+    - name: file
+      version: 1:5.46-5
+      arch: amd64
+    - name: filebeat
+      version: 8.19.18
+      arch: amd64
+    - name: findutils
+      version: 4.10.0-3
+      arch: amd64
+    - name: firewalld
+      version: 2.3.1-1+deb13u1
+      arch: all
+    - name: g++
+      version: 4:14.2.0-1
+      arch: amd64
+    - name: g++-14
+      version: 14.2.0-19
+      arch: amd64
+    - name: g++-14-x86-64-linux-gnu
+      version: 14.2.0-19
+      arch: amd64
+    - name: g++-x86-64-linux-gnu
+      version: 4:14.2.0-1
+      arch: amd64
+    - name: gcc
+      version: 4:14.2.0-1
+      arch: amd64
+    - name: gcc-14
+      version: 14.2.0-19
+      arch: amd64
+    - name: gcc-14-base
+      version: 14.2.0-19
+      arch: amd64
+    - name: gcc-14-x86-64-linux-gnu
+      version: 14.2.0-19
+      arch: amd64
+    - name: gcc-x86-64-linux-gnu
+      version: 4:14.2.0-1
+      arch: amd64
+    - name: gdb
+      version: 16.3-1
+      arch: amd64
+    - name: gdisk
+      version: 1.0.10-2
+      arch: amd64
+    - name: gettext-base
+      version: 0.23.1-2
+      arch: amd64
+    - name: gir1.2-girepository-2.0
+      version: 1.84.0-1
+      arch: amd64
+    - name: gir1.2-glib-2.0
+      version: 2.84.4-3~deb13u3
+      arch: amd64
+    - name: gir1.2-nm-1.0
+      version: 1.52.1-1
+      arch: amd64
+    - name: git
+      version: 1:2.47.3-0+deb13u1
+      arch: amd64
+    - name: git-man
+      version: 1:2.47.3-0+deb13u1
+      arch: all
+    - name: gnupg
+      version: 2.4.7-21+deb13u1
+      arch: all
+    - name: gnupg-l10n
+      version: 2.4.7-21+deb13u1
+      arch: all
+    - name: gnupg-utils
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: gpg
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: gpg-agent
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: gpg-wks-client
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: gpgconf
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: gpgsm
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: gpgv
+      version: 2.4.7-21+deb13u1+b4
+      arch: amd64
+    - name: grep
+      version: 3.11-4
+      arch: amd64
+    - name: groff-base
+      version: 1.23.0-9
+      arch: amd64
+    - name: grub-common
+      version: 2.12-9+deb13u2
+      arch: amd64
+    - name: grub-efi
+      version: 2.12-9+deb13u2
+      arch: amd64
+    - name: grub-efi-amd64
+      version: 2.12-9+deb13u2
+      arch: amd64
+    - name: grub-efi-amd64-bin
+      version: 2.12-9+deb13u2
+      arch: amd64
+    - name: grub-efi-amd64-signed
+      version: 1+2.12+9+deb13u2
+      arch: amd64
+    - name: grub-efi-amd64-unsigned
+      version: 2.12-9+deb13u2
+      arch: amd64
+    - name: grub2-common
+      version: 2.12-9+deb13u2
+      arch: amd64
+    - name: gzip
+      version: 1.13-1
+      arch: amd64
+    - name: haveged
+      version: 1.9.19-12+deb13u1
+      arch: amd64
+    - name: hostname
+      version: '3.25'
+      arch: amd64
+    - name: htop
+      version: 3.4.1-5
+      arch: amd64
+    - name: iftop
+      version: 1.0~pre4-9+b1
+      arch: amd64
+    - name: init
+      version: 1.69~deb13u1
+      arch: amd64
+    - name: init-system-helpers
+      version: 1.69~deb13u1
+      arch: all
+    - name: initramfs-tools
+      version: 0.148.4
+      arch: all
+    - name: initramfs-tools-bin
+      version: 0.148.4
+      arch: amd64
+    - name: initramfs-tools-core
+      version: 0.148.4
+      arch: all
+    - name: iotop
+      version: 0.6-42-ga14256a-0.3+b1
+      arch: amd64
+    - name: iproute2
+      version: 6.15.0-1
+      arch: amd64
+    - name: ipset
+      version: 7.22-1+b1
+      arch: amd64
+    - name: iptables
+      version: 1.8.11-2
+      arch: amd64
+    - name: iputils-ping
+      version: 3:20240905-3
+      arch: amd64
+    - name: isc-dhcp-client
+      version: 4.4.3-P1-8
+      arch: amd64
+    - name: isc-dhcp-common
+      version: 4.4.3-P1-8
+      arch: amd64
+    - name: iso-codes
+      version: 4.18.0-1
+      arch: all
+    - name: javascript-common
+      version: 12+nmu1
+      arch: all
+    - name: jose
+      version: 14-2
+      arch: amd64
+    - name: jq
+      version: 1.7.1-6+deb13u2
+      arch: amd64
+    - name: klibc-utils
+      version: 2.0.14-1
+      arch: amd64
+    - name: kmod
+      version: 34.2-2
+      arch: amd64
+    - name: krb5-locales
+      version: 1.21.3-5+deb13u1
+      arch: all
+    - name: less
+      version: 668-1
+      arch: amd64
+    - name: libacl1
+      version: 2.3.2-2+b1
+      arch: amd64
+    - name: libaio1t64
+      version: 0.3.113-8+b1
+      arch: amd64
+    - name: libalgorithm-diff-perl
+      version: 1.201-1
+      arch: all
+    - name: libalgorithm-diff-xs-perl
+      version: 0.04-9
+      arch: amd64
+    - name: libalgorithm-merge-perl
+      version: 0.08-5
+      arch: all
+    - name: libapparmor1
+      version: 4.1.0-1
+      arch: amd64
+    - name: libapt-pkg7.0
+      version: 3.0.3
+      arch: amd64
+    - name: libasan8
+      version: 14.2.0-19
+      arch: amd64
+    - name: libassuan9
+      version: 3.0.2-2
+      arch: amd64
+    - name: libatomic1
+      version: 14.2.0-19
+      arch: amd64
+    - name: libattr1
+      version: 1:2.5.2-3
+      arch: amd64
+    - name: libaudit-common
+      version: 1:4.0.2-2
+      arch: all
+    - name: libaudit1
+      version: 1:4.0.2-2+b2
+      arch: amd64
+    - name: libbabeltrace1
+      version: 1.5.11-4+b2
+      arch: amd64
+    - name: libbinutils
+      version: 2.44-3
+      arch: amd64
+    - name: libblkid1
+      version: 2.41-5
+      arch: amd64
+    - name: libboost-iostreams1.83.0
+      version: 1.83.0-4.2
+      arch: amd64
+    - name: libbpf1
+      version: 1:1.5.0-3
+      arch: amd64
+    - name: libbrotli1
+      version: 1.1.0-2+b7
+      arch: amd64
+    - name: libbsd0
+      version: 0.12.2-2
+      arch: amd64
+    - name: libbz2-1.0
+      version: 1.0.8-6
+      arch: amd64
+    - name: libc-bin
+      version: 2.41-12+deb13u3
+      arch: amd64
+    - name: libc-dev-bin
+      version: 2.41-12+deb13u3
+      arch: amd64
+    - name: libc-l10n
+      version: 2.41-12+deb13u3
+      arch: all
+    - name: libc6
+      version: 2.41-12+deb13u3
+      arch: amd64
+    - name: libc6-dev
+      version: 2.41-12+deb13u3
+      arch: amd64
+    - name: libcap-ng0
+      version: 0.8.5-4+b1
+      arch: amd64
+    - name: libcap2
+      version: 1:2.75-10+deb13u1+b1
+      arch: amd64
+    - name: libcap2-bin
+      version: 1:2.75-10+deb13u1+b1
+      arch: amd64
+    - name: libcbor0.10
+      version: 0.10.2-2
+      arch: amd64
+    - name: libcc1-0
+      version: 14.2.0-19
+      arch: amd64
+    - name: libcom-err2
+      version: 1.47.2-3+b11
+      arch: amd64
+    - name: libcommon-sense-perl
+      version: 3.75-3+b5
+      arch: amd64
+    - name: libcrack2
+      version: 2.9.6-5.2+b1
+      arch: amd64
+    - name: libcrypt-dev
+      version: 1:4.4.38-1
+      arch: amd64
+    - name: libcrypt1
+      version: 1:4.4.38-1
+      arch: amd64
+    - name: libcryptsetup12
+      version: 2:2.7.5-2
+      arch: amd64
+    - name: libctf-nobfd0
+      version: 2.44-3
+      arch: amd64
+    - name: libctf0
+      version: 2.44-3
+      arch: amd64
+    - name: libcurl3t64-gnutls
+      version: 8.14.1-2+deb13u4
+      arch: amd64
+    - name: libcurl4t64
+      version: 8.14.1-2+deb13u4
+      arch: amd64
+    - name: libcwidget4
+      version: 0.5.18-6+b2
+      arch: amd64
+    - name: libdb5.3t64
+      version: 5.3.28+dfsg2-9
+      arch: amd64
+    - name: libdbus-1-3
+      version: 1.16.2-2
+      arch: amd64
+    - name: libdebconfclient0
+      version: '0.280'
+      arch: amd64
+    - name: libdebuginfod-common
+      version: 0.192-4
+      arch: all
+    - name: libdebuginfod1t64
+      version: 0.192-4
+      arch: amd64
+    - name: libdevmapper-event1.02.1
+      version: 2:1.02.205-2
+      arch: amd64
+    - name: libdevmapper1.02.1
+      version: 2:1.02.205-2
+      arch: amd64
+    - name: libdialog15
+      version: 1.3-20250116-1
+      arch: amd64
+    - name: libdpkg-perl
+      version: 1.22.22
+      arch: all
+    - name: libduktape207
+      version: 2.7.0-2+b2
+      arch: amd64
+    - name: libdw1t64
+      version: 0.192-4
+      arch: amd64
+    - name: libeatmydata1
+      version: 131-2+b1
+      arch: amd64
+    - name: libedit2
+      version: 3.1-20250104-1
+      arch: amd64
+    - name: libefiboot1t64
+      version: 38-3.1+b1
+      arch: amd64
+    - name: libefivar1t64
+      version: 38-3.1+b1
+      arch: amd64
+    - name: libelf1t64
+      version: 0.192-4
+      arch: amd64
+    - name: liberror-perl
+      version: 0.17030-1
+      arch: all
+    - name: libexpat1
+      version: 2.7.1-2
+      arch: amd64
+    - name: libexpat1-dev
+      version: 2.7.1-2
+      arch: amd64
+    - name: libext2fs2t64
+      version: 1.47.2-3+b11
+      arch: amd64
+    - name: libfakeroot
+      version: 1.37.1.1-1
+      arch: amd64
+    - name: libfdisk1
+      version: 2.41-5
+      arch: amd64
+    - name: libffi8
+      version: 3.4.8-2
+      arch: amd64
+    - name: libfido2-1
+      version: 1.15.0-1+b1
+      arch: amd64
+    - name: libfile-fcntllock-perl
+      version: 0.22-4+b4
+      arch: amd64
+    - name: libfreetype6
+      version: 2.13.3+dfsg-1+deb13u1
+      arch: amd64
+    - name: libfstrm0
+      version: 0.6.1-1+b3
+      arch: amd64
+    - name: libfuse3-4
+      version: 3.17.2-3
+      arch: amd64
+    - name: libgcc-14-dev
+      version: 14.2.0-19
+      arch: amd64
+    - name: libgcc-s1
+      version: 14.2.0-19
+      arch: amd64
+    - name: libgcrypt20
+      version: 1.11.0-7+deb13u1
+      arch: amd64
+    - name: libgdbm-compat4t64
+      version: 1.24-2
+      arch: amd64
+    - name: libgdbm6t64
+      version: 1.24-2
+      arch: amd64
+    - name: libgirepository-1.0-1
+      version: 1.84.0-1
+      arch: amd64
+    - name: libglib2.0-0t64
+      version: 2.84.4-3~deb13u3
+      arch: amd64
+    - name: libglib2.0-data
+      version: 2.84.4-3~deb13u3
+      arch: all
+    - name: libgmp10
+      version: 2:6.3.0+dfsg-3
+      arch: amd64
+    - name: libgnutls30t64
+      version: 3.8.9-3+deb13u4
+      arch: amd64
+    - name: libgomp1
+      version: 14.2.0-19
+      arch: amd64
+    - name: libgpg-error-l10n
+      version: 1.51-4
+      arch: all
+    - name: libgpg-error0
+      version: 1.51-4
+      arch: amd64
+    - name: libgpm2
+      version: 1.20.7-11+b2
+      arch: amd64
+    - name: libgprofng0
+      version: 2.44-3
+      arch: amd64
+    - name: libgssapi-krb5-2
+      version: 1.21.3-5+deb13u1
+      arch: amd64
+    - name: libhavege2
+      version: 1.9.19-12+deb13u1
+      arch: amd64
+    - name: libhogweed6t64
+      version: 3.10.1-1
+      arch: amd64
+    - name: libhwasan0
+      version: 14.2.0-19
+      arch: amd64
+    - name: libicu76
+      version: 76.1-4
+      arch: amd64
+    - name: libidn2-0
+      version: 2.3.8-2
+      arch: amd64
+    - name: libinih1
+      version: 59-1
+      arch: amd64
+    - name: libip4tc2
+      version: 1.8.11-2
+      arch: amd64
+    - name: libip6tc2
+      version: 1.8.11-2
+      arch: amd64
+    - name: libipset13t64
+      version: 7.22-1+b1
+      arch: amd64
+    - name: libipt2
+      version: 2.1.2-1
+      arch: amd64
+    - name: libisl23
+      version: 0.27-1
+      arch: amd64
+    - name: libitm1
+      version: 14.2.0-19
+      arch: amd64
+    - name: libjansson4
+      version: 2.14-2+b3
+      arch: amd64
+    - name: libjemalloc2
+      version: 5.3.0-3
+      arch: amd64
+    - name: libjose0
+      version: 14-2
+      arch: amd64
+    - name: libjq1
+      version: 1.7.1-6+deb13u2
+      arch: amd64
+    - name: libjs-jquery
+      version: 3.6.1+dfsg+~3.5.14-1
+      arch: all
+    - name: libjs-sphinxdoc
+      version: 8.1.3-5
+      arch: all
+    - name: libjs-underscore
+      version: 1.13.4~dfsg+~1.11.4-3
+      arch: all
+    - name: libjson-c5
+      version: 0.18+ds-1
+      arch: amd64
+    - name: libjson-perl
+      version: 4.10000-1
+      arch: all
+    - name: libjson-xs-perl
+      version: 4.040-1~deb13u1
+      arch: amd64
+    - name: libk5crypto3
+      version: 1.21.3-5+deb13u1
+      arch: amd64
+    - name: libkeyutils1
+      version: 1.6.3-6
+      arch: amd64
+    - name: libklibc
+      version: 2.0.14-1
+      arch: amd64
+    - name: libkmod2
+      version: 34.2-2
+      arch: amd64
+    - name: libkrb5-3
+      version: 1.21.3-5+deb13u1
+      arch: amd64
+    - name: libkrb5support0
+      version: 1.21.3-5+deb13u1
+      arch: amd64
+    - name: libksba8
+      version: 1.6.7-2+b1
+      arch: amd64
+    - name: liblastlog2-2
+      version: 2.41-5
+      arch: amd64
+    - name: libldap-common
+      version: 2.6.10+dfsg-1
+      arch: all
+    - name: libldap2
+      version: 2.6.10+dfsg-1
+      arch: amd64
+    - name: libllvm19
+      version: 1:19.1.7-3+b1
+      arch: amd64
+    - name: liblmdb0
+      version: 0.9.31-1+b2
+      arch: amd64
+    - name: liblocale-gettext-perl
+      version: 1.07-7+b1
+      arch: amd64
+    - name: liblsan0
+      version: 14.2.0-19
+      arch: amd64
+    - name: libluksmeta0
+      version: 9-4+deb13u1
+      arch: amd64
+    - name: liblvm2cmd2.03
+      version: 2.03.31-2
+      arch: amd64
+    - name: liblz4-1
+      version: 1.10.0-4
+      arch: amd64
+    - name: liblzma5
+      version: 5.8.1-1+deb13u1
+      arch: amd64
+    - name: liblzo2-2
+      version: 2.10-3+b1
+      arch: amd64
+    - name: libmagic-mgc
+      version: 1:5.46-5
+      arch: amd64
+    - name: libmagic1t64
+      version: 1:5.46-5
+      arch: amd64
+    - name: libmaxminddb0
+      version: 1.12.2-1
+      arch: amd64
+    - name: libmd0
+      version: 1.1.0-2+b1
+      arch: amd64
+    - name: libmnl0
+      version: 1.0.5-3
+      arch: amd64
+    - name: libmount1
+      version: 2.41-5
+      arch: amd64
+    - name: libmpc3
+      version: 1.3.1-1+b3
+      arch: amd64
+    - name: libmpfr6
+      version: 4.2.2-1
+      arch: amd64
+    - name: libncurses6
+      version: 6.5+20250216-2
+      arch: amd64
+    - name: libncursesw6
+      version: 6.5+20250216-2
+      arch: amd64
+    - name: libnetfilter-conntrack3
+      version: 1.1.0-1
+      arch: amd64
+    - name: libnettle8t64
+      version: 3.10.1-1
+      arch: amd64
+    - name: libnfnetlink0
+      version: 1.0.2-3
+      arch: amd64
+    - name: libnftables1
+      version: 1.1.3-1
+      arch: amd64
+    - name: libnftnl11
+      version: 1.2.9-1
+      arch: amd64
+    - name: libnghttp2-14
+      version: 1.64.0-1.1+deb13u1
+      arch: amd64
+    - name: libnghttp3-9
+      version: 1.8.0-1
+      arch: amd64
+    - name: libngtcp2-16
+      version: 1.11.0-1+deb13u1
+      arch: amd64
+    - name: libngtcp2-crypto-gnutls8
+      version: 1.11.0-1+deb13u1
+      arch: amd64
+    - name: libnm0
+      version: 1.52.1-1
+      arch: amd64
+    - name: libnpth0t64
+      version: 1.8-3
+      arch: amd64
+    - name: libnss-systemd
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: libonig5
+      version: 6.9.9-1+b1
+      arch: amd64
+    - name: libp11-kit0
+      version: 0.25.5-3
+      arch: amd64
+    - name: libpam-cap
+      version: 1:2.75-10+deb13u1+b1
+      arch: amd64
+    - name: libpam-modules
+      version: 1.7.0-5
+      arch: amd64
+    - name: libpam-modules-bin
+      version: 1.7.0-5
+      arch: amd64
+    - name: libpam-runtime
+      version: 1.7.0-5
+      arch: all
+    - name: libpam-systemd
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: libpam0g
+      version: 1.7.0-5
+      arch: amd64
+    - name: libpcap0.8t64
+      version: 1.10.5-2
+      arch: amd64
+    - name: libpcre2-8-0
+      version: 10.46-1~deb13u1
+      arch: amd64
+    - name: libperl5.40
+      version: 5.40.1-6
+      arch: amd64
+    - name: libpng16-16t64
+      version: 1.6.48-1+deb13u5
+      arch: amd64
+    - name: libpolkit-agent-1-0
+      version: 126-2
+      arch: amd64
+    - name: libpolkit-gobject-1-0
+      version: 126-2
+      arch: amd64
+    - name: libpopt0
+      version: 1.19+dfsg-2
+      arch: amd64
+    - name: libpq5
+      version: 18.4-1.pgdg13+1
+      arch: amd64
+    - name: libproc2-0
+      version: 2:4.0.4-9
+      arch: amd64
+    - name: libprotobuf-c1
+      version: 1.5.1-1
+      arch: amd64
+    - name: libpsl5t64
+      version: 0.21.2-1.1+b1
+      arch: amd64
+    - name: libpwquality-common
+      version: 1.4.5-5
+      arch: all
+    - name: libpwquality-tools
+      version: 1.4.5-5
+      arch: amd64
+    - name: libpwquality1
+      version: 1.4.5-5
+      arch: amd64
+    - name: libpython3-dev
+      version: 3.13.5-1
+      arch: amd64
+    - name: libpython3-stdlib
+      version: 3.13.5-1
+      arch: amd64
+    - name: libpython3.13
+      version: 3.13.5-2+deb13u4
+      arch: amd64
+    - name: libpython3.13-dev
+      version: 3.13.5-2+deb13u4
+      arch: amd64
+    - name: libpython3.13-minimal
+      version: 3.13.5-2+deb13u4
+      arch: amd64
+    - name: libpython3.13-stdlib
+      version: 3.13.5-2+deb13u4
+      arch: amd64
+    - name: libquadmath0
+      version: 14.2.0-19
+      arch: amd64
+    - name: libreadline8t64
+      version: 8.2-6
+      arch: amd64
+    - name: librtmp1
+      version: 2.4+20151223.gitfa8646d.1-2+b5
+      arch: amd64
+    - name: libsasl2-2
+      version: 2.1.28+dfsg1-9
+      arch: amd64
+    - name: libsasl2-modules
+      version: 2.1.28+dfsg1-9
+      arch: amd64
+    - name: libsasl2-modules-db
+      version: 2.1.28+dfsg1-9
+      arch: amd64
+    - name: libseccomp2
+      version: 2.6.0-2
+      arch: amd64
+    - name: libselinux1
+      version: 3.8.1-1
+      arch: amd64
+    - name: libsemanage-common
+      version: 3.8.1-1
+      arch: all
+    - name: libsemanage2
+      version: 3.8.1-1
+      arch: amd64
+    - name: libsensors-config
+      version: 1:3.6.2-2
+      arch: all
+    - name: libsensors5
+      version: 1:3.6.2-2
+      arch: amd64
+    - name: libsepol2
+      version: 3.8.1-1
+      arch: amd64
+    - name: libsframe1
+      version: 2.44-3
+      arch: amd64
+    - name: libsigc++-2.0-0v5
+      version: 2.12.1-3
+      arch: amd64
+    - name: libsmartcols1
+      version: 2.41-5
+      arch: amd64
+    - name: libsodium23
+      version: 1.0.18-1+deb13u1
+      arch: amd64
+    - name: libsource-highlight-common
+      version: 3.1.9-4.3
+      arch: all
+    - name: libsource-highlight4t64
+      version: 3.1.9-4.3+b1
+      arch: amd64
+    - name: libsqlite3-0
+      version: 3.46.1-7+deb13u1
+      arch: amd64
+    - name: libss2
+      version: 1.47.2-3+b11
+      arch: amd64
+    - name: libssh2-1t64
+      version: 1.11.1-1+deb13u1
+      arch: amd64
+    - name: libssl3t64
+      version: 3.5.6-1~deb13u2
+      arch: amd64
+    - name: libstdc++-14-dev
+      version: 14.2.0-19
+      arch: amd64
+    - name: libstdc++6
+      version: 14.2.0-19
+      arch: amd64
+    - name: libsystemd-shared
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: libsystemd0
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: libtasn1-6
+      version: 4.20.0-2+deb13u1
+      arch: amd64
+    - name: libtext-charwidth-perl
+      version: 0.04-11+b4
+      arch: amd64
+    - name: libtext-wrapi18n-perl
+      version: 0.06-10
+      arch: all
+    - name: libtinfo6
+      version: 6.5+20250216-2
+      arch: amd64
+    - name: libtirpc-common
+      version: 1.3.6+ds-1
+      arch: all
+    - name: libtirpc3t64
+      version: 1.3.6+ds-1
+      arch: amd64
+    - name: libtsan2
+      version: 14.2.0-19
+      arch: amd64
+    - name: libtypes-serialiser-perl
+      version: 1.01-1
+      arch: all
+    - name: libubsan1
+      version: 14.2.0-19
+      arch: amd64
+    - name: libuchardet0
+      version: 0.0.8-1+b2
+      arch: amd64
+    - name: libudev1
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: libunistring5
+      version: 1.3-2
+      arch: amd64
+    - name: libunwind8
+      version: 1.8.1-0.1
+      arch: amd64
+    - name: liburcu8t64
+      version: 0.15.2-2
+      arch: amd64
+    - name: libuuid1
+      version: 2.41-5
+      arch: amd64
+    - name: libuv1t64
+      version: 1.50.0-2
+      arch: amd64
+    - name: libwrap0
+      version: 7.6.q-36
+      arch: amd64
+    - name: libwtmpdb0
+      version: 0.73.0-3+deb13u1
+      arch: amd64
+    - name: libx11-6
+      version: 2:1.8.12-1
+      arch: amd64
+    - name: libx11-data
+      version: 2:1.8.12-1
+      arch: all
+    - name: libxapian30
+      version: 1.4.29-3
+      arch: amd64
+    - name: libxau6
+      version: 1:1.0.11-1
+      arch: amd64
+    - name: libxcb1
+      version: 1.17.0-2+b1
+      arch: amd64
+    - name: libxdmcp6
+      version: 1:1.1.5-1
+      arch: amd64
+    - name: libxext6
+      version: 2:1.3.4-1+b3
+      arch: amd64
+    - name: libxml2
+      version: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+      arch: amd64
+    - name: libxmuu1
+      version: 2:1.1.3-3+b4
+      arch: amd64
+    - name: libxslt1.1
+      version: 1.1.35-1.2+deb13u3
+      arch: amd64
+    - name: libxtables12
+      version: 1.8.11-2
+      arch: amd64
+    - name: libxxhash0
+      version: 0.8.3-2
+      arch: amd64
+    - name: libyaml-0-2
+      version: 0.2.5-2
+      arch: amd64
+    - name: libz3-4
+      version: 4.13.3-1
+      arch: amd64
+    - name: libzstd1
+      version: 1.5.7+dfsg-1
+      arch: amd64
+    - name: linux-base
+      version: 4.12.1
+      arch: all
+    - name: linux-image-6.12.95+deb13-amd64
+      version: 6.12.95-1
+      arch: amd64
+    - name: linux-image-amd64
+      version: 6.12.95-1
+      arch: amd64
+    - name: linux-libc-dev
+      version: 6.12.95-1
+      arch: all
+    - name: linux-sysctl-defaults
+      version: 4.12.1
+      arch: all
+    - name: locales
+      version: 2.41-12+deb13u3
+      arch: all
+    - name: locales-all
+      version: 2.41-12+deb13u3
+      arch: amd64
+    - name: login
+      version: 1:4.16.0-2+really2.41-5
+      arch: amd64
+    - name: login.defs
+      version: 1:4.17.4-2
+      arch: all
+    - name: logrotate
+      version: 3.22.0-1
+      arch: amd64
+    - name: logsave
+      version: 1.47.2-3+b11
+      arch: amd64
+    - name: lsb-release
+      version: 12.1-1
+      arch: all
+    - name: luksmeta
+      version: 9-4+deb13u1
+      arch: amd64
+    - name: lvm2
+      version: 2.03.31-2
+      arch: amd64
+    - name: lz4
+      version: 1.10.0-4
+      arch: amd64
+    - name: make
+      version: 4.4.1-2
+      arch: amd64
+    - name: manpages
+      version: 6.9.1-1
+      arch: all
+    - name: manpages-dev
+      version: 6.9.1-1
+      arch: all
+    - name: mawk
+      version: 1.3.4.20250131-1
+      arch: amd64
+    - name: media-types
+      version: 13.0.0
+      arch: all
+    - name: mokutil
+      version: 0.7.2-1
+      arch: amd64
+    - name: mount
+      version: 2.41-5
+      arch: amd64
+    - name: ncurses-base
+      version: 6.5+20250216-2
+      arch: all
+    - name: ncurses-bin
+      version: 6.5+20250216-2
+      arch: amd64
+    - name: ncurses-term
+      version: 6.5+20250216-2
+      arch: all
+    - name: net-tools
+      version: 2.10-1.3
+      arch: amd64
+    - name: netbase
+      version: '6.5'
+      arch: all
+    - name: netcat-openbsd
+      version: 1.229-1
+      arch: amd64
+    - name: nftables
+      version: 1.1.3-1
+      arch: amd64
+    - name: openssh-client
+      version: 1:10.0p1-7+deb13u4
+      arch: amd64
+    - name: openssh-server
+      version: 1:10.0p1-7+deb13u4
+      arch: amd64
+    - name: openssh-sftp-server
+      version: 1:10.0p1-7+deb13u4
+      arch: amd64
+    - name: openssl
+      version: 3.5.6-1~deb13u2
+      arch: amd64
+    - name: openssl-provider-legacy
+      version: 3.5.6-1~deb13u2
+      arch: amd64
+    - name: os-prober
+      version: '1.83'
+      arch: amd64
+    - name: passwd
+      version: 1:4.17.4-2
+      arch: amd64
+    - name: patch
+      version: 2.8-2
+      arch: amd64
+    - name: patroni
+      version: 4.1.3-2.pgdg13+1
+      arch: all
+    - name: perl
+      version: 5.40.1-6
+      arch: amd64
+    - name: perl-base
+      version: 5.40.1-6
+      arch: amd64
+    - name: perl-modules-5.40
+      version: 5.40.1-6
+      arch: all
+    - name: pinentry-curses
+      version: 1.3.1-2
+      arch: amd64
+    - name: pkexec
+      version: 126-2
+      arch: amd64
+    - name: polkitd
+      version: 126-2
+      arch: amd64
+    - name: postgresql-17
+      version: 17.10-1.pgdg13+1
+      arch: amd64
+    - name: postgresql-17-cron
+      version: 1.6.7-3.pgdg13+1
+      arch: amd64
+    - name: postgresql-17-pg-stat-kcache
+      version: 2.3.2-1.pgdg13+1
+      arch: amd64
+    - name: postgresql-17-pgaudit
+      version: 17.1-2.pgdg13+1
+      arch: amd64
+    - name: postgresql-17-pglogical
+      version: 2.4.7-1.pgdg13+1
+      arch: amd64
+    - name: postgresql-17-repack
+      version: 1.5.3-1.pgdg13+1
+      arch: amd64
+    - name: postgresql-17-set-user
+      version: 4.2.0-1.pgdg13+1
+      arch: amd64
+    - name: postgresql-client-17
+      version: 17.10-1.pgdg13+1
+      arch: amd64
+    - name: postgresql-client-common
+      version: 293.pgdg13+1
+      arch: all
+    - name: postgresql-common
+      version: 293.pgdg13+1
+      arch: all
+    - name: postgresql-plpython3-17
+      version: 17.10-1.pgdg13+1
+      arch: amd64
+    - name: procps
+      version: 2:4.0.4-9
+      arch: amd64
+    - name: psmisc
+      version: 23.7-2
+      arch: amd64
+    - name: publicsuffix
+      version: 20250328.1952-0.1
+      arch: all
+    - name: pv
+      version: 1.9.31-1
+      arch: amd64
+    - name: python-apt-common
+      version: 3.0.0
+      arch: all
+    - name: python-babel-localedata
+      version: 2.17.0-1
+      arch: all
+    - name: python3
+      version: 3.13.5-1
+      arch: amd64
+    - name: python3-anyio
+      version: 4.8.0-3
+      arch: all
+    - name: python3-apt
+      version: 3.0.0
+      arch: amd64
+    - name: python3-arrow
+      version: 1.3.0-1.1
+      arch: all
+    - name: python3-attr
+      version: 25.3.0-1
+      arch: all
+    - name: python3-autocommand
+      version: 2.2.2-3
+      arch: all
+    - name: python3-babel
+      version: 2.17.0-1
+      arch: all
+    - name: python3-barman
+      version: 3.19.1-3.pgdg13+1
+      arch: all
+    - name: python3-bcrypt
+      version: 4.2.0-2.1+b1
+      arch: amd64
+    - name: python3-blinker
+      version: 1.9.0-1
+      arch: all
+    - name: python3-cap-ng
+      version: 0.8.5-4+b1
+      arch: amd64
+    - name: python3-certifi
+      version: 2025.1.31+ds-1
+      arch: all
+    - name: python3-cffi-backend
+      version: 1.17.1-3
+      arch: amd64
+    - name: python3-chardet
+      version: 5.2.0+dfsg-2
+      arch: all
+    - name: python3-charset-normalizer
+      version: 3.4.2-1
+      arch: amd64
+    - name: python3-click
+      version: 8.2.0+0.really.8.1.8-1
+      arch: all
+    - name: python3-configobj
+      version: 5.0.9-1
+      arch: all
+    - name: python3-consul
+      version: 1.5.5-1
+      arch: all
+    - name: python3-cryptography
+      version: 43.0.0-3+deb13u1
+      arch: amd64
+    - name: python3-dateutil
+      version: 2.9.0-4
+      arch: all
+    - name: python3-dbus
+      version: 1.4.0-1
+      arch: amd64
+    - name: python3-debian
+      version: 1.0.1
+      arch: all
+    - name: python3-dev
+      version: 3.13.5-1
+      arch: amd64
+    - name: python3-dnspython
+      version: 2.7.0-1
+      arch: all
+    - name: python3-etcd
+      version: 0.4.5-6
+      arch: all
+    - name: python3-firewall
+      version: 2.3.1-1+deb13u1
+      arch: all
+    - name: python3-fqdn
+      version: 1.5.1-2
+      arch: all
+    - name: python3-gi
+      version: 3.50.0-4+b1
+      arch: amd64
+    - name: python3-h11
+      version: 0.14.0-1.1
+      arch: all
+    - name: python3-h2
+      version: 4.2.0-1
+      arch: all
+    - name: python3-hpack
+      version: 4.0.0-3
+      arch: all
+    - name: python3-httpcore
+      version: 1.0.7-1
+      arch: all
+    - name: python3-httpx
+      version: 0.28.1-1
+      arch: all
+    - name: python3-hyperframe
+      version: 6.0.0-1
+      arch: all
+    - name: python3-idna
+      version: 3.10-1+deb13u1
+      arch: all
+    - name: python3-inflect
+      version: 7.3.1-2
+      arch: all
+    - name: python3-isoduration
+      version: 20.11.0+git20211126.ae0bd61-2
+      arch: all
+    - name: python3-jaraco.context
+      version: 6.0.1-1+deb13u1
+      arch: all
+    - name: python3-jaraco.functools
+      version: 4.1.0-1
+      arch: all
+    - name: python3-jaraco.text
+      version: 4.0.0-1
+      arch: all
+    - name: python3-jinja2
+      version: 3.1.6-1
+      arch: all
+    - name: python3-json-pointer
+      version: 2.4-3
+      arch: all
+    - name: python3-jsonpatch
+      version: 1.32-5
+      arch: all
+    - name: python3-jsonschema
+      version: 4.19.2-6
+      arch: all
+    - name: python3-jsonschema-specifications
+      version: 2023.12.1-2
+      arch: all
+    - name: python3-jwt
+      version: 2.10.1-2+deb13u1
+      arch: all
+    - name: python3-linkify-it
+      version: 2.0.3-1
+      arch: all
+    - name: python3-lz4
+      version: 4.4.0+dfsg-2
+      arch: amd64
+    - name: python3-markdown-it
+      version: 3.0.0-3
+      arch: all
+    - name: python3-markupsafe
+      version: 2.1.5-1+b3
+      arch: amd64
+    - name: python3-mdurl
+      version: 0.1.2-1
+      arch: all
+    - name: python3-minimal
+      version: 3.13.5-1
+      arch: amd64
+    - name: python3-more-itertools
+      version: 10.7.0-1
+      arch: all
+    - name: python3-nftables
+      version: 1.1.3-1
+      arch: amd64
+    - name: python3-oauthlib
+      version: 3.2.2-3
+      arch: all
+    - name: python3-packaging
+      version: 25.0-1
+      arch: all
+    - name: python3-pip
+      version: 25.1.1+dfsg-1
+      arch: all
+    - name: python3-pkg-resources
+      version: 78.1.1-0.1
+      arch: all
+    - name: python3-prettytable
+      version: 3.15.1-1
+      arch: all
+    - name: python3-psutil
+      version: 7.0.0-2
+      arch: amd64
+    - name: python3-psycopg2
+      version: 2.9.10-1.pgdg130+2
+      arch: amd64
+    - name: python3-pygments
+      version: 2.18.0+dfsg-2
+      arch: all
+    - name: python3-referencing
+      version: 0.36.2-1
+      arch: all
+    - name: python3-requests
+      version: 2.32.3+dfsg-5+deb13u1
+      arch: all
+    - name: python3-rfc3339-validator
+      version: 0.1.4-2
+      arch: all
+    - name: python3-rfc3986-validator
+      version: 0.1.1-2
+      arch: all
+    - name: python3-rfc3987
+      version: 1.3.8-3
+      arch: all
+    - name: python3-rich
+      version: 13.9.4-1
+      arch: all
+    - name: python3-rpds-py
+      version: 0.21.0-2+b1
+      arch: amd64
+    - name: python3-setuptools
+      version: 78.1.1-0.1
+      arch: all
+    - name: python3-sniffio
+      version: 1.3.1-1
+      arch: all
+    - name: python3-systemd
+      version: 235-1+b6
+      arch: amd64
+    - name: python3-typeguard
+      version: 4.4.2-1
+      arch: all
+    - name: python3-typeshed
+      version: 0.0~git20241223.ea91db2-1
+      arch: all
+    - name: python3-typing-extensions
+      version: 4.13.2-1
+      arch: all
+    - name: python3-uc-micro
+      version: 1.0.3-1
+      arch: all
+    - name: python3-uritemplate
+      version: 4.1.1-3
+      arch: all
+    - name: python3-urllib3
+      version: 2.3.0-3+deb13u2
+      arch: all
+    - name: python3-wcwidth
+      version: 0.2.13+dfsg1-1
+      arch: all
+    - name: python3-webcolors
+      version: 1.13-1
+      arch: all
+    - name: python3-wheel
+      version: 0.46.1-2
+      arch: all
+    - name: python3-yaml
+      version: 6.0.2-1+b2
+      arch: amd64
+    - name: python3-ydiff
+      version: 1.4.2-1
+      arch: all
+    - name: python3-zipp
+      version: 3.21.0-1
+      arch: all
+    - name: python3-zstandard
+      version: 0.23.0-4
+      arch: amd64
+    - name: python3.13
+      version: 3.13.5-2+deb13u4
+      arch: amd64
+    - name: python3.13-dev
+      version: 3.13.5-2+deb13u4
+      arch: amd64
+    - name: python3.13-minimal
+      version: 3.13.5-2+deb13u4
+      arch: amd64
+    - name: readline-common
+      version: 8.2-6
+      arch: all
+    - name: rng-tools-debian
+      version: '2.6'
+      arch: amd64
+    - name: rpcsvc-proto
+      version: 1.4.3-1
+      arch: amd64
+    - name: rsync
+      version: 3.4.1+ds1-5+deb13u4
+      arch: amd64
+    - name: runit-helper
+      version: 2.16.4
+      arch: all
+    - name: sed
+      version: 4.9-2+deb13u1
+      arch: amd64
+    - name: sensible-utils
+      version: 0.0.25
+      arch: all
+    - name: sgml-base
+      version: 1.31+nmu1
+      arch: all
+    - name: shared-mime-info
+      version: 2.4-5+b2
+      arch: amd64
+    - name: shim-helpers-amd64-signed
+      version: 1+16.1+2~deb13u1
+      arch: amd64
+    - name: shim-signed
+      version: 1.51~1+deb13u1+16.1-2~deb13u1
+      arch: amd64
+    - name: shim-signed-common
+      version: 1.51~1+deb13u1+16.1-2~deb13u1
+      arch: all
+    - name: shim-unsigned
+      version: 16.1-2~deb13u1
+      arch: amd64
+    - name: snapd
+      version: 2.68.3-3+deb13u1+b6
+      arch: amd64
+    - name: squashfs-tools
+      version: 1:4.6.1-1
+      arch: amd64
+    - name: sqv
+      version: 1.3.0-3+b2
+      arch: amd64
+    - name: ssl-cert
+      version: 1.1.3
+      arch: all
+    - name: strace
+      version: 6.13+ds-1
+      arch: amd64
+    - name: sudo
+      version: 1.9.16p2-3+deb13u2
+      arch: amd64
+    - name: sysstat
+      version: 12.7.5-2
+      arch: amd64
+    - name: systemd
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: systemd-cryptsetup
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: systemd-resolved
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: systemd-sysv
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: sysvinit-utils
+      version: 3.14-4
+      arch: amd64
+    - name: tar
+      version: 1.35+dfsg-3.1
+      arch: amd64
+    - name: thin-provisioning-tools
+      version: 1.1.0-4+b1
+      arch: amd64
+    - name: tzdata
+      version: 2026b-0+deb13u1
+      arch: all
+    - name: ucf
+      version: '3.0052'
+      arch: all
+    - name: udev
+      version: 257.13-1~deb13u1
+      arch: amd64
+    - name: util-linux
+      version: 2.41-5
+      arch: amd64
+    - name: vim
+      version: 2:9.1.1230-2
+      arch: amd64
+    - name: vim-common
+      version: 2:9.1.1230-2
+      arch: all
+    - name: vim-runtime
+      version: 2:9.1.1230-2
+      arch: all
+    - name: wamerican
+      version: 2020.12.07-4
+      arch: all
+    - name: xauth
+      version: 1:1.1.2-1.1
+      arch: amd64
+    - name: xdg-user-dirs
+      version: 0.18-2
+      arch: amd64
+    - name: xfsprogs
+      version: 6.13.0-2+b1
+      arch: amd64
+    - name: xml-core
+      version: '0.19'
+      arch: all
+    - name: xxd
+      version: 2:9.1.1230-2
+      arch: amd64
+    - name: xz-utils
+      version: 5.8.1-1+deb13u1
+      arch: amd64
+    - name: zlib1g
+      version: 1:1.3.dfsg+really1.3.1-1+b1
+      arch: amd64
+    - name: zlib1g-dev
+      version: 1:1.3.dfsg+really1.3.1-1+b1
+      arch: amd64
+    - name: zsh
+      version: 5.9-8+b23
+      arch: amd64
+    - name: zsh-common
+      version: 5.9-8
+      arch: all
+    - name: zstd
+      version: 1.5.7+dfsg-1
+      arch: amd64
+  repositories:
+    deb:
+    - file: /etc/apt/sources.list
+      type: deb
+      uri: http://deb.debian.org/debian
+      suite: trixie
+      components:
+      - main
+      - contrib
+    - file: /etc/apt/sources.list
+      type: deb
+      uri: http://deb.debian.org/debian
+      suite: trixie-updates
+      components:
+      - main
+      - contrib
+    - file: /etc/apt/sources.list
+      type: deb
+      uri: http://deb.debian.org/debian-security/
+      suite: trixie-security
+      components:
+      - main
+      - contrib
+    - file: /etc/apt/sources.list.d/artifacts_elastic_co_packages_8_x_apt.list
+      type: deb
+      uri: https://artifacts.elastic.co/packages/8.x/apt
+      suite: stable
+      components:
+      - main
+      signed-by: /etc/apt/trusted.gpg.d/elastic-keyring.asc
+    - file: /etc/apt/sources.list.d/pgdg.list
+      type: deb
+      uri: http://apt.postgresql.org/pub/repos/apt/
+      suite: trixie-pgdg
+      components:
+      - main
+      signed-by: /etc/apt/trusted.gpg.d/pgdg.asc
