@@ -3692,6 +3692,14 @@ sbom:
       installtime: 2026-08-15 23:11
       source_rpm: vim-9.1.083-9.el10_2.12.src.rpm
       from_repo: baseos
+    - name: vip-manager
+      version: 5.0.0
+      release: 1PGDG.rhel10.2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-08-16 13:03
+      source_rpm: vip-manager-5.0.0-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-extras
     - name: volume_key-libs
       version: 0.3.12
       release: 26.el10
