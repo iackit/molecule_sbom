@@ -51,13 +51,13 @@ sbom:
       version: 1:2.16.0-8build1
       arch: all
     - name: bind9-dnsutils
-      version: 1:9.20.24-1ubuntu0.1
+      version: 1:9.20.24-1ubuntu0.2
       arch: amd64
     - name: bind9-host
-      version: 1:9.20.24-1ubuntu0.1
+      version: 1:9.20.24-1ubuntu0.2
       arch: amd64
     - name: bind9-libs
-      version: 1:9.20.24-1ubuntu0.1
+      version: 1:9.20.24-1ubuntu0.2
       arch: amd64
     - name: binutils
       version: 2.46-3ubuntu2
@@ -1191,7 +1191,7 @@ sbom:
       version: 7.0.0-29.29
       arch: amd64
     - name: linux-libc-dev
-      version: 7.0.0-29.29
+      version: 7.0.0-30.30
       arch: amd64
     - name: linux-main-modules-zfs-7.0.0-29-generic
       version: 7.0.0-29.29
