@@ -374,12 +374,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 8.el10_2
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-13 16:06
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-10-13 18:05
+      source_rpm: epel-release-10-8.el10_2.src.rpm
+      from_repo: epel
     - name: expat
       version: 2.7.3
       release: 1.el10_2.5
@@ -1270,19 +1270,19 @@ sbom:
       from_repo: baseos
     - name: pcre2
       version: '10.44'
-      release: 1.el10.3
+      release: 1.5.el10_2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-12 23:11
-      source_rpm: pcre2-10.44-1.el10.3.src.rpm
+      installtime: 2026-10-13 18:05
+      source_rpm: pcre2-10.44-1.5.el10_2.src.rpm
       from_repo: baseos
     - name: pcre2-syntax
       version: '10.44'
-      release: 1.el10.3
+      release: 1.5.el10_2
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-12 23:11
-      source_rpm: pcre2-10.44-1.el10.3.src.rpm
+      installtime: 2026-10-13 18:05
+      source_rpm: pcre2-10.44-1.5.el10_2.src.rpm
       from_repo: baseos
     - name: pkgconf
       version: 2.1.0
@@ -1931,6 +1931,14 @@ sbom:
       arch: noarch
       installtime: 2026-10-12 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-13 17:55
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3

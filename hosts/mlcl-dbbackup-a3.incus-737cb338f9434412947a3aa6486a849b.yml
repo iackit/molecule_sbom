@@ -150,12 +150,12 @@ sbom:
       from_repo: baseos
     - name: btrfs-progs
       version: '6.12'
-      release: 3.el10
+      release: 3.el10_0
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-12 23:13
-      source_rpm: btrfs-progs-6.12-3.el10.src.rpm
-      from_repo: appstream
+      installtime: 2026-10-13 18:01
+      source_rpm: btrfs-progs-6.12-3.el10_0.src.rpm
+      from_repo: epel
     - name: bzip2-libs
       version: 1.0.8
       release: 25.el10
@@ -534,12 +534,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 8.el10_2
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-13 16:06
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-10-13 18:01
+      source_rpm: epel-release-10-8.el10_2.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.2
       release: 1PGDG.rhel10.2
@@ -1468,6 +1468,14 @@ sbom:
       installtime: 2026-10-12 23:13
       source_rpm: libgudev-238-7.el10.src.rpm
       from_repo: baseos
+    - name: libibverbs
+      version: '61.0'
+      release: 1.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-13 17:55
+      source_rpm: rdma-core-61.0-1.el10.src.rpm
+      from_repo: baseos
     - name: libicu
       version: '74.2'
       release: 5.el10_0
@@ -1596,6 +1604,14 @@ sbom:
       installtime: 2026-10-12 23:11
       source_rpm: nghttp2-1.68.0-3.el10_2.2.src.rpm
       from_repo: baseos
+    - name: libnl3
+      version: 3.11.0
+      release: 1.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-13 17:55
+      source_rpm: libnl3-3.11.0-1.el10.src.rpm
+      from_repo: baseos
     - name: libnvme
       version: 1.16.1
       release: 3.el10_2
@@ -1603,6 +1619,14 @@ sbom:
       arch: x86_64
       installtime: 2026-10-12 23:13
       source_rpm: libnvme-1.16.1-3.el10_2.src.rpm
+      from_repo: baseos
+    - name: libpcap
+      version: 1.10.4
+      release: 7.el10_2.1
+      epoch: '14'
+      arch: x86_64
+      installtime: 2026-10-13 17:55
+      source_rpm: libpcap-1.10.4-7.el10_2.1.src.rpm
       from_repo: baseos
     - name: libpciaccess
       version: '0.16'
@@ -2182,19 +2206,19 @@ sbom:
       from_repo: baseos
     - name: pcre2
       version: '10.44'
-      release: 1.el10.3
+      release: 1.5.el10_2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-12 23:11
-      source_rpm: pcre2-10.44-1.el10.3.src.rpm
+      installtime: 2026-10-13 18:01
+      source_rpm: pcre2-10.44-1.5.el10_2.src.rpm
       from_repo: baseos
     - name: pcre2-syntax
       version: '10.44'
-      release: 1.el10.3
+      release: 1.5.el10_2
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-12 23:11
-      source_rpm: pcre2-10.44-1.el10.3.src.rpm
+      installtime: 2026-10-13 18:01
+      source_rpm: pcre2-10.44-1.5.el10_2.src.rpm
       from_repo: baseos
     - name: pigz
       version: '2.8'
@@ -2940,6 +2964,14 @@ sbom:
       installtime: 2026-10-13 16:09
       source_rpm: tar-1.35-13.el10_2.src.rpm
       from_repo: baseos
+    - name: tcpdump
+      version: 4.99.4
+      release: 10.el10
+      epoch: '14'
+      arch: x86_64
+      installtime: 2026-10-13 17:55
+      source_rpm: tcpdump-4.99.4-10.el10.src.rpm
+      from_repo: appstream
     - name: tiwilink-firmware
       version: '20260827'
       release: 23.3.el10_2
@@ -3075,6 +3107,14 @@ sbom:
       arch: noarch
       installtime: 2026-10-12 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-13 17:55
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
