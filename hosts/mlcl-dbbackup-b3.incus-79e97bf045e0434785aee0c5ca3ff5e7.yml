@@ -1044,6 +1044,14 @@ sbom:
       installtime: 2026-10-12 23:13
       source_rpm: kernel-6.12.0-211.64.1.el10_2.src.rpm
       from_repo: baseos
+    - name: kernel
+      version: 6.12.0
+      release: 211.65.1.el10_2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-14 06:20
+      source_rpm: kernel-6.12.0-211.65.1.el10_2.src.rpm
+      from_repo: baseos
     - name: kernel-core
       version: 6.12.0
       release: 211.64.1.el10_2
@@ -1051,6 +1059,14 @@ sbom:
       arch: x86_64
       installtime: 2026-10-12 23:13
       source_rpm: kernel-6.12.0-211.64.1.el10_2.src.rpm
+      from_repo: baseos
+    - name: kernel-core
+      version: 6.12.0
+      release: 211.65.1.el10_2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-14 06:20
+      source_rpm: kernel-6.12.0-211.65.1.el10_2.src.rpm
       from_repo: baseos
     - name: kernel-modules
       version: 6.12.0
@@ -1060,6 +1076,14 @@ sbom:
       installtime: 2026-10-12 23:13
       source_rpm: kernel-6.12.0-211.64.1.el10_2.src.rpm
       from_repo: baseos
+    - name: kernel-modules
+      version: 6.12.0
+      release: 211.65.1.el10_2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-14 06:20
+      source_rpm: kernel-6.12.0-211.65.1.el10_2.src.rpm
+      from_repo: baseos
     - name: kernel-modules-core
       version: 6.12.0
       release: 211.64.1.el10_2
@@ -1068,6 +1092,14 @@ sbom:
       installtime: 2026-10-12 23:13
       source_rpm: kernel-6.12.0-211.64.1.el10_2.src.rpm
       from_repo: baseos
+    - name: kernel-modules-core
+      version: 6.12.0
+      release: 211.65.1.el10_2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-14 06:20
+      source_rpm: kernel-6.12.0-211.65.1.el10_2.src.rpm
+      from_repo: baseos
     - name: kernel-modules-extra
       version: 6.12.0
       release: 211.64.1.el10_2
@@ -1075,6 +1107,14 @@ sbom:
       arch: x86_64
       installtime: 2026-10-13 16:34
       source_rpm: kernel-6.12.0-211.64.1.el10_2.src.rpm
+      from_repo: baseos
+    - name: kernel-modules-extra
+      version: 6.12.0
+      release: 211.65.1.el10_2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-14 06:20
+      source_rpm: kernel-6.12.0-211.65.1.el10_2.src.rpm
       from_repo: baseos
     - name: keyutils
       version: 1.6.3
