@@ -414,12 +414,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 8.el10_2
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-14 15:39
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-10-14 16:08
+      source_rpm: epel-release-10-8.el10_2.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.2
       release: 1PGDG.rhel10.2
@@ -1476,6 +1476,22 @@ sbom:
       installtime: 2026-10-13 23:11
       source_rpm: pam-1.6.1-9.el10_2.1.src.rpm
       from_repo: baseos
+    - name: patroni
+      version: 4.1.5
+      release: 1PGDG.rhel10.2
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: patroni-4.1.5-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-common
+    - name: patroni-etcd
+      version: 4.1.5
+      release: 1PGDG.rhel10.2
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:16
+      source_rpm: patroni-4.1.5-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-common
     - name: pcre2
       version: '10.44'
       release: 1.5.el10_2
@@ -2100,6 +2116,14 @@ sbom:
       installtime: 2026-10-13 23:11
       source_rpm: publicsuffix-list-20240107-5.el10.src.rpm
       from_repo: baseos
+    - name: py-consul
+      version: 1.7.1
+      release: 47PGDG.rhel10.2
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: py-consul-1.7.1-47PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-common
     - name: python3
       version: 3.12.15
       release: 1.el10_2
@@ -2148,6 +2172,14 @@ sbom:
       installtime: 2026-10-13 23:12
       source_rpm: python-charset-normalizer-3.4.2-1.el10.src.rpm
       from_repo: baseos
+    - name: python3-click
+      version: 8.1.7
+      release: 7.el10_2
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: python-click-8.1.7-7.el10_2.src.rpm
+      from_repo: epel
     - name: python3-configobj
       version: 5.0.8
       release: 10.el10
@@ -2203,6 +2235,14 @@ sbom:
       arch: noarch
       installtime: 2026-10-14 15:39
       source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
+      from_repo: baseos
+    - name: python3-dns
+      version: 2.6.1
+      release: 1.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: python-dns-2.6.1-1.el10.src.rpm
       from_repo: baseos
     - name: python3-firewall
       version: 2.4.3
@@ -2364,6 +2404,22 @@ sbom:
       installtime: 2026-10-13 23:12
       source_rpm: policycoreutils-3.10-2.el10_2.src.rpm
       from_repo: appstream
+    - name: python3-prettytable
+      version: 3.6.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: python-prettytable-3.6.0-10.el10.src.rpm
+      from_repo: appstream
+    - name: python3-psutil
+      version: 5.9.8
+      release: 6.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-14 16:15
+      source_rpm: python-psutil-5.9.8-6.el10.src.rpm
+      from_repo: appstream
     - name: python3-psycopg2
       version: 2.9.13
       release: 42PGDG.rhel10.2
@@ -2452,6 +2508,22 @@ sbom:
       installtime: 2026-10-13 23:12
       source_rpm: python-urllib3-1.26.19-4.el10_2.src.rpm
       from_repo: baseos
+    - name: python3-wcwidth
+      version: 0.2.6
+      release: 6.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: python-wcwidth-0.2.6-6.el10.src.rpm
+      from_repo: baseos
+    - name: python3-ydiff
+      version: 1.4.2
+      release: 55PGDG.rhel10.2
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: ydiff-1.4.2-55PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-common
     - name: python3-zstandard
       version: 0.23.0
       release: 2.el10
@@ -2460,6 +2532,14 @@ sbom:
       installtime: 2026-10-14 15:50
       source_rpm: python-zstandard-0.23.0-2.el10.src.rpm
       from_repo: appstream
+    - name: python3.12-etcd
+      version: 0.4.5
+      release: 50PGDG.rhel10.2
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:15
+      source_rpm: python3.12-etcd-0.4.5-50PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-common
     - name: readline
       version: '8.2'
       release: 11.el10
@@ -2771,6 +2851,14 @@ sbom:
       arch: noarch
       installtime: 2026-10-13 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-14 16:06
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
