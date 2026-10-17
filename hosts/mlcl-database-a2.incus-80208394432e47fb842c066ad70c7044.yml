@@ -1762,8 +1762,8 @@ sbom:
     - name: vim-tiny
       version: 2:9.1.2141-1ubuntu4.9
       arch: amd64
-    - name: vip-manager
-      version: 1.0.2-11.pgdg26.04+1
+    - name: vip-manager2
+      version: 5.0.0-1.pgdg26.04+1
       arch: amd64
     - name: wamerican
       version: 2020.12.07-4build1

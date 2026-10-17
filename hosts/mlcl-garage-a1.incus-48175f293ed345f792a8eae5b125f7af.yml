@@ -1234,6 +1234,12 @@ sbom:
     - name: python3-blinker
       version: 1.9.0-2build1
       arch: all
+    - name: python3-boto3
+      version: 1.40.72-1build1
+      arch: all
+    - name: python3-botocore
+      version: 1.40.72+repack-1build1
+      arch: all
     - name: python3-certifi
       version: 2026.1.4+ds-1
       arch: all
@@ -1249,6 +1255,9 @@ sbom:
     - name: python3-cryptography
       version: 46.0.5-1ubuntu2.2
       arch: amd64
+    - name: python3-dateutil
+      version: 2.9.0-4build1
+      arch: all
     - name: python3-dbus
       version: 1.4.0-1build2
       arch: amd64
@@ -1290,6 +1299,9 @@ sbom:
       arch: all
     - name: python3-jinja2
       version: 3.1.6-1build1
+      arch: all
+    - name: python3-jmespath
+      version: 1.0.1-1build1
       arch: all
     - name: python3-json-pointer
       version: 2.4-4
@@ -1369,11 +1381,17 @@ sbom:
     - name: python3-rpds-py
       version: 0.27.1-2ubuntu3
       arch: amd64
+    - name: python3-s3transfer
+      version: 0.14.0-1build1
+      arch: all
     - name: python3-serial
       version: 3.5-2build1
       arch: all
     - name: python3-setuptools
       version: 78.1.1-0.1build1
+      arch: all
+    - name: python3-six
+      version: 1.17.0-2build1
       arch: all
     - name: python3-software-properties
       version: 0.120.1
