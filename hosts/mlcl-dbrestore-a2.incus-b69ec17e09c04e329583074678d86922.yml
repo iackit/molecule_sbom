@@ -1210,6 +1210,9 @@ sbom:
     - name: patch
       version: 2.8-2build1
       arch: amd64
+    - name: patroni
+      version: 4.1.5-2.pgdg26.04+1
+      arch: all
     - name: perl
       version: 5.40.1-7ubuntu0.3
       arch: amd64
@@ -1309,8 +1312,14 @@ sbom:
     - name: python3-chardet
       version: 5.2.0+dfsg-2build1
       arch: all
+    - name: python3-click
+      version: 8.2.0+0.really.8.1.8-1build1
+      arch: all
     - name: python3-configobj
       version: 5.0.9-1build1
+      arch: all
+    - name: python3-consul
+      version: 1.6.0-1
       arch: all
     - name: python3-cryptography
       version: 46.0.5-1ubuntu2.2
@@ -1335,6 +1344,12 @@ sbom:
       arch: all
     - name: python3-distro-info
       version: '1.15'
+      arch: all
+    - name: python3-dnspython
+      version: 2.8.0-1ubuntu1
+      arch: all
+    - name: python3-etcd
+      version: 0.4.5-7
       arch: all
     - name: python3-firewall
       version: 2.3.1-3
@@ -1429,6 +1444,12 @@ sbom:
     - name: python3-pkg-resources
       version: 78.1.1-0.1build1
       arch: all
+    - name: python3-prettytable
+      version: 3.16.0-1build1
+      arch: all
+    - name: python3-psutil
+      version: 7.1.0-1ubuntu1
+      arch: amd64
     - name: python3-psycopg2
       version: 2.9.11-1build1
       arch: amd64
@@ -1459,6 +1480,9 @@ sbom:
     - name: python3-software-properties
       version: 0.120.1
       arch: all
+    - name: python3-systemd
+      version: 235-1build9
+      arch: amd64
     - name: python3-typeguard
       version: 4.4.4-2
       arch: all
@@ -1474,12 +1498,18 @@ sbom:
     - name: python3-wadllib
       version: 2.0.0-3
       arch: all
+    - name: python3-wcwidth
+      version: 0.2.14+dfsg1-1build1
+      arch: all
     - name: python3-wheel
       version: 0.46.3-2
       arch: all
     - name: python3-yaml
       version: 6.0.3-1build1
       arch: amd64
+    - name: python3-ydiff
+      version: 1.4.2-1build1
+      arch: all
     - name: python3-zipp
       version: 3.23.0-1build1
       arch: all
