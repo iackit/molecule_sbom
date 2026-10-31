@@ -382,12 +382,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 8.el10_2
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-31 18:53
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-10-31 19:18
+      source_rpm: epel-release-10-8.el10_2.src.rpm
+      from_repo: epel
     - name: expat
       version: 2.7.3
       release: 1.el10_2.7
@@ -940,6 +940,14 @@ sbom:
       installtime: 2026-10-31 18:58
       source_rpm: pkgconf-2.1.0-3.el10.src.rpm
       from_repo: baseos
+    - name: libpq5
+      version: '18.6'
+      release: 2PGDG.rhel10.2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-10-31 19:22
+      source_rpm: libpq5-18.6-2PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-common
     - name: libpsl
       version: 0.21.5
       release: 6.el10
@@ -1793,7 +1801,7 @@ sbom:
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: pg_cron_17-1.6.8-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: pg_repack_17
@@ -1801,7 +1809,7 @@ sbom:
       release: 3PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: pg_repack_17-1.5.3-3PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: pg_stat_kcache_17
@@ -1809,7 +1817,7 @@ sbom:
       release: 6PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: pg_stat_kcache_17-2.3.2-6PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: pgaudit_17
@@ -1817,7 +1825,7 @@ sbom:
       release: 4PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: pgaudit_17-17.1-4PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: pglogical_17
@@ -1825,7 +1833,7 @@ sbom:
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: pglogical_17-2.4.8-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: pkgconf
@@ -1881,7 +1889,7 @@ sbom:
       release: 4PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: postgresql17-17.11-4PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-contrib
@@ -1889,7 +1897,7 @@ sbom:
       release: 4PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: postgresql17-17.11-4PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-libs
@@ -1897,7 +1905,7 @@ sbom:
       release: 4PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: postgresql17-17.11-4PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-server
@@ -1905,7 +1913,7 @@ sbom:
       release: 4PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: postgresql17-17.11-4PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: procps-ng
@@ -2393,7 +2401,7 @@ sbom:
       release: 3PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-31 19:03
+      installtime: 2026-10-31 19:23
       source_rpm: set_user_17-4.2.0-3PGDG.rhel10.2.src.rpm
       from_repo: pgdg-17
     - name: setools-console
@@ -2571,6 +2579,14 @@ sbom:
       arch: noarch
       installtime: 2026-10-29 23:12
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-31 19:14
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
