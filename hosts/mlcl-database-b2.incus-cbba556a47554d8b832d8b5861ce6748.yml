@@ -278,11 +278,11 @@ sbom:
       from_repo: baseos
     - name: curl
       version: 7.76.1
-      release: 40.el9_8.8
+      release: 40.el9_8.9
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-29 23:13
-      source_rpm: curl-7.76.1-40.el9_8.8.src.rpm
+      installtime: 2026-10-31 20:34
+      source_rpm: curl-7.76.1-40.el9_8.9.src.rpm
       from_repo: baseos
     - name: cyrus-sasl-lib
       version: 2.1.27
@@ -510,12 +510,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '9'
-      release: 9.el9
+      release: 11.el9
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-31 20:12
-      source_rpm: epel-release-9-9.el9.src.rpm
-      from_repo: extras
+      installtime: 2026-10-31 20:34
+      source_rpm: epel-release-9-11.el9.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.3
       release: 1PGDG.rhel9.8
@@ -689,7 +689,7 @@ sbom:
       release: 283.el9_8
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-29 23:13
+      installtime: 2026-10-31 20:32
       source_rpm: glibc-2.34-283.el9_8.src.rpm
       from_repo: baseos
     - name: glibc-common
@@ -1286,11 +1286,11 @@ sbom:
       from_repo: baseos
     - name: libcurl
       version: 7.76.1
-      release: 40.el9_8.8
+      release: 40.el9_8.9
       epoch: '0'
       arch: x86_64
-      installtime: 2026-10-29 23:13
-      source_rpm: curl-7.76.1-40.el9_8.8.src.rpm
+      installtime: 2026-10-31 20:34
+      source_rpm: curl-7.76.1-40.el9_8.9.src.rpm
       from_repo: baseos
     - name: libdb
       version: 5.3.28
@@ -1853,20 +1853,20 @@ sbom:
       source_rpm: zstd-1.5.5-1.el9.src.rpm
       from_repo: baseos
     - name: linux-firmware
-      version: '20260929'
-      release: 161.4.el9_8
+      version: '20261026'
+      release: 161.5.el9_8
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-29 23:16
-      source_rpm: linux-firmware-20260929-161.4.el9_8.src.rpm
+      installtime: 2026-10-31 20:34
+      source_rpm: linux-firmware-20261026-161.5.el9_8.src.rpm
       from_repo: baseos
     - name: linux-firmware-whence
-      version: '20260929'
-      release: 161.4.el9_8
+      version: '20261026'
+      release: 161.5.el9_8
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-29 23:16
-      source_rpm: linux-firmware-20260929-161.4.el9_8.src.rpm
+      installtime: 2026-10-31 20:34
+      source_rpm: linux-firmware-20261026-161.5.el9_8.src.rpm
       from_repo: baseos
     - name: logrotate
       version: 3.18.0
@@ -2177,7 +2177,7 @@ sbom:
       release: 1PGDG.rhel9.8
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-31 20:23
+      installtime: 2026-10-31 20:34
       source_rpm: patroni-4.1.5-1PGDG.rhel9.8.src.rpm
       from_repo: pgdg-common
     - name: patroni-etcd
@@ -2185,7 +2185,7 @@ sbom:
       release: 1PGDG.rhel9.8
       epoch: '0'
       arch: noarch
-      installtime: 2026-10-31 20:23
+      installtime: 2026-10-31 20:34
       source_rpm: patroni-4.1.5-1PGDG.rhel9.8.src.rpm
       from_repo: pgdg-common
     - name: pciutils-libs
@@ -3851,6 +3851,14 @@ sbom:
       arch: noarch
       installtime: 2026-10-29 23:14
       source_rpm: dnf-4.14.0-34.el9_8.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.3.0
+      release: 26.el9
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-10-31 20:33
+      source_rpm: dnf-plugins-core-4.3.0-26.el9.src.rpm
       from_repo: baseos
     - name: zlib
       version: 1.2.11
