@@ -32,7 +32,7 @@ sbom:
       version: 0.8.13-7ubuntu5
       arch: all
     - name: base-files
-      version: 14ubuntu6.2
+      version: 14ubuntu6.3
       arch: amd64
     - name: base-passwd
       version: 3.6.8
@@ -869,7 +869,7 @@ sbom:
       version: 1.10.6-1ubuntu1.1
       arch: amd64
     - name: libpcre2-8-0
-      version: 10.46-1build1
+      version: 10.46-1ubuntu0.1
       arch: amd64
     - name: libperl5.40
       version: 5.40.1-7ubuntu0.3
@@ -1595,16 +1595,16 @@ sbom:
       version: 2.41.3-3ubuntu2.2
       arch: amd64
     - name: vim
-      version: 2:9.1.2141-1ubuntu4.9
+      version: 2:9.1.2141-1ubuntu4.10
       arch: amd64
     - name: vim-common
-      version: 2:9.1.2141-1ubuntu4.9
+      version: 2:9.1.2141-1ubuntu4.10
       arch: all
     - name: vim-runtime
-      version: 2:9.1.2141-1ubuntu4.9
+      version: 2:9.1.2141-1ubuntu4.10
       arch: all
     - name: vim-tiny
-      version: 2:9.1.2141-1ubuntu4.9
+      version: 2:9.1.2141-1ubuntu4.10
       arch: amd64
     - name: wget
       version: 1.25.0-2ubuntu4.4
@@ -1631,7 +1631,7 @@ sbom:
       version: 0.19build1
       arch: all
     - name: xxd
-      version: 2:9.1.2141-1ubuntu4.9
+      version: 2:9.1.2141-1ubuntu4.10
       arch: amd64
     - name: xz-utils
       version: 5.8.3-1ubuntu0.1
