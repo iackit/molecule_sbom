@@ -39,7 +39,7 @@ sbom:
       version: 3.20.1-1.pgdg26.04+1
       arch: all
     - name: base-files
-      version: 14ubuntu6.3
+      version: 14ubuntu6.2
       arch: amd64
     - name: base-passwd
       version: 3.6.8
@@ -899,9 +899,6 @@ sbom:
     - name: libnss-systemd
       version: 259.9-0ubuntu0.1
       arch: amd64
-    - name: libnuma1
-      version: 2.0.19-1build1
-      arch: amd64
     - name: libonig5
       version: 6.9.10-1build1
       arch: amd64
@@ -933,7 +930,7 @@ sbom:
       version: 1.10.6-1ubuntu1.1
       arch: amd64
     - name: libpcre2-8-0
-      version: 10.46-1ubuntu0.1
+      version: 10.46-1build1
       arch: amd64
     - name: libperl5.40
       version: 5.40.1-7ubuntu0.3
@@ -1126,9 +1123,6 @@ sbom:
       arch: amd64
     - name: liburcu8t64
       version: 0.15.6-1
-      arch: amd64
-    - name: liburing2
-      version: 2.14-1
       arch: amd64
     - name: libuuid1
       version: 2.41.3-3ubuntu2.2
@@ -1358,35 +1352,8 @@ sbom:
     - name: postgresql-17-set-user
       version: 4.2.0-1.pgdg26.04+2
       arch: amd64
-    - name: postgresql-18
-      version: 18.6-1.pgdg26.04+2
-      arch: amd64
-    - name: postgresql-18-cron
-      version: 1.6.8-1.pgdg26.04+2
-      arch: amd64
-    - name: postgresql-18-jit
-      version: 18.6-1.pgdg26.04+2
-      arch: amd64
-    - name: postgresql-18-pg-stat-kcache
-      version: 2.3.2-1.pgdg26.04+2
-      arch: amd64
-    - name: postgresql-18-pgaudit
-      version: 18.0-3.pgdg26.04+1
-      arch: amd64
-    - name: postgresql-18-pglogical
-      version: 2.4.8-1.pgdg26.04+1
-      arch: amd64
-    - name: postgresql-18-repack
-      version: 1.5.3-1.pgdg26.04+2
-      arch: amd64
-    - name: postgresql-18-set-user
-      version: 4.2.0-1.pgdg26.04+2
-      arch: amd64
     - name: postgresql-client-17
       version: 17.11-1.pgdg26.04+2
-      arch: amd64
-    - name: postgresql-client-18
-      version: 18.6-1.pgdg26.04+2
       arch: amd64
     - name: postgresql-client-common
       version: 293.pgdg26.04+1
@@ -1396,9 +1363,6 @@ sbom:
       arch: all
     - name: postgresql-plpython3-17
       version: 17.11-1.pgdg26.04+2
-      arch: amd64
-    - name: postgresql-plpython3-18
-      version: 18.6-1.pgdg26.04+2
       arch: amd64
     - name: procps
       version: 2:4.0.4-9ubuntu1
@@ -1791,16 +1755,16 @@ sbom:
       version: 2.41.3-3ubuntu2.2
       arch: amd64
     - name: vim
-      version: 2:9.1.2141-1ubuntu4.10
+      version: 2:9.1.2141-1ubuntu4.9
       arch: amd64
     - name: vim-common
-      version: 2:9.1.2141-1ubuntu4.10
+      version: 2:9.1.2141-1ubuntu4.9
       arch: all
     - name: vim-runtime
-      version: 2:9.1.2141-1ubuntu4.10
+      version: 2:9.1.2141-1ubuntu4.9
       arch: all
     - name: vim-tiny
-      version: 2:9.1.2141-1ubuntu4.10
+      version: 2:9.1.2141-1ubuntu4.9
       arch: amd64
     - name: wamerican
       version: 2020.12.07-4build1
@@ -1830,7 +1794,7 @@ sbom:
       version: 0.19build1
       arch: all
     - name: xxd
-      version: 2:9.1.2141-1ubuntu4.10
+      version: 2:9.1.2141-1ubuntu4.9
       arch: amd64
     - name: xz-utils
       version: 5.8.3-1ubuntu0.1
