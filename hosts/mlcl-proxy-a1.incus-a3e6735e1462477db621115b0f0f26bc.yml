@@ -556,6 +556,14 @@ sbom:
       installtime: 2026-11-07 23:11
       source_rpm: file-5.45-9.el10.src.rpm
       from_repo: baseos
+    - name: filebeat
+      version: 8.19.24
+      release: '1'
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-09 06:08
+      source_rpm: filebeat-8.19.24-1.src.rpm
+      from_repo: elasticsearch-8.x
     - name: filesystem
       version: '3.18'
       release: 17.el10
@@ -3555,6 +3563,13 @@ sbom:
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-10
+    - id: elasticsearch-8.x
+      file: /etc/yum.repos.d/elasticsearch-8.x.repo
+      name: Elastic repository for 8.x packages
+      baseurl: https://artifacts.elastic.co/packages/8.x/yum
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/GPG-KEY-elasticsearch
+      enabled: true
     - id: epel-testing
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
