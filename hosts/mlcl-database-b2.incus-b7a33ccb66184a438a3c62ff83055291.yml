@@ -4010,6 +4010,13 @@ sbom:
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/GPG-KEY-elasticsearch
       enabled: true
+    - id: elasticsearch-9.x
+      file: /etc/yum.repos.d/elasticsearch-9.x.repo
+      name: Elastic repository for 8.x packages
+      baseurl: https://artifacts.elastic.co/packages/9.x/yum
+      gpgcheck: true
+      gpgkey: file:///etc/pki/rpm-gpg/GPG-KEY-elasticsearch
+      enabled: true
     - id: epel-testing
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
