@@ -154,12 +154,12 @@ sbom:
       from_repo: baseos
     - name: btrfs-progs
       version: '6.12'
-      release: 3.el10
+      release: 3.el10_0
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-10 23:13
-      source_rpm: btrfs-progs-6.12-3.el10.src.rpm
-      from_repo: appstream
+      installtime: 2026-11-11 19:09
+      source_rpm: btrfs-progs-6.12-3.el10_0.src.rpm
+      from_repo: epel
     - name: bzip2-libs
       version: 1.0.8
       release: 25.el10
@@ -586,12 +586,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-11 13:47
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-11 19:09
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.3
       release: 1PGDG.rhel10.2
@@ -633,13 +633,13 @@ sbom:
       source_rpm: file-5.45-9.el10.src.rpm
       from_repo: baseos
     - name: filebeat
-      version: 8.19.25
+      version: 9.5.6
       release: '1'
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-11 13:59
-      source_rpm: filebeat-8.19.25-1.src.rpm
-      from_repo: elasticsearch-8.x
+      installtime: 2026-11-11 19:09
+      source_rpm: filebeat-9.5.6-1.src.rpm
+      from_repo: elasticsearch-9.x
     - name: filesystem
       version: '3.18'
       release: 17.el10
@@ -1111,6 +1111,14 @@ sbom:
       arch: x86_64
       installtime: 2026-11-10 23:13
       source_rpm: kernel-6.12.0-211.74.1.el10_2.src.rpm
+      from_repo: baseos
+    - name: kernel
+      version: 6.12.0
+      release: 211.74.2.el10_2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-11 19:09
+      source_rpm: kernel-6.12.0-211.74.2.el10_2.src.rpm
       from_repo: baseos
     - name: kernel-core
       version: 6.12.0
