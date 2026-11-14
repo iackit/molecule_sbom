@@ -374,12 +374,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 10:50
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-14 11:30
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: expat
       version: 2.7.3
       release: 1.el10_2.7
@@ -1932,6 +1932,14 @@ sbom:
       installtime: 2026-11-13 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
       from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-14 11:27
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
+      from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
       release: 3.el10_1
@@ -2141,7 +2149,7 @@ sbom:
     - id: epel-testing
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-testing-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-testing-$releasever${stream:+s}&arch=$basearch
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
@@ -2149,7 +2157,7 @@ sbom:
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
         - Debug
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-testing-debug-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-testing-debug-$releasever${stream:+s}&arch=$basearch
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
@@ -2157,28 +2165,28 @@ sbom:
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
         - Source
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-testing-source-$releasever&arch=source
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-testing-source-$releasever${stream:+s}&arch=source
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
     - id: epel
       file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux $releasever - $basearch
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-$releasever${stream:+s}&arch=$basearch
       enabled: true
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
     - id: epel-debuginfo
       file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux $releasever - $basearch - Debug
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-debug-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-debug-$releasever${stream:+s}&arch=$basearch
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
     - id: epel-source
       file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux $releasever - $basearch - Source
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-source-$releasever&arch=source
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-source-$releasever${stream:+s}&arch=source
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
