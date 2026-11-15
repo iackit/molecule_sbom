@@ -382,12 +382,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-15 13:02
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-15 13:30
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: expat
       version: 2.7.3
       release: 1.el10_2.7
@@ -940,6 +940,14 @@ sbom:
       installtime: 2026-11-15 13:05
       source_rpm: pkgconf-2.1.0-3.el10.src.rpm
       from_repo: baseos
+    - name: libpq5
+      version: '18.7'
+      release: 1PGDG.rhel10.2
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-15 13:33
+      source_rpm: libpq5-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-common
     - name: libpsl
       version: 0.21.5
       release: 6.el10
@@ -1067,6 +1075,14 @@ sbom:
       arch: x86_64
       installtime: 2026-11-14 23:11
       source_rpm: libunistring-1.1-10.el10.src.rpm
+      from_repo: baseos
+    - name: liburing
+      version: '2.12'
+      release: 1.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-15 13:33
+      source_rpm: liburing-2.12-1.el10.src.rpm
       from_repo: baseos
     - name: libutempter
       version: 1.2.1
@@ -1796,38 +1812,38 @@ sbom:
       installtime: 2026-11-15 13:10
       source_rpm: perl-5.40.2-515.el10_2.src.rpm
       from_repo: appstream
-    - name: pg_cron_17
+    - name: pg_cron_18
       version: 1.6.8
       release: 4PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pg_cron_17-1.6.8-4PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: pg_repack_17
+      installtime: 2026-11-15 13:37
+      source_rpm: pg_cron_18-1.6.8-4PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: pg_repack_18
       version: 1.5.3
       release: 9PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pg_repack_17-1.5.3-9PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: pg_stat_kcache_17
+      installtime: 2026-11-15 13:37
+      source_rpm: pg_repack_18-1.5.3-9PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: pg_stat_kcache_18
       version: 2.3.2
       release: 7PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pg_stat_kcache_17-2.3.2-7PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: pgaudit_17
-      version: '17.1'
+      installtime: 2026-11-15 13:37
+      source_rpm: pg_stat_kcache_18-2.3.2-7PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: pgaudit_18
+      version: '18.0'
       release: 9PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pgaudit_17-17.1-9PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
+      installtime: 2026-11-15 13:37
+      source_rpm: pgaudit_18-18.0-9PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
     - name: pgbackrest
       version: 2.60.0
       release: 3PGDG.rhel10.2
@@ -1844,14 +1860,14 @@ sbom:
       installtime: 2026-11-15 13:10
       source_rpm: pgdg-libssh2-1.11.1-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-common
-    - name: pglogical_17
+    - name: pglogical_18
       version: 2.4.8
       release: 6PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pglogical_17-2.4.8-6PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
+      installtime: 2026-11-15 13:37
+      source_rpm: pglogical_18-2.4.8-6PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
     - name: pkgconf
       version: 2.1.0
       release: 3.el10
@@ -1900,38 +1916,38 @@ sbom:
       installtime: 2026-11-14 23:11
       source_rpm: popt-1.19-8.el10.src.rpm
       from_repo: baseos
-    - name: postgresql17
-      version: '17.12'
+    - name: postgresql18
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: postgresql17-contrib
-      version: '17.12'
+      installtime: 2026-11-15 13:37
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: postgresql18-contrib
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: postgresql17-libs
-      version: '17.12'
+      installtime: 2026-11-15 13:37
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: postgresql18-libs
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: postgresql17-server
-      version: '17.12'
+      installtime: 2026-11-15 13:37
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: postgresql18-server
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
+      installtime: 2026-11-15 13:37
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
     - name: procps-ng
       version: 4.0.4
       release: 11.el10
@@ -2412,14 +2428,14 @@ sbom:
       installtime: 2026-11-15 13:02
       source_rpm: selinux-policy-42.1.18-4.el10_2.4.src.rpm
       from_repo: crb
-    - name: set_user_17
+    - name: set_user_18
       version: 4.3.0
       release: 2PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: set_user_17-4.3.0-2PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
+      installtime: 2026-11-15 13:37
+      source_rpm: set_user_18-4.3.0-2PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
     - name: setools-console
       version: 4.6.0
       release: 3.el10
@@ -2595,6 +2611,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-14 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-15 13:27
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
@@ -2806,7 +2830,7 @@ sbom:
     - id: epel-testing
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-testing-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-testing-$releasever${stream:+s}&arch=$basearch
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
@@ -2814,7 +2838,7 @@ sbom:
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
         - Debug
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-testing-debug-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-testing-debug-$releasever${stream:+s}&arch=$basearch
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
@@ -2822,28 +2846,28 @@ sbom:
       file: /etc/yum.repos.d/epel-testing.repo
       name: Extra Packages for Enterprise Linux $releasever - Testing - $basearch
         - Source
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-testing-source-$releasever&arch=source
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-testing-source-$releasever${stream:+s}&arch=source
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
     - id: epel
       file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux $releasever - $basearch
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-$releasever${stream:+s}&arch=$basearch
       enabled: true
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
     - id: epel-debuginfo
       file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux $releasever - $basearch - Debug
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-debug-$releasever&arch=$basearch
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-debug-$releasever${stream:+s}&arch=$basearch
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
     - id: epel-source
       file: /etc/yum.repos.d/epel.repo
       name: Extra Packages for Enterprise Linux $releasever - $basearch - Source
-      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel${releasever_minor:+-z}-source-$releasever&arch=source
+      metalink: https://mirrors.fedoraproject.org/metalink?repo=epel-source-$releasever${stream:+s}&arch=source
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
@@ -2851,6 +2875,11 @@ sbom:
       file: /etc/yum.repos.d/pgdg-17.repo
       name: PostgreSQL PGDG repository - 17
       baseurl: http://apt-cacher.incus/pub/repos/yum/17/redhat/rhel-$releasever-$basearch/
+      enabled: true
+    - id: pgdg-18
+      file: /etc/yum.repos.d/pgdg-18.repo
+      name: PostgreSQL PGDG repository - 18
+      baseurl: http://apt-cacher.incus/pub/repos/yum/18/redhat/rhel-$releasever-$basearch/
       enabled: true
     - id: pgdg-common
       file: /etc/yum.repos.d/pgdg-common.repo
