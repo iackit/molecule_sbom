@@ -3599,6 +3599,11 @@ sbom:
       enabled: false
       gpgcheck: true
       gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever_major
+    - id: pgdg-17
+      file: /etc/yum.repos.d/pgdg-17.repo
+      name: PostgreSQL PGDG repository - 17
+      baseurl: http://apt-cacher.incus/pub/repos/yum/17/redhat/rhel-$releasever-$basearch/
+      enabled: true
     - id: pgdg-common
       file: /etc/yum.repos.d/pgdg-common.repo
       name: PostgreSQL PGDG repository - common
