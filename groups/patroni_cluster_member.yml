@@ -154,12 +154,12 @@ sbom:
       from_repo: baseos
     - name: btrfs-progs
       version: '6.12'
-      release: 3.el10
+      release: 3.el10_0
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: btrfs-progs-6.12-3.el10.src.rpm
-      from_repo: appstream
+      installtime: 2026-11-15 13:30
+      source_rpm: btrfs-progs-6.12-3.el10_0.src.rpm
+      from_repo: epel
     - name: bzip2-libs
       version: 1.0.8
       release: 25.el10
@@ -586,12 +586,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-15 13:02
-      source_rpm: epel-release-10-6.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-15 13:30
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.3
       release: 1PGDG.rhel10.2
@@ -781,7 +781,7 @@ sbom:
       release: 145.el10_2.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
+      installtime: 2026-11-15 13:27
       source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-common
@@ -1832,6 +1832,14 @@ sbom:
       installtime: 2026-11-14 23:11
       source_rpm: libunistring-1.1-10.el10.src.rpm
       from_repo: baseos
+    - name: liburing
+      version: '2.12'
+      release: 1.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-15 13:21
+      source_rpm: liburing-2.12-1.el10.src.rpm
+      from_repo: baseos
     - name: libusb1
       version: 1.0.30
       release: 1.el10_2
@@ -2269,7 +2277,7 @@ sbom:
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-15 13:12
+      installtime: 2026-11-15 13:30
       source_rpm: patroni-4.1.5-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-common
     - name: patroni-etcd
@@ -2277,7 +2285,7 @@ sbom:
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-15 13:12
+      installtime: 2026-11-15 13:30
       source_rpm: patroni-4.1.5-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-common
     - name: pciutils-libs
@@ -2776,46 +2784,46 @@ sbom:
       installtime: 2026-11-15 13:10
       source_rpm: perl-5.40.2-515.el10_2.src.rpm
       from_repo: appstream
-    - name: pg_cron_17
+    - name: pg_cron_18
       version: 1.6.8
       release: 4PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pg_cron_17-1.6.8-4PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: pg_repack_17
+      installtime: 2026-11-15 13:21
+      source_rpm: pg_cron_18-1.6.8-4PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: pg_repack_18
       version: 1.5.3
       release: 9PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pg_repack_17-1.5.3-9PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: pg_stat_kcache_17
+      installtime: 2026-11-15 13:21
+      source_rpm: pg_repack_18-1.5.3-9PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: pg_stat_kcache_18
       version: 2.3.2
       release: 7PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pg_stat_kcache_17-2.3.2-7PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: pgaudit_17
-      version: '17.1'
+      installtime: 2026-11-15 13:21
+      source_rpm: pg_stat_kcache_18-2.3.2-7PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: pgaudit_18
+      version: '18.0'
       release: 9PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pgaudit_17-17.1-9PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: pglogical_17
+      installtime: 2026-11-15 13:21
+      source_rpm: pgaudit_18-18.0-9PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: pglogical_18
       version: 2.4.8
       release: 6PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: pglogical_17-2.4.8-6PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
+      installtime: 2026-11-15 13:21
+      source_rpm: pglogical_18-2.4.8-6PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
     - name: pigz
       version: '2.8'
       release: 7.el10
@@ -2896,46 +2904,46 @@ sbom:
       installtime: 2026-11-14 23:11
       source_rpm: popt-1.19-8.el10.src.rpm
       from_repo: baseos
-    - name: postgresql17
-      version: '17.12'
+    - name: postgresql18
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: postgresql17-contrib
-      version: '17.12'
+      installtime: 2026-11-15 13:21
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: postgresql18-contrib
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: postgresql17-libs
-      version: '17.12'
+      installtime: 2026-11-15 13:21
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: postgresql18-libs
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: postgresql17-plpython3
-      version: '17.12'
+      installtime: 2026-11-15 13:21
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: postgresql18-plpython3
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
-    - name: postgresql17-server
-      version: '17.12'
+      installtime: 2026-11-15 13:21
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
+    - name: postgresql18-server
+      version: '18.7'
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: postgresql17-17.12-1PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
+      installtime: 2026-11-15 13:21
+      source_rpm: postgresql18-18.7-1PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
     - name: procps-ng
       version: 4.0.4
       release: 11.el10
@@ -3536,14 +3544,14 @@ sbom:
       installtime: 2026-11-14 23:13
       source_rpm: rust-sequoia-sq-1.4.0.1-4.el10_2.src.rpm
       from_repo: appstream
-    - name: set_user_17
+    - name: set_user_18
       version: 4.3.0
       release: 2PGDG.rhel10.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-15 13:10
-      source_rpm: set_user_17-4.3.0-2PGDG.rhel10.2.src.rpm
-      from_repo: pgdg-17
+      installtime: 2026-11-15 13:21
+      source_rpm: set_user_18-4.3.0-2PGDG.rhel10.2.src.rpm
+      from_repo: pgdg-18
     - name: setools-console
       version: 4.6.0
       release: 3.el10
@@ -3783,6 +3791,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-14 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-15 13:27
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
