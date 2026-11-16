@@ -1932,6 +1932,14 @@ sbom:
       installtime: 2026-11-14 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
       from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-16 16:01
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
+      from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
       release: 3.el10_1

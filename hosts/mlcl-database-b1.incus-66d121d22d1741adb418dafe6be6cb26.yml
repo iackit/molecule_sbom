@@ -785,7 +785,7 @@ sbom:
       release: 145.el10_2.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
+      installtime: 2026-11-16 16:00
       source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-common
@@ -2261,20 +2261,20 @@ sbom:
       source_rpm: pam-1.6.1-9.el10_2.1.src.rpm
       from_repo: baseos
     - name: patroni
-      version: 4.1.5
+      version: 4.1.4
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:49
-      source_rpm: patroni-4.1.5-1PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-16 16:00
+      source_rpm: patroni-4.1.4-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-common
     - name: patroni-etcd
-      version: 4.1.5
+      version: 4.1.4
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:49
-      source_rpm: patroni-4.1.5-1PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-16 16:00
+      source_rpm: patroni-4.1.4-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-common
     - name: pciutils-libs
       version: 3.13.0
@@ -3747,6 +3747,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-14 23:11
       source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-16 16:01
+      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
