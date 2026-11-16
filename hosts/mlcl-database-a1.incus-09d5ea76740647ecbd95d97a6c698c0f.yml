@@ -785,7 +785,7 @@ sbom:
       release: 145.el10_2.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:00
+      installtime: 2026-11-16 19:13
       source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-common
@@ -2261,20 +2261,20 @@ sbom:
       source_rpm: pam-1.6.1-9.el10_2.1.src.rpm
       from_repo: baseos
     - name: patroni
-      version: 4.1.4
+      version: 4.1.3
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 16:00
-      source_rpm: patroni-4.1.4-1PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-16 19:13
+      source_rpm: patroni-4.1.3-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-common
     - name: patroni-etcd
-      version: 4.1.4
+      version: 4.1.3
       release: 1PGDG.rhel10.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 16:00
-      source_rpm: patroni-4.1.4-1PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-16 19:13
+      source_rpm: patroni-4.1.3-1PGDG.rhel10.2.src.rpm
       from_repo: pgdg-common
     - name: pciutils-libs
       version: 3.13.0
