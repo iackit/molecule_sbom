@@ -1796,6 +1796,14 @@ sbom:
       installtime: 2026-11-16 15:36
       source_rpm: pgaudit_17-17.1-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
+    - name: pgwatch
+      version: 6.2.0
+      release: '1'
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-16 19:00
+      source_rpm: pgwatch-6.2.0-1.src.rpm
+      from_repo: '@commandline'
     - name: pkgconf
       version: 2.1.0
       release: 3.el10
