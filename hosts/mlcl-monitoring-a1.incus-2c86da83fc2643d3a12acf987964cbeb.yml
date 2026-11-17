@@ -1798,12 +1798,12 @@ sbom:
       from_repo: pgdg-17
     - name: pgwatch
       version: 6.2.0
-      release: '1'
+      release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 19:00
-      source_rpm: pgwatch-6.2.0-1.src.rpm
-      from_repo: '@commandline'
+      installtime: 2026-11-17 09:15
+      source_rpm: pgwatch-6.2.0-1PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-extras
     - name: pkgconf
       version: 2.1.0
       release: 3.el10
@@ -2126,11 +2126,11 @@ sbom:
       from_repo: appstream
     - name: python3-psycopg2
       version: 2.9.13
-      release: 42PGDG.rhel10.2
+      release: 45PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 15:36
-      source_rpm: python3-psycopg2-2.9.13-42PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-17 09:15
+      source_rpm: python3-psycopg2-2.9.13-45PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: python3-pycparser
       version: '2.20'

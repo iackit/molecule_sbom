@@ -6,35 +6,35 @@ sbom:
     rpm:
     - name: acl
       version: 2.4.0
-      release: 1.el10_2
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:39
-      source_rpm: acl-2.4.0-1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: acl-2.4.0-2.el10.src.rpm
       from_repo: baseos
     - name: almalinux-gpg-keys
-      version: '10.2'
-      release: 22.el10
+      version: '10.3'
+      release: 15.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: almalinux-release-10.2-22.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: almalinux-release-10.3-15.el10.src.rpm
       from_repo: baseos
     - name: almalinux-release
-      version: '10.2'
-      release: 22.el10
+      version: '10.3'
+      release: 15.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: almalinux-release-10.2-22.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: almalinux-release-10.3-15.el10.src.rpm
       from_repo: baseos
     - name: almalinux-repos
-      version: '10.2'
-      release: 22.el10
+      version: '10.3'
+      release: 15.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: almalinux-release-10.2-22.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: almalinux-release-10.3-15.el10.src.rpm
       from_repo: baseos
     - name: alternatives
       version: '1.30'
@@ -70,43 +70,43 @@ sbom:
       from_repo: baseos
     - name: attr
       version: 2.6.0
-      release: 1.el10_2
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: attr-2.6.0-1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: attr-2.6.0-2.el10.src.rpm
       from_repo: baseos
     - name: audit-libs
-      version: 4.0.3
-      release: 5.el10
+      version: 4.2.1
+      release: 3.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: audit-4.0.3-5.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: audit-4.2.1-3.el10.src.rpm
       from_repo: baseos
     - name: authselect
-      version: 1.5.2
+      version: 1.5.3
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: authselect-1.5.2-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: authselect-1.5.3-1.el10.src.rpm
       from_repo: baseos
     - name: authselect-libs
-      version: 1.5.2
+      version: 1.5.3
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: authselect-1.5.2-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: authselect-1.5.3-1.el10.src.rpm
       from_repo: baseos
     - name: barman
       version: 3.20.1
-      release: 42PGDG.rhel10.2
+      release: 44PGDG.rhel10.3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:47
-      source_rpm: barman-3.20.1-42PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: barman-3.20.1-44PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: basesystem
       version: '11'
@@ -133,12 +133,12 @@ sbom:
       source_rpm: bash-completion-2.11-16.el10.src.rpm
       from_repo: baseos
     - name: bluez
-      version: '5.85'
+      version: 5.87+1.git30db66dc971b
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: bluez-5.85-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: bluez-5.87+1.git30db66dc971b-1.el10.src.rpm
       from_repo: baseos
     - name: brcmfmac-firmware
       version: '20261026'
@@ -173,12 +173,12 @@ sbom:
       source_rpm: ca-certificates-2026.2.92_v9.0.319-100.3.el10_2.src.rpm
       from_repo: baseos
     - name: checkpolicy
-      version: '3.10'
-      release: 1.el10
+      version: '3.11'
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: checkpolicy-3.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: checkpolicy-3.11-2.el10.src.rpm
       from_repo: appstream
     - name: chkconfig
       version: '1.30'
@@ -214,19 +214,19 @@ sbom:
       from_repo: appstream
     - name: coreutils
       version: '9.5'
-      release: 8.el10_2.1
+      release: 14.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: coreutils-9.5-8.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: coreutils-9.5-14.el10_3.src.rpm
       from_repo: baseos
     - name: coreutils-common
       version: '9.5'
-      release: 8.el10_2.1
+      release: 14.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: coreutils-9.5-8.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: coreutils-9.5-14.el10_3.src.rpm
       from_repo: baseos
     - name: cpio
       version: '2.15'
@@ -254,19 +254,19 @@ sbom:
       from_repo: baseos
     - name: cronie
       version: 1.7.0
-      release: 14.el10
+      release: 15.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: cronie-1.7.0-14.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: cronie-1.7.0-15.el10.src.rpm
       from_repo: baseos
     - name: cronie-noanacron
       version: 1.7.0
-      release: 14.el10
+      release: 15.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: cronie-1.7.0-14.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: cronie-1.7.0-15.el10.src.rpm
       from_repo: baseos
     - name: crontabs
       version: 1.11^20190603git9e74f2d
@@ -277,36 +277,36 @@ sbom:
       source_rpm: crontabs-1.11^20190603git9e74f2d-6.el10.src.rpm
       from_repo: baseos
     - name: crypto-policies
-      version: '20260216'
-      release: 1.git0e54016.el10_2.2.alma.1
+      version: '20260811'
+      release: 1.git4dcd294.el10.alma.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: crypto-policies-20260216-1.git0e54016.el10_2.2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: crypto-policies-20260811-1.git4dcd294.el10.alma.1.src.rpm
       from_repo: baseos
     - name: cryptsetup
-      version: 2.8.1
+      version: 2.8.6
       release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:44
-      source_rpm: cryptsetup-2.8.1-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: cryptsetup-2.8.6-2.el10.src.rpm
       from_repo: baseos
     - name: cryptsetup-libs
-      version: 2.8.1
+      version: 2.8.6
       release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: cryptsetup-2.8.1-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: cryptsetup-2.8.6-2.el10.src.rpm
       from_repo: baseos
     - name: curl
       version: 8.12.1
-      release: 4.el10_2.8
+      release: 6.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: curl-8.12.1-4.el10_2.8.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: curl-8.12.1-6.el10.src.rpm
       from_repo: baseos
     - name: cyrus-sasl-lib
       version: 2.1.28
@@ -318,83 +318,83 @@ sbom:
       from_repo: baseos
     - name: dbus
       version: 1.14.10
-      release: 5.el10
+      release: 6.el10
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: dbus-1.14.10-5.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dbus-1.14.10-6.el10.src.rpm
       from_repo: baseos
     - name: dbus-broker
       version: '36'
-      release: 5.el10_2
+      release: 5.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: dbus-broker-36-5.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dbus-broker-36-5.el10_3.src.rpm
       from_repo: baseos
     - name: dbus-common
       version: 1.14.10
-      release: 5.el10
+      release: 6.el10
       epoch: '1'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: dbus-1.14.10-5.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dbus-1.14.10-6.el10.src.rpm
       from_repo: baseos
     - name: dbus-libs
       version: 1.14.10
-      release: 5.el10
+      release: 6.el10
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: dbus-1.14.10-5.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dbus-1.14.10-6.el10.src.rpm
       from_repo: baseos
     - name: device-mapper
-      version: 1.02.210
-      release: 2.el10
+      version: 1.02.215
+      release: 3.el10
       epoch: '10'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: lvm2-2.03.36-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: lvm2-2.03.41-3.el10.src.rpm
       from_repo: baseos
     - name: device-mapper-event
-      version: 1.02.210
-      release: 2.el10
+      version: 1.02.215
+      release: 3.el10
       epoch: '10'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: lvm2-2.03.36-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: lvm2-2.03.41-3.el10.src.rpm
       from_repo: baseos
     - name: device-mapper-event-libs
-      version: 1.02.210
-      release: 2.el10
+      version: 1.02.215
+      release: 3.el10
       epoch: '10'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: lvm2-2.03.36-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: lvm2-2.03.41-3.el10.src.rpm
       from_repo: baseos
     - name: device-mapper-libs
-      version: 1.02.210
-      release: 2.el10
+      version: 1.02.215
+      release: 3.el10
       epoch: '10'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: lvm2-2.03.36-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: lvm2-2.03.41-3.el10.src.rpm
       from_repo: baseos
     - name: device-mapper-persistent-data
-      version: 1.3.0
+      version: 1.3.2
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: device-mapper-persistent-data-1.3.0-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: device-mapper-persistent-data-1.3.2-1.el10.src.rpm
       from_repo: baseos
     - name: dhcpcd
       version: 10.0.6
-      release: 11.el10_2
+      release: 13.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: dhcpcd-10.0.6-11.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dhcpcd-10.0.6-13.el10.src.rpm
       from_repo: baseos
     - name: diffutils
       version: '3.10'
@@ -404,37 +404,29 @@ sbom:
       installtime: 2026-11-14 23:11
       source_rpm: diffutils-3.10-8.el10.src.rpm
       from_repo: baseos
-    - name: dmidecode
-      version: '3.6'
-      release: 5.el10
-      epoch: '1'
-      arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: dmidecode-3.6-5.el10.src.rpm
-      from_repo: baseos
     - name: dnf
       version: 4.20.0
-      release: 22.el10_2.alma.1
+      release: 28.el10.alma.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
       from_repo: baseos
     - name: dnf-data
       version: 4.20.0
-      release: 22.el10_2.alma.1
+      release: 28.el10.alma.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
       from_repo: baseos
     - name: dnf-plugins-core
       version: 4.7.0
-      release: 10.el10
+      release: 12.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:39
-      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
       from_repo: baseos
     - name: dosfstools
       version: '4.2'
@@ -446,11 +438,11 @@ sbom:
       from_repo: baseos
     - name: dracut
       version: '107'
-      release: 9.el10_2
+      release: 11.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: dracut-107-9.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dracut-107-11.el10.src.rpm
       from_repo: baseos
     - name: duktape
       version: 2.7.0
@@ -486,11 +478,11 @@ sbom:
       from_repo: epel
     - name: efi-filesystem
       version: '6'
-      release: 6.el10.alma.1
+      release: 8.el10.alma.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:13
-      source_rpm: efi-rpm-macros-6-6.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: efi-rpm-macros-6-8.el10.alma.2.src.rpm
       from_repo: baseos
     - name: efivar-libs
       version: '39'
@@ -501,36 +493,36 @@ sbom:
       source_rpm: efivar-39-3.el10.src.rpm
       from_repo: baseos
     - name: elfutils-debuginfod-client
-      version: '0.194'
-      release: 2.el10_2
+      version: '0.195'
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: elfutils-0.194-2.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: elfutils-0.195-1.el10.src.rpm
       from_repo: baseos
     - name: elfutils-default-yama-scope
-      version: '0.194'
-      release: 2.el10_2
+      version: '0.195'
+      release: 1.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: elfutils-0.194-2.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: elfutils-0.195-1.el10.src.rpm
       from_repo: baseos
     - name: elfutils-libelf
-      version: '0.194'
-      release: 2.el10_2
+      version: '0.195'
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: elfutils-0.194-2.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: elfutils-0.195-1.el10.src.rpm
       from_repo: baseos
     - name: elfutils-libs
-      version: '0.194'
-      release: 2.el10_2
+      version: '0.195'
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: elfutils-0.194-2.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: elfutils-0.195-1.el10.src.rpm
       from_repo: baseos
     - name: epel-release
       version: '10'
@@ -542,11 +534,11 @@ sbom:
       from_repo: epel
     - name: etcd
       version: 3.7.3
-      release: 1PGDG.rhel10.2
+      release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:46
-      source_rpm: etcd-3.7.3-1PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: etcd-3.7.3-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-extras
     - name: exfatprogs
       version: 1.2.8
@@ -558,27 +550,27 @@ sbom:
       from_repo: baseos
     - name: expat
       version: 2.7.3
-      release: 1.el10_2.7
+      release: 2.el10_3.4
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: expat-2.7.3-1.el10_2.7.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: expat-2.7.3-2.el10_3.4.src.rpm
       from_repo: baseos
     - name: file
       version: '5.45'
-      release: 9.el10
+      release: 12.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: file-5.45-9.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: file-5.45-12.el10.src.rpm
       from_repo: baseos
     - name: file-libs
       version: '5.45'
-      release: 9.el10
+      release: 12.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: file-5.45-9.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: file-5.45-12.el10.src.rpm
       from_repo: baseos
     - name: filebeat
       version: 8.19.25
@@ -620,14 +612,6 @@ sbom:
       installtime: 2026-11-16 04:44
       source_rpm: firewalld-2.4.3-4.el10_2.src.rpm
       from_repo: baseos
-    - name: flashrom
-      version: 1.3.0
-      release: 8.el10
-      epoch: '0'
-      arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: flashrom-1.3.0-8.el10.src.rpm
-      from_repo: appstream
     - name: fuse-libs
       version: 2.9.9
       release: 25.el10
@@ -645,12 +629,12 @@ sbom:
       source_rpm: fuse3-3.16.2-5.el10.src.rpm
       from_repo: baseos
     - name: fwupd
-      version: 2.0.19
-      release: 4.1.el10_2
+      version: 2.1.6
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: fwupd-2.0.19-4.1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: fwupd-2.1.6-1.el10.src.rpm
       from_repo: baseos
     - name: fwupd-efi
       version: '1.8'
@@ -660,22 +644,22 @@ sbom:
       installtime: 2026-11-14 23:13
       source_rpm: fwupd-efi-1.8-1.el10_2.alma.1.src.rpm
       from_repo: baseos
-    - name: fwupd-plugin-flashrom
-      version: 2.0.19
-      release: 4.1.el10_2
-      epoch: '0'
-      arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: fwupd-2.0.19-4.1.el10_2.src.rpm
-      from_repo: appstream
     - name: gawk
       version: 5.3.0
-      release: 6.el10_2.1
+      release: 7.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: gawk-5.3.0-6.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: gawk-5.3.0-7.el10.src.rpm
       from_repo: baseos
+    - name: gawk-all-langpacks
+      version: 5.3.0
+      release: 7.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: gawk-5.3.0-7.el10.src.rpm
+      from_repo: appstream
     - name: gdbm
       version: '1.23'
       release: 12.el10_0
@@ -718,59 +702,59 @@ sbom:
       from_repo: baseos
     - name: glib2
       version: 2.80.4
-      release: 12.el10_2.22
+      release: 22.el10_3.23
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: glib2-2.80.4-12.el10_2.22.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: glib2-2.80.4-22.el10_3.23.src.rpm
       from_repo: baseos
     - name: glibc
       version: '2.39'
-      release: 145.el10_2.alma.1
+      release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-common
       version: '2.39'
-      release: 145.el10_2.alma.1
+      release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-gconv-extra
       version: '2.39'
-      release: 145.el10_2.alma.1
+      release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-langpack-en
       version: '2.39'
-      release: 145.el10_2.alma.1
+      release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-locale-source
       version: '2.39'
-      release: 145.el10_2.alma.1
+      release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: appstream
     - name: glibc-minimal-langpack
       version: '2.39'
-      release: 145.el10_2.alma.1
+      release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: gmp
       version: 6.2.1
@@ -782,11 +766,11 @@ sbom:
       from_repo: baseos
     - name: gnupg2
       version: 2.4.5
-      release: 4.el10_1
+      release: 5.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: gnupg2-2.4.5-4.el10_1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: gnupg2-2.4.5-5.el10.src.rpm
       from_repo: baseos
     - name: gnutls
       version: 3.8.10
@@ -798,11 +782,11 @@ sbom:
       from_repo: baseos
     - name: gobject-introspection
       version: 1.79.1
-      release: 6.el10
+      release: 7.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:44
-      source_rpm: gobject-introspection-1.79.1-6.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: gobject-introspection-1.79.1-7.el10.src.rpm
       from_repo: baseos
     - name: gpgme
       version: 1.23.2
@@ -822,35 +806,35 @@ sbom:
       from_repo: baseos
     - name: grub2-common
       version: '2.12'
-      release: 46.el10_2.alma.1
+      release: 56.el10.alma.1
       epoch: '1'
       arch: noarch
-      installtime: 2026-11-14 23:13
-      source_rpm: grub2-2.12-46.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: grub2-2.12-56.el10.alma.1.src.rpm
       from_repo: baseos
     - name: grub2-efi-x64
       version: '2.12'
-      release: 46.el10_2.alma.1
+      release: 56.el10.alma.1
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: grub2-2.12-46.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: grub2-2.12-56.el10.alma.1.src.rpm
       from_repo: baseos
     - name: grub2-tools
       version: '2.12'
-      release: 46.el10_2.alma.1
+      release: 56.el10.alma.1
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: grub2-2.12-46.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: grub2-2.12-56.el10.alma.1.src.rpm
       from_repo: baseos
     - name: grub2-tools-minimal
       version: '2.12'
-      release: 46.el10_2.alma.1
+      release: 56.el10.alma.1
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: grub2-2.12-46.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: grub2-2.12-56.el10.alma.1.src.rpm
       from_repo: baseos
     - name: gzip
       version: '1.13'
@@ -870,19 +854,19 @@ sbom:
       from_repo: baseos
     - name: hwdata
       version: '0.379'
-      release: 10.8.el10
+      release: 10.10.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:13
-      source_rpm: hwdata-0.379-10.8.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: hwdata-0.379-10.10.el10.src.rpm
       from_repo: baseos
     - name: ima-evm-utils
       version: 1.6.2
-      release: 4.el10
+      release: 6.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: ima-evm-utils-1.6.2-4.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: ima-evm-utils-1.6.2-6.el10.src.rpm
       from_repo: baseos
     - name: inih
       version: '58'
@@ -933,12 +917,12 @@ sbom:
       source_rpm: linux-firmware-20261026-23.5.el10_2.src.rpm
       from_repo: appstream
     - name: iproute
-      version: 6.17.0
+      version: 7.0.0
       release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: iproute-6.17.0-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: iproute-7.0.0-2.el10.src.rpm
       from_repo: baseos
     - name: ipset
       version: '7.22'
@@ -972,14 +956,6 @@ sbom:
       installtime: 2026-11-16 04:44
       source_rpm: iptables-1.8.11-16.el10_2.src.rpm
       from_repo: appstream
-    - name: iputils
-      version: '20240905'
-      release: 5.el10
-      epoch: '0'
-      arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: iputils-20240905-5.el10.src.rpm
-      from_repo: baseos
     - name: jansson
       version: '2.14'
       release: 3.el10
@@ -998,11 +974,11 @@ sbom:
       from_repo: appstream
     - name: jq
       version: 1.7.1
-      release: 11.el10_2.2
+      release: 13.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: jq-1.7.1-11.el10_2.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: jq-1.7.1-13.el10_3.src.rpm
       from_repo: baseos
     - name: json-c
       version: '0.18'
@@ -1052,6 +1028,14 @@ sbom:
       installtime: 2026-11-14 23:13
       source_rpm: kernel-6.12.0-211.74.2.el10_2.src.rpm
       from_repo: baseos
+    - name: kernel
+      version: 6.12.0
+      release: 264.16.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: kernel-6.12.0-264.16.1.el10_3.src.rpm
+      from_repo: baseos
     - name: kernel-core
       version: 6.12.0
       release: 211.74.2.el10_2
@@ -1059,6 +1043,14 @@ sbom:
       arch: x86_64
       installtime: 2026-11-14 23:13
       source_rpm: kernel-6.12.0-211.74.2.el10_2.src.rpm
+      from_repo: baseos
+    - name: kernel-core
+      version: 6.12.0
+      release: 264.16.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: kernel-6.12.0-264.16.1.el10_3.src.rpm
       from_repo: baseos
     - name: kernel-modules
       version: 6.12.0
@@ -1068,6 +1060,14 @@ sbom:
       installtime: 2026-11-14 23:13
       source_rpm: kernel-6.12.0-211.74.2.el10_2.src.rpm
       from_repo: baseos
+    - name: kernel-modules
+      version: 6.12.0
+      release: 264.16.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: kernel-6.12.0-264.16.1.el10_3.src.rpm
+      from_repo: baseos
     - name: kernel-modules-core
       version: 6.12.0
       release: 211.74.2.el10_2
@@ -1076,6 +1076,14 @@ sbom:
       installtime: 2026-11-14 23:13
       source_rpm: kernel-6.12.0-211.74.2.el10_2.src.rpm
       from_repo: baseos
+    - name: kernel-modules-core
+      version: 6.12.0
+      release: 264.16.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: kernel-6.12.0-264.16.1.el10_3.src.rpm
+      from_repo: baseos
     - name: kernel-modules-extra
       version: 6.12.0
       release: 211.74.2.el10_2
@@ -1083,6 +1091,14 @@ sbom:
       arch: x86_64
       installtime: 2026-11-16 04:44
       source_rpm: kernel-6.12.0-211.74.2.el10_2.src.rpm
+      from_repo: baseos
+    - name: kernel-modules-extra
+      version: 6.12.0
+      release: 264.16.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: kernel-6.12.0-264.16.1.el10_3.src.rpm
       from_repo: baseos
     - name: keyutils
       version: 1.6.3
@@ -1118,35 +1134,35 @@ sbom:
       from_repo: baseos
     - name: kpartx
       version: 0.9.9
-      release: 18.el10
+      release: 19.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: device-mapper-multipath-0.9.9-18.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: device-mapper-multipath-0.9.9-19.el10.src.rpm
       from_repo: baseos
     - name: krb5-libs
       version: 1.21.3
-      release: 10.el10_2
+      release: 11.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: krb5-1.21.3-10.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: krb5-1.21.3-11.el10.src.rpm
       from_repo: baseos
     - name: libacl
       version: 2.4.0
-      release: 1.el10_2
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: acl-2.4.0-1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: acl-2.4.0-2.el10.src.rpm
       from_repo: baseos
     - name: libaio
-      version: 0.3.111
-      release: 22.el10
+      version: 0.3.112
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libaio-0.3.111-22.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libaio-0.3.112-1.el10.src.rpm
       from_repo: baseos
     - name: libarchive
       version: 3.7.7
@@ -1174,107 +1190,107 @@ sbom:
       from_repo: appstream
     - name: libattr
       version: 2.6.0
-      release: 1.el10_2
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: attr-2.6.0-1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: attr-2.6.0-2.el10.src.rpm
       from_repo: baseos
     - name: libblkid
       version: 2.40.2
-      release: 18.el10_2.20
+      release: 24.el10_3.24
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: util-linux-2.40.2-18.el10_2.20.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: util-linux-2.40.2-24.el10_3.24.src.rpm
       from_repo: baseos
     - name: libblockdev
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-crypto
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-fs
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-loop
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-mdraid
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-nvme
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-part
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-smart
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-swap
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libblockdev-utils
       version: 3.4.0
-      release: 2.el10.alma.1
+      release: 3.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libblockdev-3.4.0-2.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libblockdev-3.4.0-3.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libbpf
       version: 1.7.0
-      release: 1.el10
+      release: 2.el10
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libbpf-1.7.0-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libbpf-1.7.0-2.el10.src.rpm
       from_repo: baseos
     - name: libbrotli
       version: 1.1.0
@@ -1301,20 +1317,20 @@ sbom:
       source_rpm: libcap-2.69-7.el10_2.1.src.rpm
       from_repo: baseos
     - name: libcap-ng
-      version: 0.8.4
-      release: 6.el10
+      version: 0.9.3
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libcap-ng-0.8.4-6.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libcap-ng-0.9.3-2.el10.src.rpm
       from_repo: baseos
     - name: libcap-ng-python3
-      version: 0.8.4
-      release: 6.el10
+      version: 0.9.3
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:44
-      source_rpm: libcap-ng-0.8.4-6.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libcap-ng-0.9.3-2.el10.src.rpm
       from_repo: appstream
     - name: libcbor
       version: 0.11.0
@@ -1342,19 +1358,19 @@ sbom:
       from_repo: baseos
     - name: libcurl
       version: 8.12.1
-      release: 4.el10_2.8
+      release: 6.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: curl-8.12.1-4.el10_2.8.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: curl-8.12.1-6.el10.src.rpm
       from_repo: baseos
     - name: libdnf
       version: 0.73.1
-      release: 15.el10_2.alma.1
+      release: 17.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libdnf-0.73.1-15.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libdnf-0.73.1-17.el10.alma.1.src.rpm
       from_repo: baseos
     - name: libdrm
       version: 2.4.128
@@ -1414,11 +1430,11 @@ sbom:
       from_repo: appstream
     - name: libfdisk
       version: 2.40.2
-      release: 18.el10_2.20
+      release: 24.el10_3.24
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: util-linux-2.40.2-18.el10_2.20.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: util-linux-2.40.2-24.el10_3.24.src.rpm
       from_repo: baseos
     - name: libffi
       version: 3.4.4
@@ -1437,12 +1453,12 @@ sbom:
       source_rpm: libfido2-1.14.0-7.el10.src.rpm
       from_repo: baseos
     - name: libgcc
-      version: 14.3.1
-      release: 4.4.el10.alma.2
+      version: 14.4.1
+      release: 5.el10_3.alma.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: gcc-14.3.1-4.4.el10.alma.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: gcc-14.4.1-5.el10_3.alma.3.src.rpm
       from_repo: baseos
     - name: libgcrypt
       version: 1.11.0
@@ -1453,12 +1469,12 @@ sbom:
       source_rpm: libgcrypt-1.11.0-7.el10_2.src.rpm
       from_repo: baseos
     - name: libgomp
-      version: 14.3.1
-      release: 4.4.el10.alma.2
+      version: 14.4.1
+      release: 5.el10_3.alma.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: gcc-14.3.1-4.4.el10.alma.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: gcc-14.4.1-5.el10_3.alma.3.src.rpm
       from_repo: baseos
     - name: libgpg-error
       version: '1.50'
@@ -1558,11 +1574,11 @@ sbom:
       from_repo: baseos
     - name: libmount
       version: 2.40.2
-      release: 18.el10_2.20
+      release: 24.el10_3.24
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: util-linux-2.40.2-18.el10_2.20.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: util-linux-2.40.2-24.el10_3.24.src.rpm
       from_repo: baseos
     - name: libndp
       version: '1.9'
@@ -1598,19 +1614,19 @@ sbom:
       from_repo: baseos
     - name: libnghttp2
       version: 1.68.0
-      release: 3.el10_2.2
+      release: 6.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: nghttp2-1.68.0-3.el10_2.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: nghttp2-1.68.0-6.el10.src.rpm
       from_repo: baseos
     - name: libnvme
-      version: 1.16.1
-      release: 3.el10_2
+      version: 1.16.2
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libnvme-1.16.1-3.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libnvme-1.16.2-1.el10.src.rpm
       from_repo: baseos
     - name: libpciaccess
       version: '0.16'
@@ -1638,11 +1654,11 @@ sbom:
       from_repo: baseos
     - name: libpwquality
       version: 1.4.5
-      release: 12.el10
+      release: 13.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libpwquality-1.4.5-12.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libpwquality-1.4.5-13.el10.src.rpm
       from_repo: baseos
     - name: librepo
       version: 1.19.0
@@ -1661,44 +1677,44 @@ sbom:
       source_rpm: libseccomp-2.5.6-1.el10.src.rpm
       from_repo: baseos
     - name: libselinux
-      version: '3.10'
-      release: 1.el10
+      version: '3.11'
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libselinux-3.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libselinux-3.11-2.el10.src.rpm
       from_repo: baseos
     - name: libselinux-utils
-      version: '3.10'
-      release: 1.el10
+      version: '3.11'
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: libselinux-3.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libselinux-3.11-2.el10.src.rpm
       from_repo: baseos
     - name: libsemanage
-      version: '3.10'
+      version: '3.11'
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libsemanage-3.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libsemanage-3.11-1.el10.src.rpm
       from_repo: baseos
     - name: libsepol
-      version: '3.10'
-      release: 1.el10
+      version: '3.11'
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libsepol-3.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libsepol-3.11-2.el10.src.rpm
       from_repo: baseos
     - name: libsmartcols
       version: 2.40.2
-      release: 18.el10_2.20
+      release: 24.el10_3.24
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: util-linux-2.40.2-18.el10_2.20.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: util-linux-2.40.2-24.el10_3.24.src.rpm
       from_repo: baseos
     - name: libsolv
       version: 0.7.33
@@ -1717,28 +1733,28 @@ sbom:
       source_rpm: e2fsprogs-1.47.1-5.el10.src.rpm
       from_repo: baseos
     - name: libssh
-      version: 0.12.0
-      release: 3.el10_2
+      version: 0.12.2
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libssh-0.12.0-3.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libssh-0.12.2-2.el10.src.rpm
       from_repo: baseos
     - name: libssh-config
-      version: 0.12.0
-      release: 3.el10_2
+      version: 0.12.2
+      release: 2.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: libssh-0.12.0-3.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libssh-0.12.2-2.el10.src.rpm
       from_repo: baseos
     - name: libstdc++
-      version: 14.3.1
-      release: 4.4.el10.alma.2
+      version: 14.4.1
+      release: 5.el10_3.alma.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: gcc-14.3.1-4.4.el10.alma.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: gcc-14.4.1-5.el10_3.alma.3.src.rpm
       from_repo: baseos
     - name: libtasn1
       version: 4.20.0
@@ -1749,12 +1765,12 @@ sbom:
       source_rpm: libtasn1-4.20.0-5.el10_2.src.rpm
       from_repo: baseos
     - name: libudisks2
-      version: 2.11.0
-      release: 2.el10_2.1.alma.2
+      version: 2.11.1
+      release: 2.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: udisks2-2.11.0-2.el10_2.1.alma.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: udisks2-2.11.1-2.el10.alma.1.src.rpm
       from_repo: appstream
     - name: libunistring
       version: '1.1'
@@ -1782,11 +1798,11 @@ sbom:
       from_repo: baseos
     - name: libuuid
       version: 2.40.2
-      release: 18.el10_2.20
+      release: 24.el10_3.24
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: util-linux-2.40.2-18.el10_2.20.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: util-linux-2.40.2-24.el10_3.24.src.rpm
       from_repo: baseos
     - name: libverto
       version: 0.3.2
@@ -1806,19 +1822,19 @@ sbom:
       from_repo: baseos
     - name: libxml2
       version: 2.12.5
-      release: 10.el10_2.4
+      release: 15.el10_3.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libxml2-2.12.5-10.el10_2.4.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libxml2-2.12.5-15.el10_3.2.src.rpm
       from_repo: baseos
     - name: libxmlb
-      version: 0.3.24
+      version: 0.3.28
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: libxmlb-0.3.24-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libxmlb-0.3.28-1.el10.src.rpm
       from_repo: baseos
     - name: libyaml
       version: 0.2.5
@@ -1869,28 +1885,28 @@ sbom:
       source_rpm: logrotate-3.22.0-5.el10.src.rpm
       from_repo: baseos
     - name: lua-libs
-      version: 5.4.6
-      release: 7.el10
+      version: 5.4.8
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: lua-5.4.6-7.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: lua-5.4.8-1.el10.src.rpm
       from_repo: baseos
     - name: lvm2
-      version: 2.03.36
-      release: 2.el10
+      version: 2.03.41
+      release: 3.el10
       epoch: '10'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: lvm2-2.03.36-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: lvm2-2.03.41-3.el10.src.rpm
       from_repo: baseos
     - name: lvm2-libs
-      version: 2.03.36
-      release: 2.el10
+      version: 2.03.41
+      release: 3.el10
       epoch: '10'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: lvm2-2.03.36-2.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: lvm2-2.03.41-3.el10.src.rpm
       from_repo: baseos
     - name: lz4-libs
       version: 1.9.4
@@ -1910,11 +1926,11 @@ sbom:
       from_repo: baseos
     - name: mdadm
       version: '4.4'
-      release: 3.el10_2.2
+      release: 4.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: mdadm-4.4-3.el10_2.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: mdadm-4.4-4.el10.src.rpm
       from_repo: baseos
     - name: memstrack
       version: 0.2.5
@@ -1926,11 +1942,11 @@ sbom:
       from_repo: appstream
     - name: mokutil
       version: 0.7.2
-      release: 4.el10.alma.1
+      release: 7.el10_3.alma.1
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: mokutil-0.7.2-4.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: mokutil-0.7.2-7.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: mpdecimal
       version: 2.5.1
@@ -1973,20 +1989,20 @@ sbom:
       source_rpm: ncurses-6.4-15.20240127.el10_1.src.rpm
       from_repo: baseos
     - name: NetworkManager
-      version: 1.56.0
-      release: 3.el10_2
+      version: 1.58.0
+      release: 4.el10_3
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: NetworkManager-1.56.0-3.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: NetworkManager-1.58.0-4.el10_3.src.rpm
       from_repo: baseos
     - name: NetworkManager-libnm
-      version: 1.56.0
-      release: 3.el10_2
+      version: 1.58.0
+      release: 4.el10_3
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: NetworkManager-1.56.0-3.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: NetworkManager-1.58.0-4.el10_3.src.rpm
       from_repo: baseos
     - name: nftables
       version: 1.1.5
@@ -2085,60 +2101,60 @@ sbom:
       source_rpm: oniguruma-6.9.9-7.el10.src.rpm
       from_repo: baseos
     - name: openldap
-      version: 2.6.10
+      version: 2.6.13
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: openldap-2.6.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: openldap-2.6.13-1.el10.src.rpm
       from_repo: baseos
     - name: openssh
       version: 9.9p1
-      release: 29.el10_2.alma.1
+      release: 33.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: openssh-9.9p1-29.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-clients
       version: 9.9p1
-      release: 29.el10_2.alma.1
+      release: 33.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: openssh-9.9p1-29.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-server
       version: 9.9p1
-      release: 29.el10_2.alma.1
+      release: 33.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:39
-      source_rpm: openssh-9.9p1-29.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssl
-      version: 3.5.8
-      release: 2.el10_2.alma.1
+      version: 3.5.9
+      release: 1.el10_3.alma.1
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: openssl-3.5.8-2.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: openssl-3.5.9-1.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssl-fips-provider
-      version: 3.5.8
-      release: 2.el10_2.alma.1
+      version: 3.5.9
+      release: 1.el10_3.alma.1
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: openssl-3.5.8-2.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: openssl-3.5.9-1.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssl-libs
-      version: 3.5.8
-      release: 2.el10_2.alma.1
+      version: 3.5.9
+      release: 1.el10_3.alma.1
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: openssl-3.5.8-2.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: openssl-3.5.9-1.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: os-prober
       version: '1.81'
@@ -2166,27 +2182,19 @@ sbom:
       from_repo: baseos
     - name: pam
       version: 1.6.1
-      release: 9.el10_2.1
+      release: 11.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: pam-1.6.1-9.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: pam-1.6.1-11.el10.src.rpm
       from_repo: baseos
     - name: pam-libs
       version: 1.6.1
-      release: 9.el10_2.1
+      release: 11.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: pam-1.6.1-9.el10_2.1.src.rpm
-      from_repo: baseos
-    - name: pciutils-libs
-      version: 3.13.0
-      release: 6.el10
-      epoch: '0'
-      arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: pciutils-3.13.0-6.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: pam-1.6.1-11.el10.src.rpm
       from_repo: baseos
     - name: pcre2
       version: '10.44'
@@ -2237,36 +2245,36 @@ sbom:
       source_rpm: pkgconf-2.1.0-3.el10.src.rpm
       from_repo: baseos
     - name: policycoreutils
-      version: '3.10'
-      release: 2.el10_2
+      version: '3.11'
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: policycoreutils-3.10-2.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: policycoreutils-3.11-1.el10.src.rpm
       from_repo: baseos
     - name: policycoreutils-python-utils
-      version: '3.10'
-      release: 2.el10_2
+      version: '3.11'
+      release: 1.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:39
-      source_rpm: policycoreutils-3.10-2.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: policycoreutils-3.11-1.el10.src.rpm
       from_repo: appstream
     - name: polkit
       version: '125'
-      release: 4.el10_2.1
+      release: 6.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: polkit-125-4.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: polkit-125-6.el10.src.rpm
       from_repo: baseos
     - name: polkit-libs
       version: '125'
-      release: 4.el10_2.1
+      release: 6.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: polkit-125-4.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: polkit-125-6.el10.src.rpm
       from_repo: baseos
     - name: polkit-pkla-compat
       version: '0.1'
@@ -2302,19 +2310,11 @@ sbom:
       from_repo: pgdg-18
     - name: procps-ng
       version: 4.0.4
-      release: 11.el10
+      release: 13.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: procps-ng-4.0.4-11.el10.src.rpm
-      from_repo: baseos
-    - name: protobuf-c
-      version: 1.5.0
-      release: 6.el10
-      epoch: '0'
-      arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: protobuf-c-1.5.0-6.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: procps-ng-4.0.4-13.el10.src.rpm
       from_repo: baseos
     - name: psmisc
       version: '23.6'
@@ -2333,12 +2333,12 @@ sbom:
       source_rpm: publicsuffix-list-20240107-5.el10.src.rpm
       from_repo: baseos
     - name: python3
-      version: 3.12.15
-      release: 1.el10_2
+      version: 3.12.16
+      release: 2.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: python3.12-3.12.15-1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: python3.12-3.12.16-2.el10_3.src.rpm
       from_repo: baseos
     - name: python3-argcomplete
       version: 3.2.2
@@ -2349,20 +2349,20 @@ sbom:
       source_rpm: python-argcomplete-3.2.2-4.el10.src.rpm
       from_repo: appstream
     - name: python3-audit
-      version: 4.0.3
-      release: 5.el10
+      version: 4.2.1
+      release: 3.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: audit-4.0.3-5.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: audit-4.2.1-3.el10.src.rpm
       from_repo: appstream
     - name: python3-barman
       version: 3.20.1
-      release: 42PGDG.rhel10.2
+      release: 44PGDG.rhel10.3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:47
-      source_rpm: barman-3.20.1-42PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: barman-3.20.1-44PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: python3-cffi
       version: 1.16.0
@@ -2389,12 +2389,12 @@ sbom:
       source_rpm: python-configobj-5.0.8-10.el10.src.rpm
       from_repo: appstream
     - name: python3-cryptography
-      version: 43.0.0
-      release: 4.el10_2.5
+      version: 49.0.0
+      release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:39
-      source_rpm: python-cryptography-43.0.0-4.el10_2.5.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: python-cryptography-49.0.0-1.el10.src.rpm
       from_repo: baseos
     - name: python3-dateutil
       version: 2.9.0.post0
@@ -2422,19 +2422,19 @@ sbom:
       from_repo: appstream
     - name: python3-dnf
       version: 4.20.0
-      release: 22.el10_2.alma.1
+      release: 28.el10.alma.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
       from_repo: baseos
     - name: python3-dnf-plugins-core
       version: 4.7.0
-      release: 10.el10
+      release: 12.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:39
-      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
       from_repo: baseos
     - name: python3-firewall
       version: 2.4.3
@@ -2462,11 +2462,11 @@ sbom:
       from_repo: baseos
     - name: python3-hawkey
       version: 0.73.1
-      release: 15.el10_2.alma.1
+      release: 17.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libdnf-0.73.1-15.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libdnf-0.73.1-17.el10.alma.1.src.rpm
       from_repo: baseos
     - name: python3-idna
       version: '3.7'
@@ -2510,35 +2510,35 @@ sbom:
       from_repo: baseos
     - name: python3-libdnf
       version: 0.73.1
-      release: 15.el10_2.alma.1
+      release: 17.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: libdnf-0.73.1-15.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libdnf-0.73.1-17.el10.alma.1.src.rpm
       from_repo: baseos
     - name: python3-libs
-      version: 3.12.15
-      release: 1.el10_2
+      version: 3.12.16
+      release: 2.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: python3.12-3.12.15-1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: python3.12-3.12.16-2.el10_3.src.rpm
       from_repo: baseos
     - name: python3-libselinux
-      version: '3.10'
-      release: 1.el10
+      version: '3.11'
+      release: 2.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: libselinux-3.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libselinux-3.11-2.el10.src.rpm
       from_repo: appstream
     - name: python3-libsemanage
-      version: '3.10'
+      version: '3.11'
       release: 1.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: libsemanage-3.10-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: libsemanage-3.11-1.el10.src.rpm
       from_repo: appstream
     - name: python3-markupsafe
       version: 2.1.3
@@ -2558,11 +2558,11 @@ sbom:
       from_repo: baseos
     - name: python3-oauthlib
       version: 3.2.2
-      release: 6.el10
+      release: 6.el10_3.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:12
-      source_rpm: python-oauthlib-3.2.2-6.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: python-oauthlib-3.2.2-6.el10_3.1.src.rpm
       from_repo: appstream
     - name: python3-pip-wheel
       version: 23.3.2
@@ -2581,20 +2581,20 @@ sbom:
       source_rpm: python-ply-3.11-25.el10.src.rpm
       from_repo: baseos
     - name: python3-policycoreutils
-      version: '3.10'
-      release: 2.el10_2
+      version: '3.11'
+      release: 1.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:12
-      source_rpm: policycoreutils-3.10-2.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: policycoreutils-3.11-1.el10.src.rpm
       from_repo: appstream
     - name: python3-psycopg2
       version: 2.9.13
-      release: 42PGDG.rhel10.2
+      release: 45PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:47
-      source_rpm: python3-psycopg2-2.9.13-42PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: python3-psycopg2-2.9.13-45PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: python3-pycparser
       version: '2.20'
@@ -2630,19 +2630,19 @@ sbom:
       from_repo: baseos
     - name: python3-rpm
       version: 4.19.1.1
-      release: 23.el10.alma.1
+      release: 29.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: rpm-4.19.1.1-23.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: python3-setools
-      version: 4.6.0
-      release: 3.el10
+      version: 4.7.1
+      release: 1.1.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: setools-4.6.0-3.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: setools-4.7.1-1.1.el10_3.src.rpm
       from_repo: baseos
     - name: python3-setuptools
       version: 69.0.3
@@ -2686,11 +2686,11 @@ sbom:
       from_repo: appstream
     - name: python3.12-lz4
       version: 4.4.5
-      release: 43PGDG.rhel10.2
+      release: 44PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:47
-      source_rpm: python3.12-lz4-4.4.5-43PGDG.rhel10.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: python3.12-lz4-4.4.5-44PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: readline
       version: '8.2'
@@ -2718,59 +2718,67 @@ sbom:
       from_repo: baseos
     - name: rpm
       version: 4.19.1.1
-      release: 23.el10.alma.1
+      release: 29.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: rpm-4.19.1.1-23.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: rpm-build-libs
       version: 4.19.1.1
-      release: 23.el10.alma.1
+      release: 29.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: rpm-4.19.1.1-23.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: rpm-libs
       version: 4.19.1.1
-      release: 23.el10.alma.1
+      release: 29.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: rpm-4.19.1.1-23.el10.alma.1.src.rpm
-      from_repo: baseos
-    - name: rpm-plugin-audit
-      version: 4.19.1.1
-      release: 23.el10.alma.1
-      epoch: '0'
-      arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: rpm-4.19.1.1-23.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: rpm-plugin-selinux
       version: 4.19.1.1
-      release: 23.el10.alma.1
+      release: 29.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:39
-      source_rpm: rpm-4.19.1.1-23.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
       from_repo: baseos
-    - name: rpm-sequoia
-      version: 1.10.2.1
-      release: 1.el10_2
+    - name: rpm-plugin-syslog
+      version: 4.19.1.1
+      release: 29.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: rust-rpm-sequoia-1.10.2.1-1.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
+      from_repo: baseos
+    - name: rpm-plugin-systemd-inhibit
+      version: 4.19.1.1
+      release: 29.el10_3.alma.1
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
+      from_repo: appstream
+    - name: rpm-sequoia
+      version: 1.10.2.3
+      release: 1.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-17 09:05
+      source_rpm: rust-rpm-sequoia-1.10.2.3-1.el10.src.rpm
       from_repo: baseos
     - name: rpm-sign-libs
       version: 4.19.1.1
-      release: 23.el10.alma.1
+      release: 29.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: rpm-4.19.1.1-23.el10.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rpm-4.19.1.1-29.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: rsync
       version: 3.5.0
@@ -2781,12 +2789,12 @@ sbom:
       source_rpm: rsync-3.5.0-3.el10_2.src.rpm
       from_repo: baseos
     - name: rsyslog
-      version: 8.2510.0
-      release: 5.el10_2.2
+      version: 8.2604.0
+      release: 5.el10_3.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: rsyslog-8.2510.0-5.el10_2.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rsyslog-8.2604.0-5.el10_3.1.src.rpm
       from_repo: appstream
     - name: sed
       version: '4.9'
@@ -2797,52 +2805,52 @@ sbom:
       source_rpm: sed-4.9-5.el10.src.rpm
       from_repo: baseos
     - name: selinux-policy
-      version: 42.1.18
-      release: 4.el10_2.4
+      version: 42.1.27
+      release: 2.el10_3.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:39
-      source_rpm: selinux-policy-42.1.18-4.el10_2.4.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: selinux-policy-42.1.27-2.el10_3.2.src.rpm
       from_repo: baseos
     - name: selinux-policy-extra
-      version: 42.1.18
-      release: 4.el10_2.4
+      version: 42.1.27
+      release: 2.el10_3.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:39
-      source_rpm: selinux-policy-42.1.18-4.el10_2.4.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: selinux-policy-42.1.27-2.el10_3.2.src.rpm
       from_repo: crb
     - name: selinux-policy-targeted
-      version: 42.1.18
-      release: 4.el10_2.4
+      version: 42.1.27
+      release: 2.el10_3.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:39
-      source_rpm: selinux-policy-42.1.18-4.el10_2.4.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: selinux-policy-42.1.27-2.el10_3.2.src.rpm
       from_repo: baseos
     - name: selinux-policy-targeted-extra
-      version: 42.1.18
-      release: 4.el10_2.4
+      version: 42.1.27
+      release: 2.el10_3.2
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 04:39
-      source_rpm: selinux-policy-42.1.18-4.el10_2.4.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: selinux-policy-42.1.27-2.el10_3.2.src.rpm
       from_repo: crb
     - name: sequoia-sq
-      version: 1.4.0.1
-      release: 4.el10_2
+      version: 1.4.0.2
+      release: 3.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: rust-sequoia-sq-1.4.0.1-4.el10_2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: rust-sequoia-sq-1.4.0.2-3.el10_3.src.rpm
       from_repo: appstream
     - name: setools-console
-      version: 4.6.0
-      release: 3.el10
+      version: 4.7.1
+      release: 1.1.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 04:39
-      source_rpm: setools-4.6.0-3.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: setools-4.7.1-1.1.el10_3.src.rpm
       from_repo: baseos
     - name: setup
       version: 2.14.5
@@ -2854,11 +2862,11 @@ sbom:
       from_repo: baseos
     - name: shadow-utils
       version: 4.15.0
-      release: 11.el10
+      release: 13.el10
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: shadow-utils-4.15.0-11.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: shadow-utils-4.15.0-13.el10.src.rpm
       from_repo: baseos
     - name: shared-mime-info
       version: '2.3'
@@ -2886,51 +2894,43 @@ sbom:
       from_repo: baseos
     - name: sudo
       version: 1.9.17
-      release: 10.p2.el10_2.7
+      release: 10.p2.el10_3.13
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: sudo-1.9.17-10.p2.el10_3.13.src.rpm
       from_repo: baseos
-    - name: sudo-python-plugin
-      version: 1.9.17
-      release: 10.p2.el10_2.7
-      epoch: '0'
-      arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
-      from_repo: appstream
     - name: systemd
       version: '257'
-      release: 23.el10_2.2.alma.1
+      release: 33.el10.alma.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: systemd-257-23.el10_2.2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: systemd-257-33.el10.alma.2.src.rpm
       from_repo: baseos
     - name: systemd-libs
       version: '257'
-      release: 23.el10_2.2.alma.1
+      release: 33.el10.alma.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: systemd-257-23.el10_2.2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: systemd-257-33.el10.alma.2.src.rpm
       from_repo: baseos
     - name: systemd-pam
       version: '257'
-      release: 23.el10_2.2.alma.1
+      release: 33.el10.alma.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: systemd-257-23.el10_2.2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: systemd-257-33.el10.alma.2.src.rpm
       from_repo: baseos
     - name: systemd-udev
       version: '257'
-      release: 23.el10_2.2.alma.1
+      release: 33.el10.alma.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: systemd-257-23.el10_2.2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: systemd-257-33.el10.alma.2.src.rpm
       from_repo: baseos
     - name: tang
       version: '14'
@@ -2958,11 +2958,11 @@ sbom:
       from_repo: baseos
     - name: tpm2-tools
       version: '5.7'
-      release: 5.el10
+      release: 6.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: tpm2-tools-5.7-5.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: tpm2-tools-5.7-6.el10.src.rpm
       from_repo: baseos
     - name: tpm2-tss
       version: 4.1.3
@@ -2982,19 +2982,19 @@ sbom:
       from_repo: baseos
     - name: tzdata
       version: 2026f
-      release: 1.el10_2.alma.1
+      release: 1.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: tzdata-2026f-1.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: tzdata-2026f-1.el10_3.src.rpm
       from_repo: baseos
     - name: udisks2
-      version: 2.11.0
-      release: 2.el10_2.1.alma.2
+      version: 2.11.1
+      release: 2.el10.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: udisks2-2.11.0-2.el10_2.1.alma.2.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: udisks2-2.11.1-2.el10.alma.1.src.rpm
       from_repo: appstream
     - name: unzip
       version: '6.0'
@@ -3014,83 +3014,83 @@ sbom:
       from_repo: baseos
     - name: util-linux
       version: 2.40.2
-      release: 18.el10_2.20
+      release: 24.el10_3.24
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: util-linux-2.40.2-18.el10_2.20.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: util-linux-2.40.2-24.el10_3.24.src.rpm
       from_repo: baseos
     - name: util-linux-core
       version: 2.40.2
-      release: 18.el10_2.20
+      release: 24.el10_3.24
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: util-linux-2.40.2-18.el10_2.20.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: util-linux-2.40.2-24.el10_3.24.src.rpm
       from_repo: baseos
     - name: vim-data
       version: 9.1.083
-      release: 9.el10_2.22
+      release: 25.el10_3
       epoch: '2'
       arch: noarch
-      installtime: 2026-11-14 23:12
-      source_rpm: vim-9.1.083-9.el10_2.22.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: vim-9.1.083-25.el10_3.src.rpm
       from_repo: baseos
     - name: vim-minimal
       version: 9.1.083
-      release: 9.el10_2.22
+      release: 25.el10_3
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: vim-9.1.083-9.el10_2.22.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: vim-9.1.083-25.el10_3.src.rpm
       from_repo: baseos
     - name: volume_key-libs
       version: 0.3.12
-      release: 26.el10
+      release: 27.el10
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: volume_key-0.3.12-26.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: volume_key-0.3.12-27.el10.src.rpm
       from_repo: appstream
     - name: xfsprogs
       version: 6.16.0
-      release: 1.el10
+      release: 2.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-14 23:12
-      source_rpm: xfsprogs-6.16.0-1.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: xfsprogs-6.16.0-2.el10_3.src.rpm
       from_repo: baseos
     - name: xz
       version: 5.6.2
-      release: 4.el10_2.1
+      release: 5.el10
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:13
-      source_rpm: xz-5.6.2-4.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: xz-5.6.2-5.el10.src.rpm
       from_repo: baseos
     - name: xz-libs
       version: 5.6.2
-      release: 4.el10_2.1
+      release: 5.el10
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-14 23:11
-      source_rpm: xz-5.6.2-4.el10_2.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: xz-5.6.2-5.el10.src.rpm
       from_repo: baseos
     - name: yum
       version: 4.20.0
-      release: 22.el10_2.alma.1
+      release: 28.el10.alma.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-14 23:11
-      source_rpm: dnf-4.20.0-22.el10_2.alma.1.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
       from_repo: baseos
     - name: yum-utils
       version: 4.7.0
-      release: 10.el10
+      release: 12.el10
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-16 16:01
-      source_rpm: dnf-plugins-core-4.7.0-10.el10.src.rpm
+      installtime: 2026-11-17 09:05
+      source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
