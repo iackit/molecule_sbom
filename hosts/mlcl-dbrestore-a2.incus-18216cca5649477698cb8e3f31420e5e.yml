@@ -2001,7 +2001,7 @@ sbom:
       release: 4PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: pg_cron_17-1.6.8-4PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: pg_repack_17
@@ -2009,7 +2009,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: pg_repack_17-1.5.3-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: pg_stat_kcache_17
@@ -2017,7 +2017,7 @@ sbom:
       release: 7PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: pg_stat_kcache_17-2.3.2-7PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: pgaudit_17
@@ -2025,7 +2025,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: pgaudit_17-17.1-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: pgbackrest
@@ -2049,7 +2049,7 @@ sbom:
       release: 6PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: pglogical_17-2.4.8-6PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: pkgconf
@@ -2105,7 +2105,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-contrib
@@ -2113,7 +2113,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-libs
@@ -2121,7 +2121,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-server
@@ -2129,7 +2129,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: procps-ng
@@ -2713,7 +2713,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:15
+      installtime: 2026-11-16 19:40
       source_rpm: set_user_17-4.3.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: setools-console

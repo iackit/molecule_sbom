@@ -785,7 +785,7 @@ sbom:
       release: 145.el10_2.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 19:13
+      installtime: 2026-11-16 19:35
       source_rpm: glibc-2.39-145.el10_2.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-common

@@ -185,7 +185,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: credcheck_17-6.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: cronie
@@ -1809,7 +1809,7 @@ sbom:
       release: 5PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: pg_wait_sampling_17-1.1.11-5PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: pgaudit_17
@@ -1817,7 +1817,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: pgaudit_17-17.1-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: pgbackrest
@@ -1889,7 +1889,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-contrib
@@ -1897,7 +1897,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-libs
@@ -1905,7 +1905,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: postgresql17-server
@@ -1913,7 +1913,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: postgresql17-17.12-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: procps-ng
@@ -2401,7 +2401,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-16 16:13
+      installtime: 2026-11-16 19:42
       source_rpm: set_user_17-4.3.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-17
     - name: setools-console
