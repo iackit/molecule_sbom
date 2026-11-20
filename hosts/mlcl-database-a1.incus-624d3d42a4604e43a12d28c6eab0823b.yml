@@ -150,12 +150,12 @@ sbom:
       from_repo: baseos
     - name: btrfs-progs
       version: '6.12'
-      release: 3.el10
+      release: 3.el10_0
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: btrfs-progs-6.12-3.el10.src.rpm
-      from_repo: appstream
+      installtime: 2026-11-20 18:42
+      source_rpm: btrfs-progs-6.12-3.el10_0.src.rpm
+      from_repo: epel
     - name: bzip2-libs
       version: 1.0.8
       release: 25.el10
@@ -350,11 +350,11 @@ sbom:
       from_repo: baseos
     - name: curl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-20 18:42
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: cyrus-sasl-lib
       version: 2.1.28
@@ -582,12 +582,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 9.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-20 18:10
-      source_rpm: epel-release-10-9.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-20 18:42
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.4
       release: 1PGDG.rhel10.3
@@ -606,11 +606,11 @@ sbom:
       from_repo: baseos
     - name: expat
       version: 2.7.3
-      release: 2.el10_3.4
+      release: 2.el10_3.8
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: expat-2.7.3-2.el10_3.4.src.rpm
+      installtime: 2026-11-20 18:42
+      source_rpm: expat-2.7.3-2.el10_3.8.src.rpm
       from_repo: baseos
     - name: file
       version: '5.45'
@@ -761,7 +761,7 @@ sbom:
       release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
+      installtime: 2026-11-20 18:36
       source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-common
@@ -1092,6 +1092,14 @@ sbom:
       installtime: 2026-11-17 23:12
       source_rpm: kernel-6.12.0-264.16.1.el10_3.src.rpm
       from_repo: baseos
+    - name: kernel
+      version: 6.12.0
+      release: 264.17.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-20 18:42
+      source_rpm: kernel-6.12.0-264.17.1.el10_3.src.rpm
+      from_repo: baseos
     - name: kernel-core
       version: 6.12.0
       release: 264.16.1.el10_3
@@ -1190,11 +1198,11 @@ sbom:
       from_repo: baseos
     - name: krb5-libs
       version: 1.21.3
-      release: 11.el10
+      release: 11.el10_3.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: krb5-1.21.3-11.el10.src.rpm
+      installtime: 2026-11-20 18:42
+      source_rpm: krb5-1.21.3-11.el10_3.2.src.rpm
       from_repo: baseos
     - name: libacl
       version: 2.4.0
@@ -1406,11 +1414,11 @@ sbom:
       from_repo: baseos
     - name: libcurl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-20 18:42
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: libdnf
       version: 0.73.1
@@ -1998,11 +2006,11 @@ sbom:
       from_repo: baseos
     - name: mdadm
       version: '4.4'
-      release: 4.el10
+      release: 4.el10_3.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: mdadm-4.4-4.el10.src.rpm
+      installtime: 2026-11-20 18:42
+      source_rpm: mdadm-4.4-4.el10_3.1.src.rpm
       from_repo: baseos
     - name: memstrack
       version: 0.2.5
@@ -2281,7 +2289,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-20 18:22
+      installtime: 2026-11-20 18:42
       source_rpm: patroni-4.1.5-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: patroni-etcd
@@ -2289,7 +2297,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-20 18:22
+      installtime: 2026-11-20 18:42
       source_rpm: patroni-4.1.5-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: pcre2
@@ -3710,19 +3718,19 @@ sbom:
       from_repo: baseos
     - name: vim-data
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: noarch
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-20 18:42
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: vim-minimal
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-20 18:42
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: vip-manager
       version: 5.0.0
@@ -3771,6 +3779,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-17 23:10
       source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 12.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:36
+      source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3

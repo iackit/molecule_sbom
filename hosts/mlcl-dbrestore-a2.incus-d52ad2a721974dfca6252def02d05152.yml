@@ -230,11 +230,11 @@ sbom:
       from_repo: baseos
     - name: curl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-20 18:40
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: cyrus-sasl-lib
       version: 2.1.28
@@ -414,12 +414,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 9.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-20 18:10
-      source_rpm: epel-release-10-9.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-20 18:40
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.4
       release: 1PGDG.rhel10.3
@@ -430,11 +430,11 @@ sbom:
       from_repo: pgdg-extras
     - name: expat
       version: 2.7.3
-      release: 2.el10_3.4
+      release: 2.el10_3.8
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: expat-2.7.3-2.el10_3.4.src.rpm
+      installtime: 2026-11-20 18:40
+      source_rpm: expat-2.7.3-2.el10_3.8.src.rpm
       from_repo: baseos
     - name: file-libs
       version: '5.45'
@@ -774,11 +774,11 @@ sbom:
       from_repo: baseos
     - name: krb5-libs
       version: 1.21.3
-      release: 11.el10
+      release: 11.el10_3.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: krb5-1.21.3-11.el10.src.rpm
+      installtime: 2026-11-20 18:40
+      source_rpm: krb5-1.21.3-11.el10_3.2.src.rpm
       from_repo: baseos
     - name: libacl
       version: 2.4.0
@@ -886,11 +886,11 @@ sbom:
       from_repo: baseos
     - name: libcurl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-20 18:40
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: libdnf
       version: 0.73.1
@@ -1084,6 +1084,14 @@ sbom:
       installtime: 2026-11-20 18:12
       source_rpm: pkgconf-2.1.0-3.el10.src.rpm
       from_repo: baseos
+    - name: libpq5
+      version: '18.7'
+      release: 1PGDG.rhel10.3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-20 18:49
+      source_rpm: libpq5-18.7-1PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
     - name: libpsl
       version: 0.21.5
       release: 6.el10
@@ -1484,6 +1492,22 @@ sbom:
       installtime: 2026-11-17 23:10
       source_rpm: pam-1.6.1-11.el10.src.rpm
       from_repo: baseos
+    - name: patroni
+      version: 4.1.5
+      release: 9PGDG.rhel10.3
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: patroni-4.1.5-9PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
+    - name: patroni-etcd
+      version: 4.1.5
+      release: 9PGDG.rhel10.3
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: patroni-4.1.5-9PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
     - name: pcre2
       version: '10.44'
       release: 1.5.el10_2
@@ -1977,7 +2001,7 @@ sbom:
       release: 4PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: pg_cron_18-1.6.8-4PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pg_repack_18
@@ -1985,7 +2009,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: pg_repack_18-1.5.3-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pg_stat_kcache_18
@@ -1993,7 +2017,7 @@ sbom:
       release: 7PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: pg_stat_kcache_18-2.3.2-7PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgaudit_18
@@ -2001,7 +2025,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: pgaudit_18-18.1-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgbackrest
@@ -2025,7 +2049,7 @@ sbom:
       release: 6PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: pglogical_18-2.4.8-6PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pkgconf
@@ -2081,7 +2105,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-contrib
@@ -2089,7 +2113,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-libs
@@ -2097,7 +2121,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-server
@@ -2105,7 +2129,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: procps-ng
@@ -2132,6 +2156,14 @@ sbom:
       installtime: 2026-11-17 23:10
       source_rpm: publicsuffix-list-20240107-5.el10.src.rpm
       from_repo: baseos
+    - name: py-consul
+      version: 1.8.0
+      release: 43PGDG.rhel10.3
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: py-consul-1.8.0-43PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
     - name: python3
       version: 3.12.16
       release: 2.el10_3
@@ -2235,6 +2267,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-20 18:10
       source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
+      from_repo: baseos
+    - name: python3-dns
+      version: 2.6.1
+      release: 1.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: python-dns-2.6.1-1.el10.src.rpm
       from_repo: baseos
     - name: python3-firewall
       version: 2.4.3
@@ -2388,6 +2428,22 @@ sbom:
       installtime: 2026-11-17 23:11
       source_rpm: policycoreutils-3.11-1.el10.src.rpm
       from_repo: appstream
+    - name: python3-prettytable
+      version: 3.6.0
+      release: 10.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: python-prettytable-3.6.0-10.el10.src.rpm
+      from_repo: appstream
+    - name: python3-psutil
+      version: 5.9.8
+      release: 6.el10
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-20 18:49
+      source_rpm: python-psutil-5.9.8-6.el10.src.rpm
+      from_repo: appstream
     - name: python3-psycopg2
       version: 2.9.13
       release: 45PGDG.rhel10.3
@@ -2476,6 +2532,22 @@ sbom:
       installtime: 2026-11-17 23:11
       source_rpm: python-urllib3-1.26.19-4.el10_2.2.src.rpm
       from_repo: baseos
+    - name: python3-wcwidth
+      version: 0.2.13
+      release: 1.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: python-wcwidth-0.2.13-1.el10.src.rpm
+      from_repo: baseos
+    - name: python3-ydiff
+      version: 1.4.2
+      release: 57PGDG.rhel10.3
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: ydiff-1.4.2-57PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
     - name: python3-zstandard
       version: 0.23.0
       release: 2.el10
@@ -2484,6 +2556,22 @@ sbom:
       installtime: 2026-11-20 18:19
       source_rpm: python-zstandard-0.23.0-2.el10.src.rpm
       from_repo: appstream
+    - name: python3.12-click
+      version: 8.5.1
+      release: 42PGDG.rhel10.3
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: python3.12-click-8.5.1-42PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
+    - name: python3.12-etcd
+      version: 0.4.5
+      release: 53PGDG.rhel10.3
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:49
+      source_rpm: python3.12-etcd-0.4.5-53PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
     - name: python3.12-lz4
       version: 4.4.5
       release: 44PGDG.rhel10.3
@@ -2625,7 +2713,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
+      installtime: 2026-11-20 18:53
       source_rpm: set_user_18-4.3.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: setools-console
@@ -2758,19 +2846,19 @@ sbom:
       from_repo: baseos
     - name: vim-data
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: noarch
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-20 18:40
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: vim-minimal
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-20 18:40
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: xfsprogs
       version: 6.16.0
@@ -2795,6 +2883,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-17 23:10
       source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 12.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-20 18:36
+      source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
