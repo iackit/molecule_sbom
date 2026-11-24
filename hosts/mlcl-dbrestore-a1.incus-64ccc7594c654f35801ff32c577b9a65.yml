@@ -185,7 +185,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: credcheck_18-6.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: cronie
@@ -230,11 +230,11 @@ sbom:
       from_repo: baseos
     - name: curl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-24 08:18
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: cyrus-sasl-lib
       version: 2.1.28
@@ -390,19 +390,19 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 9.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-24 07:48
-      source_rpm: epel-release-10-9.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-24 08:18
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: expat
       version: 2.7.3
-      release: 2.el10_3.4
+      release: 2.el10_3.8
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: expat-2.7.3-2.el10_3.4.src.rpm
+      installtime: 2026-11-24 08:18
+      source_rpm: expat-2.7.3-2.el10_3.8.src.rpm
       from_repo: baseos
     - name: file-libs
       version: '5.45'
@@ -678,11 +678,11 @@ sbom:
       from_repo: baseos
     - name: krb5-libs
       version: 1.21.3
-      release: 11.el10
+      release: 11.el10_3.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: krb5-1.21.3-11.el10.src.rpm
+      installtime: 2026-11-24 08:18
+      source_rpm: krb5-1.21.3-11.el10_3.2.src.rpm
       from_repo: baseos
     - name: libacl
       version: 2.4.0
@@ -774,11 +774,11 @@ sbom:
       from_repo: baseos
     - name: libcurl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-24 08:18
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: libdnf
       version: 0.73.1
@@ -940,6 +940,14 @@ sbom:
       installtime: 2026-11-24 07:51
       source_rpm: pkgconf-2.1.0-3.el10.src.rpm
       from_repo: baseos
+    - name: libpq5
+      version: '18.7'
+      release: 1PGDG.rhel10.3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-24 08:23
+      source_rpm: libpq5-18.7-1PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
     - name: libpsl
       version: 0.21.5
       release: 6.el10
@@ -1809,7 +1817,7 @@ sbom:
       release: 5PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: pg_wait_sampling_18-1.1.11-5PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgaudit_18
@@ -1817,7 +1825,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: pgaudit_18-18.1-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgbackrest
@@ -1889,7 +1897,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-contrib
@@ -1897,7 +1905,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-libs
@@ -1905,7 +1913,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-server
@@ -1913,7 +1921,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: procps-ng
@@ -2401,7 +2409,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-24 07:57
+      installtime: 2026-11-24 08:26
       source_rpm: set_user_18-4.3.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: setools-console
@@ -2534,19 +2542,19 @@ sbom:
       from_repo: baseos
     - name: vim-data
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: noarch
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-24 08:18
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: vim-minimal
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-24 08:18
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: xfsprogs
       version: 6.16.0
@@ -2571,6 +2579,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-17 23:10
       source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 12.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-24 08:13
+      source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
