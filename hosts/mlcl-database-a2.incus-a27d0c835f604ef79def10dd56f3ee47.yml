@@ -4050,6 +4050,7 @@ sbom:
       file: /etc/yum.repos.d/pgdg-18.repo
       name: PostgreSQL PGDG repository - 18
       baseurl: http://apt-cacher.incus/pub/repos/yum/18/redhat/rhel-$releasever-$basearch/
+      priority: 90
       enabled: true
     - id: pgdg-common
       file: /etc/yum.repos.d/pgdg-common.repo

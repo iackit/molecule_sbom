@@ -3362,6 +3362,7 @@ sbom:
       file: /etc/yum.repos.d/pgdg-19.repo
       name: PostgreSQL PGDG repository - 19
       baseurl: http://apt-cacher.incus/pub/repos/yum/19/redhat/rhel-$releasever-$basearch/
+      priority: 90
       enabled: true
     - id: pgdg-common
       file: /etc/yum.repos.d/pgdg-common.repo
