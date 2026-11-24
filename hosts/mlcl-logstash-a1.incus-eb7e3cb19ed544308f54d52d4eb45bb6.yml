@@ -1101,12 +1101,12 @@ sbom:
       source_rpm: logrotate-3.22.0-5.el10.src.rpm
       from_repo: baseos
     - name: logstash
-      version: 8.19.25
+      version: 8.19.26
       release: '1'
       epoch: '1'
       arch: x86_64
-      installtime: 2026-11-20 18:14
-      source_rpm: logstash-8.19.25-1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: logstash-8.19.26-1.src.rpm
       from_repo: elasticsearch-8.x
     - name: lua-libs
       version: 5.4.8
@@ -1182,27 +1182,27 @@ sbom:
       from_repo: baseos
     - name: openssh
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-clients
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-server
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:10
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssl
       version: 3.5.9

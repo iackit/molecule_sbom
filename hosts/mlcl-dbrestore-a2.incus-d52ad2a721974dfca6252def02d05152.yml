@@ -1414,27 +1414,27 @@ sbom:
       from_repo: baseos
     - name: openssh
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:13
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-clients
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:13
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-server
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:10
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:13
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssl
       version: 3.5.9
@@ -2001,7 +2001,7 @@ sbom:
       release: 4PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: pg_cron_18-1.6.8-4PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pg_repack_18
@@ -2009,7 +2009,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: pg_repack_18-1.5.3-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pg_stat_kcache_18
@@ -2017,7 +2017,7 @@ sbom:
       release: 7PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: pg_stat_kcache_18-2.3.2-7PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgaudit_18
@@ -2025,7 +2025,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: pgaudit_18-18.1-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgbackrest
@@ -2049,7 +2049,7 @@ sbom:
       release: 6PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: pglogical_18-2.4.8-6PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pkgconf
@@ -2105,7 +2105,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-contrib
@@ -2113,7 +2113,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-libs
@@ -2121,7 +2121,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-server
@@ -2129,7 +2129,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: procps-ng
@@ -2654,11 +2654,11 @@ sbom:
       from_repo: baseos
     - name: rsync
       version: 3.5.0
-      release: 3.el10_2
+      release: 4.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
-      source_rpm: rsync-3.5.0-3.el10_2.src.rpm
+      installtime: 2026-11-24 07:13
+      source_rpm: rsync-3.5.0-4.el10_3.src.rpm
       from_repo: baseos
     - name: rsyslog
       version: 8.2604.0
@@ -2713,7 +2713,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:53
+      installtime: 2026-11-24 07:20
       source_rpm: set_user_18-4.3.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: setools-console
