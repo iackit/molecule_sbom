@@ -77,10 +77,10 @@ sbom:
       version: 0.33-1build1
       arch: all
     - name: cloud-init
-      version: 26.2-0ubuntu1~26.04.1
+      version: 26.2-0ubuntu1~26.04.2
       arch: all
     - name: cloud-init-base
-      version: 26.2-0ubuntu1~26.04.1
+      version: 26.2-0ubuntu1~26.04.2
       arch: all
     - name: console-setup
       version: 1.237ubuntu3.1
@@ -605,7 +605,7 @@ sbom:
       version: 1.22.1-2ubuntu4.1
       arch: amd64
     - name: libgstreamer1.0-0
-      version: 1.28.2-1
+      version: 1.28.2-1ubuntu0.1
       arch: amd64
     - name: libhavege2
       version: 1.9.19-14ubuntu0.1
@@ -908,7 +908,7 @@ sbom:
       version: 3.1.9-4.3build2
       arch: amd64
     - name: libsqlite3-0
-      version: 3.46.1-9ubuntu0.3
+      version: 3.46.1-9ubuntu0.4
       arch: amd64
     - name: libss2
       version: 1.47.2-3ubuntu4
@@ -1301,7 +1301,7 @@ sbom:
       version: 2023.12.1-4
       arch: all
     - name: python3-jwt
-      version: 2.10.1-4ubuntu1.3
+      version: 2.10.1-4ubuntu1.4
       arch: all
     - name: python3-launchpadlib
       version: 2.1.0-1build1
@@ -1337,7 +1337,7 @@ sbom:
       version: 1.2-1ubuntu5.1
       arch: amd64
     - name: python3-oauthlib
-      version: 3.3.1-1build1
+      version: 3.3.1-1ubuntu0.1
       arch: all
     - name: python3-packaging
       version: 26.0-1
@@ -1502,7 +1502,7 @@ sbom:
       version: 1.35+dfsg-4ubuntu0.4
       arch: amd64
     - name: tzdata
-      version: 2026e-0ubuntu0.26.04.1
+      version: 2026f-0ubuntu0.26.04.1
       arch: all
     - name: ubuntu-keyring
       version: 2023.11.28.1build1
