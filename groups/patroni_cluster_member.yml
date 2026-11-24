@@ -633,12 +633,12 @@ sbom:
       source_rpm: file-5.45-12.el10.src.rpm
       from_repo: baseos
     - name: filebeat
-      version: 8.19.25
+      version: 8.19.26
       release: '1'
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:24
-      source_rpm: filebeat-8.19.25-1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: filebeat-8.19.26-1.src.rpm
       from_repo: elasticsearch-8.x
     - name: filesystem
       version: '3.18'
@@ -765,7 +765,7 @@ sbom:
       release: 147.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:36
+      installtime: 2026-11-24 07:05
       source_rpm: glibc-2.39-147.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: glibc-common
@@ -1104,6 +1104,14 @@ sbom:
       installtime: 2026-11-20 18:42
       source_rpm: kernel-6.12.0-264.17.1.el10_3.src.rpm
       from_repo: baseos
+    - name: kernel
+      version: 6.12.0
+      release: 264.19.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-24 07:12
+      source_rpm: kernel-6.12.0-264.19.1.el10_3.src.rpm
+      from_repo: baseos
     - name: kernel-core
       version: 6.12.0
       release: 264.16.1.el10_3
@@ -1119,6 +1127,14 @@ sbom:
       arch: x86_64
       installtime: 2026-11-20 18:17
       source_rpm: kernel-6.12.0-264.17.1.el10_3.src.rpm
+      from_repo: baseos
+    - name: kernel-core
+      version: 6.12.0
+      release: 264.19.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-24 07:12
+      source_rpm: kernel-6.12.0-264.19.1.el10_3.src.rpm
       from_repo: baseos
     - name: kernel-modules
       version: 6.12.0
@@ -1136,6 +1152,14 @@ sbom:
       installtime: 2026-11-20 18:17
       source_rpm: kernel-6.12.0-264.17.1.el10_3.src.rpm
       from_repo: baseos
+    - name: kernel-modules
+      version: 6.12.0
+      release: 264.19.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-24 07:12
+      source_rpm: kernel-6.12.0-264.19.1.el10_3.src.rpm
+      from_repo: baseos
     - name: kernel-modules-core
       version: 6.12.0
       release: 264.16.1.el10_3
@@ -1145,6 +1169,22 @@ sbom:
       source_rpm: kernel-6.12.0-264.16.1.el10_3.src.rpm
       from_repo: baseos
     - name: kernel-modules-core
+      version: 6.12.0
+      release: 264.17.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-20 18:17
+      source_rpm: kernel-6.12.0-264.17.1.el10_3.src.rpm
+      from_repo: baseos
+    - name: kernel-modules-core
+      version: 6.12.0
+      release: 264.19.1.el10_3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-24 07:12
+      source_rpm: kernel-6.12.0-264.19.1.el10_3.src.rpm
+      from_repo: baseos
+    - name: kernel-modules-extra
       version: 6.12.0
       release: 264.17.1.el10_3
       epoch: '0'
@@ -1154,11 +1194,11 @@ sbom:
       from_repo: baseos
     - name: kernel-modules-extra
       version: 6.12.0
-      release: 264.17.1.el10_3
+      release: 264.19.1.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:17
-      source_rpm: kernel-6.12.0-264.17.1.el10_3.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: kernel-6.12.0-264.19.1.el10_3.src.rpm
       from_repo: baseos
     - name: keyutils
       version: 1.6.3
@@ -2202,27 +2242,27 @@ sbom:
       from_repo: baseos
     - name: openssh
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-clients
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssh-server
       version: 9.9p1
-      release: 33.el10_3.alma.1
+      release: 34.el10_3.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:10
-      source_rpm: openssh-9.9p1-33.el10_3.alma.1.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: openssh-9.9p1-34.el10_3.alma.1.src.rpm
       from_repo: baseos
     - name: openssl
       version: 3.5.9
@@ -2293,7 +2333,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-20 18:42
+      installtime: 2026-11-24 07:12
       source_rpm: patroni-4.1.5-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: patroni-etcd
@@ -2301,7 +2341,7 @@ sbom:
       release: 9PGDG.rhel10.3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-20 18:42
+      installtime: 2026-11-24 07:12
       source_rpm: patroni-4.1.5-9PGDG.rhel10.3.src.rpm
       from_repo: pgdg-common
     - name: pcre2
@@ -3450,11 +3490,11 @@ sbom:
       from_repo: baseos
     - name: rsync
       version: 3.5.0
-      release: 3.el10_2
+      release: 4.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-20 18:19
-      source_rpm: rsync-3.5.0-3.el10_2.src.rpm
+      installtime: 2026-11-24 07:12
+      source_rpm: rsync-3.5.0-4.el10_3.src.rpm
       from_repo: baseos
     - name: rsyslog
       version: 8.2604.0
