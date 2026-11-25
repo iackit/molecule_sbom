@@ -286,11 +286,11 @@ sbom:
       from_repo: baseos
     - name: curl
       version: 7.76.1
-      release: 43.el9
+      release: 44.el9_9.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: curl-7.76.1-43.el9.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: curl-7.76.1-44.el9_9.1.src.rpm
       from_repo: baseos
     - name: cyrus-sasl-lib
       version: 2.1.27
@@ -510,12 +510,12 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '9'
-      release: 9.el9
+      release: 11.el9
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-25 18:09
-      source_rpm: epel-release-9-9.el9.src.rpm
-      from_repo: extras
+      installtime: 2026-11-25 18:35
+      source_rpm: epel-release-9-11.el9.src.rpm
+      from_repo: epel
     - name: etcd
       version: 3.7.4
       release: 1PGDG.rhel9.9
@@ -526,11 +526,11 @@ sbom:
       from_repo: pgdg-extras
     - name: expat
       version: 2.5.0
-      release: 9.el9_9.4
+      release: 9.el9_9.8
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: expat-2.5.0-9.el9_9.4.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: expat-2.5.0-9.el9_9.8.src.rpm
       from_repo: baseos
     - name: file
       version: '5.39'
@@ -673,7 +673,7 @@ sbom:
       release: 290.el9_9
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:11
+      installtime: 2026-11-25 18:32
       source_rpm: glibc-2.34-290.el9_9.src.rpm
       from_repo: baseos
     - name: glibc-common
@@ -1004,6 +1004,14 @@ sbom:
       installtime: 2026-11-17 23:13
       source_rpm: kernel-5.14.0-741.22.1.el9_9.src.rpm
       from_repo: baseos
+    - name: kernel
+      version: 5.14.0
+      release: 741.27.1.el9_9
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-25 18:35
+      source_rpm: kernel-5.14.0-741.27.1.el9_9.src.rpm
+      from_repo: baseos
     - name: kernel-core
       version: 5.14.0
       release: 741.22.1.el9_9
@@ -1011,6 +1019,14 @@ sbom:
       arch: x86_64
       installtime: 2026-11-17 23:13
       source_rpm: kernel-5.14.0-741.22.1.el9_9.src.rpm
+      from_repo: baseos
+    - name: kernel-core
+      version: 5.14.0
+      release: 741.27.1.el9_9
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-25 18:35
+      source_rpm: kernel-5.14.0-741.27.1.el9_9.src.rpm
       from_repo: baseos
     - name: kernel-modules
       version: 5.14.0
@@ -1020,6 +1036,14 @@ sbom:
       installtime: 2026-11-17 23:13
       source_rpm: kernel-5.14.0-741.22.1.el9_9.src.rpm
       from_repo: baseos
+    - name: kernel-modules
+      version: 5.14.0
+      release: 741.27.1.el9_9
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-25 18:35
+      source_rpm: kernel-5.14.0-741.27.1.el9_9.src.rpm
+      from_repo: baseos
     - name: kernel-modules-core
       version: 5.14.0
       release: 741.22.1.el9_9
@@ -1027,6 +1051,14 @@ sbom:
       arch: x86_64
       installtime: 2026-11-17 23:13
       source_rpm: kernel-5.14.0-741.22.1.el9_9.src.rpm
+      from_repo: baseos
+    - name: kernel-modules-core
+      version: 5.14.0
+      release: 741.27.1.el9_9
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-25 18:35
+      source_rpm: kernel-5.14.0-741.27.1.el9_9.src.rpm
       from_repo: baseos
     - name: keyutils
       version: 1.6.3
@@ -1070,11 +1102,11 @@ sbom:
       from_repo: baseos
     - name: krb5-libs
       version: 1.21.1
-      release: 10.el9_8.1
+      release: 10.el9_9.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: krb5-1.21.1-10.el9_8.1.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: krb5-1.21.1-10.el9_9.2.src.rpm
       from_repo: baseos
     - name: libacl
       version: 2.4.0
@@ -1270,11 +1302,11 @@ sbom:
       from_repo: baseos
     - name: libcurl
       version: 7.76.1
-      release: 43.el9
+      release: 44.el9_9.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: curl-7.76.1-43.el9.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: curl-7.76.1-44.el9_9.1.src.rpm
       from_repo: baseos
     - name: libdb
       version: 5.3.28
@@ -2177,7 +2209,7 @@ sbom:
       release: 9PGDG.rhel9.9
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-25 18:19
+      installtime: 2026-11-25 18:35
       source_rpm: patroni-4.1.5-9PGDG.rhel9.9.src.rpm
       from_repo: pgdg-common
     - name: patroni-etcd
@@ -2185,7 +2217,7 @@ sbom:
       release: 9PGDG.rhel9.9
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-25 18:19
+      installtime: 2026-11-25 18:35
       source_rpm: patroni-4.1.5-9PGDG.rhel9.9.src.rpm
       from_repo: pgdg-common
     - name: pcre
@@ -3094,11 +3126,11 @@ sbom:
       from_repo: baseos
     - name: python3-oauthlib
       version: 3.1.1
-      release: 5.el9
+      release: 5.el9_9.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-17 23:12
-      source_rpm: python-oauthlib-3.1.1-5.el9.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: python-oauthlib-3.1.1-5.el9_9.1.src.rpm
       from_repo: appstream
     - name: python3-pip-wheel
       version: 21.3.1
@@ -3630,43 +3662,43 @@ sbom:
       from_repo: baseos
     - name: systemd
       version: '252'
-      release: 79.el9_9.alma.1
+      release: 79.el9_9.1.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: systemd-252-79.el9_9.alma.1.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: systemd-252-79.el9_9.1.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-libs
       version: '252'
-      release: 79.el9_9.alma.1
+      release: 79.el9_9.1.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: systemd-252-79.el9_9.alma.1.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: systemd-252-79.el9_9.1.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-pam
       version: '252'
-      release: 79.el9_9.alma.1
+      release: 79.el9_9.1.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: systemd-252-79.el9_9.alma.1.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: systemd-252-79.el9_9.1.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-rpm-macros
       version: '252'
-      release: 79.el9_9.alma.1
+      release: 79.el9_9.1.alma.1
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-17 23:12
-      source_rpm: systemd-252-79.el9_9.alma.1.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: systemd-252-79.el9_9.1.alma.1.src.rpm
       from_repo: baseos
     - name: systemd-udev
       version: '252'
-      release: 79.el9_9.alma.1
+      release: 79.el9_9.1.alma.1
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: systemd-252-79.el9_9.alma.1.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: systemd-252-79.el9_9.1.alma.1.src.rpm
       from_repo: baseos
     - name: tar
       version: '1.34'
@@ -3742,11 +3774,11 @@ sbom:
       from_repo: baseos
     - name: vim-minimal
       version: 8.2.2637
-      release: 43.el9_9
+      release: 44.el9_9
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-17 23:12
-      source_rpm: vim-8.2.2637-43.el9_9.src.rpm
+      installtime: 2026-11-25 18:35
+      source_rpm: vim-8.2.2637-44.el9_9.src.rpm
       from_repo: baseos
     - name: volume_key-libs
       version: 0.3.12
@@ -3795,6 +3827,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-17 23:12
       source_rpm: dnf-4.14.0-37.el9.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.3.0
+      release: 27.el9
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-25 18:32
+      source_rpm: dnf-plugins-core-4.3.0-27.el9.src.rpm
       from_repo: baseos
     - name: zlib
       version: 1.2.11
