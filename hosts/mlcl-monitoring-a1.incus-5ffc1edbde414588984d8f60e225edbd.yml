@@ -222,11 +222,11 @@ sbom:
       from_repo: baseos
     - name: curl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-25 17:53
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: cyrus-sasl-lib
       version: 2.1.28
@@ -382,19 +382,19 @@ sbom:
       from_repo: baseos
     - name: epel-release
       version: '10'
-      release: 9.el10
+      release: 9.el10_3
       epoch: '0'
       arch: noarch
-      installtime: 2026-11-25 17:22
-      source_rpm: epel-release-10-9.el10.src.rpm
-      from_repo: extras
+      installtime: 2026-11-25 17:53
+      source_rpm: epel-release-10-9.el10_3.src.rpm
+      from_repo: epel
     - name: expat
       version: 2.7.3
-      release: 2.el10_3.4
+      release: 2.el10_3.8
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: expat-2.7.3-2.el10_3.4.src.rpm
+      installtime: 2026-11-25 17:53
+      source_rpm: expat-2.7.3-2.el10_3.8.src.rpm
       from_repo: baseos
     - name: file-libs
       version: '5.45'
@@ -670,11 +670,11 @@ sbom:
       from_repo: baseos
     - name: krb5-libs
       version: 1.21.3
-      release: 11.el10
+      release: 11.el10_3.2
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: krb5-1.21.3-11.el10.src.rpm
+      installtime: 2026-11-25 17:53
+      source_rpm: krb5-1.21.3-11.el10_3.2.src.rpm
       from_repo: baseos
     - name: libacl
       version: 2.4.0
@@ -766,11 +766,11 @@ sbom:
       from_repo: baseos
     - name: libcurl
       version: 8.12.1
-      release: 6.el10
+      release: 9.el10_3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-17 23:10
-      source_rpm: curl-8.12.1-6.el10.src.rpm
+      installtime: 2026-11-25 17:53
+      source_rpm: curl-8.12.1-9.el10_3.src.rpm
       from_repo: baseos
     - name: libdnf
       version: 0.73.1
@@ -1806,12 +1806,12 @@ sbom:
       from_repo: pgdg-18
     - name: pgwatch
       version: 6.2.0
-      release: '1'
+      release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-25 17:37
-      source_rpm: pgwatch-6.2.0-1.src.rpm
-      from_repo: '@commandline'
+      installtime: 2026-11-25 17:53
+      source_rpm: pgwatch-6.2.0-1PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-extras
     - name: pkgconf
       version: 2.1.0
       release: 3.el10
@@ -2478,19 +2478,19 @@ sbom:
       from_repo: baseos
     - name: vim-data
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: noarch
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-25 17:53
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: vim-minimal
       version: 9.1.083
-      release: 25.el10_3
+      release: 26.el10_3
       epoch: '2'
       arch: x86_64
-      installtime: 2026-11-17 23:11
-      source_rpm: vim-9.1.083-25.el10_3.src.rpm
+      installtime: 2026-11-25 17:53
+      source_rpm: vim-9.1.083-26.el10_3.src.rpm
       from_repo: baseos
     - name: xfsprogs
       version: 6.16.0
@@ -2515,6 +2515,14 @@ sbom:
       arch: noarch
       installtime: 2026-11-17 23:10
       source_rpm: dnf-4.20.0-28.el10.alma.1.src.rpm
+      from_repo: baseos
+    - name: yum-utils
+      version: 4.7.0
+      release: 12.el10
+      epoch: '0'
+      arch: noarch
+      installtime: 2026-11-25 17:48
+      source_rpm: dnf-plugins-core-4.7.0-12.el10.src.rpm
       from_repo: baseos
     - name: zlib-ng-compat
       version: 2.2.3
