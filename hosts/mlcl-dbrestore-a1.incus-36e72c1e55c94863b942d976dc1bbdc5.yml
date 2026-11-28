@@ -185,7 +185,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: credcheck_18-6.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: cronie
@@ -940,6 +940,14 @@ sbom:
       installtime: 2026-11-28 08:36
       source_rpm: pkgconf-2.1.0-3.el10.src.rpm
       from_repo: baseos
+    - name: libpq5
+      version: '18.7'
+      release: 1PGDG.rhel10.3
+      epoch: '0'
+      arch: x86_64
+      installtime: 2026-11-28 09:37
+      source_rpm: libpq5-18.7-1PGDG.rhel10.3.src.rpm
+      from_repo: pgdg-common
     - name: libpsl
       version: 0.21.5
       release: 6.el10
@@ -1809,7 +1817,7 @@ sbom:
       release: 5PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: pg_wait_sampling_18-1.1.11-5PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgaudit_18
@@ -1817,7 +1825,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: pgaudit_18-18.1-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: pgbackrest
@@ -1889,7 +1897,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-contrib
@@ -1897,7 +1905,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-libs
@@ -1905,7 +1913,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: postgresql18-server
@@ -1913,7 +1921,7 @@ sbom:
       release: 1PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: postgresql18-18.7-1PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: procps-ng
@@ -2401,7 +2409,7 @@ sbom:
       release: 2PGDG.rhel10.3
       epoch: '0'
       arch: x86_64
-      installtime: 2026-11-28 08:42
+      installtime: 2026-11-28 09:42
       source_rpm: set_user_18-4.3.0-2PGDG.rhel10.3.src.rpm
       from_repo: pgdg-18
     - name: setools-console
